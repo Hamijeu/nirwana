@@ -1,6 +1,8 @@
 # Figma Native Handoff
 
-Target file yang diminta: [Nirwana](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?t=fDeAJLcIT1RQeujJ-1). Sesuai keputusan pemilik file, struktur memakai tiga page Starter dan Sections di dalamnya. Page yang sudah dibuat: `00 — Cover & Foundations`, `01 — Components & Patterns`, `02 — Screens & Flows`. Ketiga page memuat total 13 Sections sesuai daftar di bawah. Foundations sudah memiliki 23 variables (9 warna, 14 dimensi), satu text style `Text / Button / Medium`, serta component set Button dengan variant Primary dan Secondary ukuran Medium. **Frame layar produk dan koneksi prototype belum lengkap; status desain masih parsial.** Integrasi Figma sudah tersambung, tetapi konektor terdeteksi memiliki seat View dan operasi edit ditolak; akses sedang disesuaikan oleh pemilik file.
+Target file yang diminta: [Nirwana](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?t=fDeAJLcIT1RQeujJ-1). Sesuai keputusan pemilik file, struktur memakai tiga page Starter dan Sections di dalamnya. Page yang sudah dibuat: `00 — Cover & Foundations`, `01 — Components & Patterns`, `02 — Screens & Flows`. Ketiga page memuat total 13 Sections sesuai daftar di bawah. Foundations memiliki 23 variables (9 warna, 14 dimensi), satu text style `Text / Button / Medium`, serta component set Button dengan variant Primary dan Secondary ukuran Medium. Page layar kini berisi **46 frame native editable**: 7 Public/Auth, 9 Client, 14 Admin, 10 Officer, dan 6 Technician. Sepuluh koneksi prototype dasar dibuat lewat editor browser: Landing → Login → Dashboard Client → Form Tiket → Detail Tiket; Admin Dashboard → Tickets → Ticket Detail; Officer Dashboard → Customers → Customer Detail; Technician Dashboard → Tickets → Ticket Detail. Koneksi tersebut berada pada frame dan dapat diperhalus ke tombol spesifik. Integrasi Figma mencapai batas panggilan MCP paket Starter saat verifikasi tambahan. **Status desain: parsial, tetapi layar inti sudah terlihat dan editable.**
+
+Mulai dari [Landing Desktop](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=13-2), [Login](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=13-89), atau [Dashboard Client](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=15-7). Semua berada dalam Section yang sudah ada, bukan file atau page baru.
 
 ## Struktur workspace target
 
@@ -8,7 +10,7 @@ Target file yang diminta: [Nirwana](https://www.figma.com/design/9US6c0r5wmKyUDa
 2. Page `01 — Components & Patterns`: Sections `02 — Components`, `03 — Patterns`.
 3. Page `02 — Screens & Flows`: Sections `04 — User Flows`, `05 — Public & Auth`, `06 — Client`, `07 — Admin`, `08 — Officer`, `09 — Technician`, `10 — Prototype`, `98 — Codex Working Area`, `99 — Archive`.
 
-Jangan mengubah frame berstatus **Approved** tanpa instruksi eksplisit. Jangan membuat file Figma lain. Semua layar harus berupa frame, teks, bentuk, komponen, dan instance native yang dapat diedit; jangan menggunakan screenshot atau SVG tunggal untuk layar penuh.
+Jangan mengubah frame berstatus **Approved** tanpa instruksi eksplisit. Jangan membuat file Figma lain. Layar yang sudah dibangun memakai frame, teks, bentuk, Auto Layout, warna variable, dan instance Button native; tidak ada screenshot layar penuh sebagai hasil akhir. Banyak pola/variant lanjutan di bawah masih merupakan target pengembangan, bukan klaim selesai.
 
 ## Foundations
 
