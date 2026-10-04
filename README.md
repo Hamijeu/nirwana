@@ -41,7 +41,7 @@ Kontrol **Mode demo** di kanan bawah membuka Website Publik, Client, Admin, Offi
 - `src/Landing.jsx`, `src/landing.css`: website publik.
 - `src/style.css`: token CSS, komponen bersama, dan layout responsif.
 
-Warna dasar: biru `#2563EB`, sukses `#16A34A`, peringatan `#F59E0B`, bahaya `#DC2626`, latar `#F8FAFC`, teks `#0F172A`. Target desain native: [Figma Nirwana](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?t=fDeAJLcIT1RQeujJ-1).
+Warna dasar: biru `#2563EB`, sukses `#16A34A`, peringatan `#F59E0B`, bahaya `#DC2626`, latar `#F8FAFC`, teks `#0F172A`. Desain native di [Figma Nirwana](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=13-2) berisi 46 frame editable pada tiga page dan 13 Sections. Detail status dan sisa pekerjaan ada di [FIGMA_HANDOFF.md](FIGMA_HANDOFF.md).
 
 ## Batas dan asumsi
 
