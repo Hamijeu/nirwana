@@ -15,7 +15,7 @@
 - Dashboard chart dan aktivitas masih ilustratif. Filter mengubah metrik/tabel contoh, tetapi grafik belum dihitung dari dataset penuh.
 - Upload foto hanya pemilih file; preview/penyimpanan lampiran belum tersedia.
 - Form edit pelanggan/layanan tersedia; pagination dan set komponen lengkap untuk semua state masih perlu pendalaman.
-- Landing sengaja ringkas sesuai arahan sebelumnya; testimonial dan cara melapor dapat ditambahkan setelah copy resmi disetujui.
+- Landing memuat alur pelaporan dan contoh narasi testimonial yang jelas ditandai sebagai placeholder. Copy resmi dan testimoni asli perlu persetujuan sebelum publikasi.
 
 ## Pemeriksaan
 
