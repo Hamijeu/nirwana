@@ -2,7 +2,7 @@
 
 Target: https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?t=fDeAJLcIT1RQeujJ-1
 
-Status: **handoff inventory**. Tiga page kosong `00`, `01`, `02` telah dibuat di file target. Baris di bawah adalah target desain native, bukan klaim bahwa frame sudah dibuat di Figma. Paket Starter membatasi file ini pada tiga page.
+Status: **inventory target**. Tiga page dan 13 Sections sudah dibuat di file target. Baris di bawah adalah target frame editable, belum klaim bahwa seluruh frame sudah dibuat. Paket Starter membatasi file ini pada tiga page, sehingga label `05` sampai `09` merujuk pada Sections di page `02 — Screens & Flows`.
 
 | Page | Frame target | Route referensi | Ukuran |
 |---|---|---|---|
