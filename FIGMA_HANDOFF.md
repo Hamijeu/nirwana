@@ -1,18 +1,12 @@
 # Figma Native Handoff
 
-Target file yang diminta: [Nirwana](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?t=fDeAJLcIT1RQeujJ-1). File ini harus menjadi sumber desain. Editor target telah diperiksa: page awal kosong, lalu dibuat `00 — Cover & Notes`, `01 — Foundations`, dan `02 — Components`. Ketiganya belum berisi sistem desain atau layar native. Saat menambah page keempat, Figma menampilkan batas paket Starter: tiga page per file. Integrasi Figma native belum tersambung. **Status desain: parsial, belum siap untuk handoff editable.**
+Target file yang diminta: [Nirwana](https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?t=fDeAJLcIT1RQeujJ-1). Sesuai keputusan pemilik file, struktur memakai tiga page Starter dan Sections di dalamnya. Page yang sudah dibuat: `00 — Cover & Foundations`, `01 — Components & Patterns`, `02 — Screens & Flows`. Ketiga page memuat total 13 Sections sesuai daftar di bawah. Foundations sudah memiliki 23 variables (9 warna, 14 dimensi), satu text style `Text / Button / Medium`, serta component set Button dengan variant Primary dan Secondary ukuran Medium. **Frame layar produk dan koneksi prototype belum lengkap; status desain masih parsial.** Integrasi Figma sudah tersambung, tetapi konektor terdeteksi memiliki seat View dan operasi edit ditolak; akses sedang disesuaikan oleh pemilik file.
 
 ## Struktur workspace target
 
-1. `00 — Cover & Notes`: tujuan, asumsi, status review.
-2. `01 — Foundations`: token, tipografi, grid, ikon, responsivitas.
-3. `02 — Components`: komponen dan variants.
-4. `03 — Patterns`: blok UI lintas layar.
-5. `04 — User Flows`: enam alur inti.
-6. `05 — Public & Auth`, `06 — Client`, `07 — Admin`, `08 — Officer`, `09 — Technician`: frame per role.
-7. `10 — Prototype`: koneksi antar frame dan overlay.
-8. `98 — Codex Working Area`: eksperimen/duplikat sebelum revisi besar.
-9. `99 — Archive`: versi lama setelah review.
+1. Page `00 — Cover & Foundations`: Sections `00 — Cover & Notes`, `01 — Foundations`.
+2. Page `01 — Components & Patterns`: Sections `02 — Components`, `03 — Patterns`.
+3. Page `02 — Screens & Flows`: Sections `04 — User Flows`, `05 — Public & Auth`, `06 — Client`, `07 — Admin`, `08 — Officer`, `09 — Technician`, `10 — Prototype`, `98 — Codex Working Area`, `99 — Archive`.
 
 Jangan mengubah frame berstatus **Approved** tanpa instruksi eksplisit. Jangan membuat file Figma lain. Semua layar harus berupa frame, teks, bentuk, komponen, dan instance native yang dapat diedit; jangan menggunakan screenshot atau SVG tunggal untuk layar penuh.
 

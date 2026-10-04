@@ -26,7 +26,7 @@ Kontrol **Mode demo** di kanan bawah membuka Website Publik, Client, Admin, Offi
 | Publik | `/` |
 | Auth | `/login`, `/forgot-password`, `/reset-password`, `/first-login` |
 | Client | `/client/dashboard`, `/client/services`, `/client/services/:id`, `/client/tickets`, `/client/tickets/create`, `/client/tickets/:id`, `/client/profile`, `/client/help` |
-| Admin | `/admin/dashboard`, `/admin/customers`, `/admin/customers/new`, `/admin/customers/:id`, `/admin/services`, `/admin/services/new`, `/admin/services/:id`, `/admin/tickets`, `/admin/tickets/:id`, `/admin/map`, `/admin/vouchers`, `/admin/data`, `/admin/users`, `/admin/settings` |
+| Admin | `/admin/dashboard`, `/admin/customers`, `/admin/customers/new`, `/admin/customers/:id`, `/admin/customers/:id/edit`, `/admin/services`, `/admin/services/new`, `/admin/services/:id`, `/admin/services/:id/edit`, `/admin/tickets`, `/admin/tickets/:id`, `/admin/map`, `/admin/vouchers`, `/admin/data`, `/admin/users`, `/admin/settings` |
 | Officer | Sama dengan area operasional Admin, tanpa `/users` dan `/settings` |
 | Technician | `/technician/dashboard`, `/technician/tickets`, `/technician/tickets/:id`, `/technician/map`, `/technician/vouchers`, `/technician/profile` |
 
@@ -35,6 +35,7 @@ Kontrol **Mode demo** di kanan bawah membuka Website Publik, Client, Admin, Offi
 - `src/main.jsx`: shell, routing, dashboard, detail, dan interaksi utama.
 - `src/ExtraPages.jsx`: auth tambahan dan formulir pelanggan/layanan.
 - `src/UsersPage.jsx`, `src/VoucherPage.jsx`, `src/ImportExport.jsx`: modul operasional.
+- `src/SettingsPage.jsx`: pengaturan informasi perusahaan dan kontak demo.
 - `src/domain.js`: aturan status tiket, izin voucher, validasi CSV; `src/domain.test.js`: tes aturan.
 - `src/data.js`: data demo fiktif.
 - `src/Landing.jsx`, `src/landing.css`: website publik.
