@@ -13,7 +13,11 @@ npm run build
 node --test src/domain.test.js
 ```
 
-Vite biasanya menampilkan `http://127.0.0.1:5173/`. Route memakai History API.
+Vite biasanya menampilkan `http://127.0.0.1:5173/`. Route lokal memakai History API.
+
+## Demo online
+
+GitHub Pages memakai repository yang sama: [https://hamijeu.github.io/nirwana/](https://hamijeu.github.io/nirwana/). Workflow `.github/workflows/deploy.yml` membangun dan menerbitkan `dist` setiap kali `main` diperbarui. Pada GitHub Pages, route memakai fragment URL seperti `https://hamijeu.github.io/nirwana/#/client/dashboard` agar tautan langsung dan refresh tetap membuka layar yang benar. Data tetap berupa simulasi lokal di browser.
 
 ## Mode demo
 
