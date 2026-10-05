@@ -9,7 +9,7 @@
 
 ## Batas yang masih perlu desain/implementasi
 
-- Figma native belum dapat dinyatakan selesai. File target berisi tiga page, 13 Sections, 23 variables, satu text style, komponen Button dua variant, dan 46 frame layar native. Sepuluh koneksi prototype dasar mencakup alur Client, Admin, Officer, dan Technician; koneksi tombol yang lebih rinci, overlay, dan variant states belum lengkap. Integrasi MCP mencapai batas panggilan paket Starter.
+- Figma native belum dapat dinyatakan selesai. File target berisi tiga page, 13 Sections, 23 variables, satu text style, 46 frame layar native, component set Button (2 varian), Badge / Ticket (6), Badge / Priority (4), Input (4), serta tiga komponen pola. Cover, swatch fondasi, dan delapan alur teks sudah ditambahkan. Sepuluh koneksi prototype dasar mencakup alur Client, Admin, Officer, dan Technician; koneksi tombol yang lebih rinci, overlay, variant states lanjutan, responsivitas lintas frame, dan pemakaian ulang komponen pada seluruh layar belum lengkap. Swatch baru belum terikat ke variables. Integrasi MCP mencapai batas panggilan paket Starter.
 - Mock state hilang setelah refresh; auth dan izin belum ditegakkan server.
 - Peta tidak memakai koordinat geografis nyata; state loading dan peta gagal tersedia sebagai simulasi.
 - Dashboard chart dan aktivitas masih ilustratif. Filter mengubah metrik/tabel contoh, tetapi grafik belum dihitung dari dataset penuh.
