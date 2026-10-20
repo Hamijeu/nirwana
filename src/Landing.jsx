@@ -12,9 +12,9 @@ export default function CompanyLanding({Brand,Link,onAsk}){
       <Link to="/" className="company-brand" onClick={closeMenu}><Brand small/></Link>
       <nav className={'company-nav-links'+(menuOpen?' open':'')} aria-label="Navigasi utama">
         <a href="#beranda" onClick={closeMenu}>Beranda</a><a href="#layanan" onClick={closeMenu}>Paket Internet</a><a href="#tentang" onClick={closeMenu}>Tentang</a><a href="#kontak" onClick={closeMenu}>Bantuan</a>
-        <div className="company-mobile-actions"><Link to="/client/dashboard" className="btn" onClick={closeMenu}>Portal Client <ArrowRight size={15}/></Link></div>
+        <div className="company-mobile-actions"><Link to="/login" className="btn" onClick={closeMenu}>Masuk Portal <ArrowRight size={15}/></Link></div>
       </nav>
-      <div className="company-nav-actions"><Link to="/client/dashboard" className="btn">Portal Client <ArrowRight size={15}/></Link></div>
+      <div className="company-nav-actions"><Link to="/login" className="btn">Masuk Portal <ArrowRight size={15}/></Link></div>
       <button className="company-menu-button" type="button" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X size={21}/>:<Menu size={21}/>}</button>
     </div></header>
 
