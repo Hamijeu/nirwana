@@ -4,6 +4,13 @@
 .theme-toggle:hover{border-color:var(--primary);color:var(--primary)}
 .theme-toggle:focus-visible,.role-trigger:focus-visible{outline:3px solid #7da9ff;outline-offset:3px}
 :root[data-theme=light]{color-scheme:light}
+[data-theme=light] .sidebar{background:#edf1f6;border-right-color:#cbd5e1}
+[data-theme=light] .sidebar-label{color:#61728a}
+[data-theme=light] .side-links a{color:#43536b}
+[data-theme=light] .side-links a:hover{background:#e0e7f0;color:#244b83}
+[data-theme=light] .side-links a.active{background:#dce7fc;color:#1d4fb5;box-shadow:inset 3px 0 #2563eb}
+[data-theme=light] .sidebar-foot{border-top-color:#cbd5e1}
+[data-theme=light] .sidebar-foot small{color:#61728a}
 :root[data-theme=dark]{color-scheme:dark;--primary:#8bb4ff;--primary-dark:#b0ccff;--navy:#e3edff;--surface:#141f32;--bg:#0c1424;--text:#e3ebf8;--muted:#a6b5cc;--border:#2c3b53;--success:#70dda5;--warning:#f8ca74;--danger:#ff9caa;color:var(--text);background:var(--bg)}
 [data-theme=dark] body{background:var(--bg);color:var(--text)}
 [data-theme=dark] :is(.sidebar,.topbar,.client-top,.bottom-nav,.auth,.modal,.role-menu,.metric,.voucher-card,.service-card.full,.map-popup){background:var(--surface);color:var(--text)}
