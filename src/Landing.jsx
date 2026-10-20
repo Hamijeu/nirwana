@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {ArrowRight, BriefcaseBusiness, GraduationCap, House, Menu, MessageCircle, X} from 'lucide-react';
 import './landing.css';
 import Pricing from './Pricing';
+import ThemeToggle from './ThemeToggle';
 
 export default function CompanyLanding({Brand,Link,onAsk}){
   const [menuOpen,setMenuOpen]=useState(false);
@@ -15,6 +16,7 @@ export default function CompanyLanding({Brand,Link,onAsk}){
         <div className="company-mobile-actions"><Link to="/login" className="btn" onClick={closeMenu}>Masuk Portal <ArrowRight size={15}/></Link></div>
       </nav>
       <div className="company-nav-actions"><Link to="/login" className="btn">Masuk Portal <ArrowRight size={15}/></Link></div>
+      <div className="company-theme-control"><ThemeToggle/></div>
       <button className="company-menu-button" type="button" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X size={21}/>:<Menu size={21}/>}</button>
     </div></header>
 
