@@ -43,7 +43,7 @@ export default function ChatWidget({context, request, onNavigate}) {
         {pending&&<div className="chat-typing" role="status"><span/><span/><span/><small>Nira sedang mengetik…</small></div>}
       </div>
       <div className="chat-quick"><span>{messages.length===1?'Coba tanyakan':'Pertanyaan lainnya'}</span><div>{prompts.map(prompt=><button type="button" key={prompt} onClick={()=>send(prompt)} disabled={pending}>{prompt}<ArrowUpRight size={12}/></button>)}</div></div>
-      <form className="chat-composer" onSubmit={event=>{event.preventDefault();send(draft)}}>
+      <form className="chat-composer" data-local-form="true" onSubmit={event=>{event.preventDefault();send(draft)}}>
         <label className="sr-only" htmlFor="nira-question">Tulis pertanyaan untuk Nira</label>
         <textarea ref={input} id="nira-question" value={draft} onChange={event=>setDraft(event.target.value)} maxLength={500} rows={1} placeholder={client?'Ceritakan kendala internet Anda…':'Tanya paket atau kebutuhan Anda…'} onKeyDown={event=>{if(event.key==='Enter'&&!event.shiftKey&&!event.nativeEvent.isComposing){event.preventDefault();send(draft)}}}/>
         <button type="submit" disabled={!draft.trim()||pending} aria-label="Kirim pertanyaan"><ArrowUp size={18}/></button>
