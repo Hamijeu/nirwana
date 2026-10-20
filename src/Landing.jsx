@@ -1,24 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import {ArrowRight, BriefcaseBusiness, Check, GraduationCap, House, Mail, MapPin, Menu, Send, Wifi, X} from 'lucide-react';
 import './landing.css';
+import Pricing from './Pricing';
 
 const reportUrl='/login?next=%2Fclient%2Ftickets%2Fcreate';
-const plans=[
-  {name:'Internet Rumah',description:'Koneksi untuk bekerja, belajar, dan menikmati hiburan di rumah.',icon:House},
-  {name:'Internet Bisnis',description:'Konektivitas untuk kebutuhan operasional usaha.',icon:BriefcaseBusiness,featured:true},
-  {name:'Internet Sekolah',description:'Dukungan internet untuk kegiatan belajar dan ruang digital sekolah.',icon:GraduationCap},
-];
-
-function PlanCard({plan}){
-  const Icon=plan.icon;
-  return <article className={'company-plan'+(plan.featured?' featured':'')}>
-    <div className="company-plan-top"><span className="company-plan-icon"><Icon size={21}/></span>{plan.featured&&<span className="company-plan-tag">Pilihan populer</span>}</div>
-    <h3>{plan.name}</h3><p>{plan.description}</p>
-    <a className={'btn '+(plan.featured?'':'outline')} href="#kontak">Tanya layanan <ArrowRight size={16}/></a>
-  </article>;
-}
-
-export default function CompanyLanding({Brand,Link}){
+export default function CompanyLanding({Brand,Link,onAsk}){
   const [menuOpen,setMenuOpen]=useState(false);
   const [sent,setSent]=useState(false);
   useEffect(()=>{const previous=document.title;document.title='Nirwana Akses Teknologi — Pilihan Internet untuk Anda';return()=>{document.title=previous}},[]);
@@ -43,10 +29,7 @@ export default function CompanyLanding({Brand,Link}){
         <div className="company-hero-categories"><span><House size={15}/> Rumah</span><span><BriefcaseBusiness size={15}/> Bisnis</span><span><GraduationCap size={15}/> Sekolah</span></div>
       </div></section>
 
-      <section className="company-section company-pricing" id="layanan"><div className="company-container">
-        <div className="company-section-heading"><div><span className="company-eyebrow">LAYANAN</span><h2>Koneksi untuk berbagai kebutuhan.</h2><p>Pilih jenis layanan yang ingin Anda diskusikan dengan tim Nirwana.</p></div></div>
-        <div className="company-plan-grid">{plans.map(plan=><PlanCard key={plan.name} plan={plan}/>)}</div>
-      </div></section>
+      <Pricing onAsk={onAsk}/>
 
       <section className="company-section company-about" id="tentang"><div className="company-container company-about-grid">
         <div className="company-about-copy"><span className="company-eyebrow">TENTANG NIRWANA</span><h2>Koneksi yang mendukung langkah Anda.</h2><p>PT Nirwana Akses Teknologi membantu kebutuhan konektivitas rumah, bisnis, dan lingkungan pendidikan. Portal pelanggan memudahkan pelaporan gangguan dan pemantauan penanganan.</p><a href="#kontak" className="company-text-link">Hubungi tim kami <ArrowRight size={16}/></a></div>

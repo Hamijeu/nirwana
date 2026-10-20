@@ -13,6 +13,7 @@ import {routeHref,currentRoute,currentSearch} from './routing';
 import './style.css';
 import './theme.css';
 import ThemeToggle from './ThemeToggle';
+import ChatWidget from './ChatWidget';
 
 const iconMap={dashboard:LayoutDashboard,customers:Users,services:Wifi,tickets:Ticket,map:MapPin,vouchers:FileText,data:UploadCloud,users:Shield,settings:Settings,profile:UserRound,help:CircleHelp};
 const baseUrl=import.meta.env.BASE_URL;
@@ -34,8 +35,9 @@ const Tabs=({items,value,onChange})=><div className="tabs">{items.map(item=><but
 const serviceOf=t=>services.find(s=>s.id===t.serviceId)||services[0];
 
 function App(){
+  const [chatRequest,setChatRequest]=useState(null);
   const [path,setPath]=useState(()=>currentRoute(location,baseUrl)); const [tickets,setTickets]=useState(initialTickets); const [vouchers,setVouchers]=useState(initialVouchers); const [toast,setToast]=useState(''); const [modal,setModal]=useState(null); const [mobileMenu,setMobileMenu]=useState(false); const [updates,setUpdates]=useState({});
-  useEffect(()=>{const fn=()=>{setPath(currentRoute(location,baseUrl));setMobileMenu(false)};window.addEventListener('popstate',fn);window.addEventListener('hashchange',fn);return()=>{window.removeEventListener('popstate',fn);window.removeEventListener('hashchange',fn)}},[]);
+  useEffect(()=>{const fn=()=>{setPath(currentRoute(location,baseUrl));setMobileMenu(false);setChatRequest(null)};window.addEventListener('popstate',fn);window.addEventListener('hashchange',fn);return()=>{window.removeEventListener('popstate',fn);window.removeEventListener('hashchange',fn)}},[]);
   useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),3500);return()=>clearTimeout(t)},[toast]);
   const role=path.split('/')[1]; const isOps=['admin','officer'].includes(role); const isClient=role==='client'; const isTech=role==='technician';
   const notify=s=>setToast(s); const addTicket=(input)=>{const id=Math.max(...tickets.map(t=>t.id))+1;const nextNumber=Math.max(...tickets.map(t=>Number(t.number.split('-').at(-1))))+1;const record={id,number:`TKT-2026-${String(nextNumber).padStart(3,'0')}`,title:input.title||'Gangguan layanan internet',customer:'Budi Santoso',serviceId:Number(input.serviceId),priority:'MEDIUM',status:'NEW',tech:'Belum ditugaskan',region:serviceOf({serviceId:Number(input.serviceId)}).region,created:'04 Okt 2026 · baru saja',updated:'Baru saja',description:input.description,history:[{title:'Laporan dibuat',time:'Baru saja',by:'Budi Santoso',note:input.description}]};setTickets([record,...tickets]);return record};
@@ -43,7 +45,7 @@ function App(){
   const archiveTicket=id=>{setTickets(prev=>prev.map(t=>t.id===id&&t.status==='SELESAI'?{...t,archived:true}:t));notify('Tiket selesai diarsipkan')};
   const changeVoucher=(index,delta)=>{setVouchers(prev=>prev.map((v,i)=>i===index?{...v,count:Math.max(0,v.count+delta)}:v));notify('Saldo voucher diperbarui dalam simulasi')};
   let content;
-  if(path==='/') content=<CompanyLanding Brand={Brand} Link={Link}/>;
+  if(path==='/') content=<CompanyLanding Brand={Brand} Link={Link} onAsk={question=>setChatRequest({scope:"public",question,id:Date.now()})}/>;
   else if(path==='/login') content=<Login/>;
    else if(path==='/forgot-password') content=<Forgot notify={notify}/>;
    else if(path==='/reset-password') content=<ResetPassword go={go} notify={notify}/>;
@@ -52,7 +54,7 @@ function App(){
    else if(isOps) content=<OpsPages path={path} role={role} tickets={tickets} updateTicket={updateTicket} archiveTicket={archiveTicket} vouchers={vouchers} changeVoucher={changeVoucher} notify={notify} setModal={setModal}/>;
   else if(isTech) content=<TechPages path={path} tickets={tickets} updateTicket={updateTicket} vouchers={vouchers} changeVoucher={changeVoucher} notify={notify}/>;
   else content=<div className="notfound"><h1>Halaman tidak ditemukan</h1><Button onClick={()=>go('/')}>Kembali ke beranda</Button></div>;
-  return <>{isOps?<OpsShell role={role} path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</OpsShell>:isClient?<ClientShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</ClientShell>:isTech?<TechShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</TechShell>:content}<RoleSwitcher role={role}/>{toast&&<div className="toast"><CheckCircle2 size={18}/>{toast}</div>}{modal&&<div className="modal-backdrop" onClick={()=>setModal(null)}><div className="modal" onClick={e=>e.stopPropagation()}><button className="icon-button modal-x" onClick={()=>setModal(null)} aria-label="Tutup"><X size={18}/></button><h2>{modal.title}</h2><p>{modal.body}</p><div className="modal-actions"><Button variant="soft" onClick={()=>setModal(null)}>Batal</Button><Button onClick={()=>{modal.action?.();setModal(null)}}>Konfirmasi</Button></div></div></div>}</>;
+  return <>{isOps?<OpsShell role={role} path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</OpsShell>:isClient?<ClientShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</ClientShell>:isTech?<TechShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</TechShell>:content}<RoleSwitcher role={role}/>{(path==='/'||isClient)&&<ChatWidget key={isClient?'client':'public'} context={isClient?'client':'public'} request={chatRequest} onNavigate={go}/>}{toast&&<div className="toast"><CheckCircle2 size={18}/>{toast}</div>}{modal&&<div className="modal-backdrop" onClick={()=>setModal(null)}><div className="modal" onClick={e=>e.stopPropagation()}><button className="icon-button modal-x" onClick={()=>setModal(null)} aria-label="Tutup"><X size={18}/></button><h2>{modal.title}</h2><p>{modal.body}</p><div className="modal-actions"><Button variant="soft" onClick={()=>setModal(null)}>Batal</Button><Button onClick={()=>{modal.action?.();setModal(null)}}>Konfirmasi</Button></div></div></div>}</>;
 }
 
 function RoleSwitcher({role}){const [open,setOpen]=useState(false);return <div className={'role-switcher '+(open?'open':'')}><ThemeToggle/><button className="role-trigger" onClick={()=>setOpen(!open)}><span className="demo-dot"/> Mode demo <ChevronDown size={15}/></button>{open&&<div className="role-menu"><span>Lihat sebagai</span>{[['Website Publik','/'],['Client','/client/dashboard'],['Admin','/admin/dashboard'],['Officer','/officer/dashboard'],['Teknisi','/technician/dashboard']].map(([name,url])=><button key={name} onClick={()=>{go(url);setOpen(false)}}>{name}{role===url.split('/')[1]&&<Check size={15}/>}</button>)}</div>}</div>}
