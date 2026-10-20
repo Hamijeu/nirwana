@@ -3,7 +3,7 @@ import {ArrowUp, ArrowUpRight, MessageCircle, Minus, Sparkles, X} from 'lucide-r
 import {getDemoReply} from './chatDemo.js';
 import './chat.css';
 
-const actions = {packages:'Lihat semua paket', contact:'Buka form kontak', report:'Buat laporan gangguan', tickets:'Buka Tiket Saya', services:'Buka Layanan Saya'};
+const actions = {packages:'Lihat semua paket', contact:'Lihat bantuan pemasangan', report:'Buat laporan gangguan', tickets:'Buka Tiket Saya', services:'Buka Layanan Saya'};
 
 export default function ChatWidget({context, request, onNavigate}) {
   const client = context === 'client';
