@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {ArrowRight, BriefcaseBusiness, GraduationCap, House, Menu, MessageCircle, X} from 'lucide-react';
+import {ArrowRight, Menu, MessageCircle, X} from 'lucide-react';
 import './landing.css';
 import Pricing from './Pricing';
 import ThemeToggle from './ThemeToggle';
@@ -26,7 +26,6 @@ export default function CompanyLanding({Brand,Link,onAsk}){
         <h1>Internet yang pas untuk <em>setiap kebutuhan.</em></h1>
         <p>Konektivitas untuk rumah, bisnis, dan sekolah. Hubungi tim kami untuk membahas kebutuhan layanan Anda.</p>
         <div className="company-hero-actions"><a href="#layanan" className="btn">Lihat paket <ArrowRight size={17}/></a></div>
-        <div className="company-hero-categories"><span><House size={15}/> Rumah</span><span><BriefcaseBusiness size={15}/> Bisnis</span><span><GraduationCap size={15}/> Sekolah</span></div>
       </div></section>
 
       <Pricing onAsk={onAsk}/>

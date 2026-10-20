@@ -15,6 +15,9 @@
 .theme-toggle:hover{border-color:var(--primary);color:var(--primary)}
 .theme-toggle:focus-visible,.role-trigger:focus-visible{outline:3px solid #7da9ff;outline-offset:3px}
 :root[data-theme=light]{color-scheme:light}
+[data-theme=light] .client-top{background:#edf1f6;border-bottom:1px solid #b8c6d9;box-shadow:0 2px 5px #243e6010}
+[data-theme=light] .client-top nav a{color:#52627a}
+[data-theme=light] .client-top nav a.active{color:#1d4fb5;border-bottom-color:#2563eb}
 [data-theme=light] .sidebar{background:#edf1f6;border-right-color:#cbd5e1}
 [data-theme=light] .sidebar-label{color:#61728a}
 [data-theme=light] .side-links a{color:#43536b}
