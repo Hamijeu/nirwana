@@ -13,9 +13,9 @@ export default function CompanyLanding({Brand,Link,onAsk}){
       <Link to="/" className="company-brand" onClick={closeMenu}><Brand small/></Link>
       <nav className={'company-nav-links'+(menuOpen?' open':'')} aria-label="Navigasi utama">
         <a href="#beranda" onClick={closeMenu}>Beranda</a><a href="#layanan" onClick={closeMenu}>Paket Internet</a><a href="#tentang" onClick={closeMenu}>Tentang</a><a href="#kontak" onClick={closeMenu}>Bantuan</a>
-        <div className="company-mobile-actions"><Link to="/login" className="btn" onClick={closeMenu}>Masuk Portal <ArrowRight size={15}/></Link></div>
+
       </nav>
-      <div className="company-nav-actions"><Link to="/login" className="btn">Masuk Portal <ArrowRight size={15}/></Link></div>
+
       <div className="company-theme-control"><ThemeToggle/></div>
       <button className="company-menu-button" type="button" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X size={21}/>:<Menu size={21}/>}</button>
     </div></header>
@@ -32,7 +32,7 @@ export default function CompanyLanding({Brand,Link,onAsk}){
 
       <section className="company-summary" id="tentang"><div className="company-container company-summary-grid">
         <div className="company-summary-copy"><span className="company-eyebrow">TENTANG NIRWANA</span><h2>Koneksi untuk keseharian Anda.</h2><p>PT Nirwana Akses Teknologi menyediakan pilihan internet untuk rumah, bisnis, dan sekolah, dengan bantuan pelanggan dalam satu portal.</p></div>
-        <div className="company-help-inline" id="kontak"><span className="company-eyebrow">ADA PERTANYAAN?</span><h3>Kami bantu memilih paket.</h3><p>Tanyakan harga, kebutuhan koneksi, atau area pemasangan lewat Nira.</p><button type="button" className="company-help-link" onClick={()=>onAsk('Saya ingin bertanya tentang paket dan area pemasangan.')}><MessageCircle size={16}/> Tanya Nira <ArrowRight size={15}/></button></div>
+        <div className="company-help-inline" id="kontak"><span className="company-eyebrow">ADA PERTANYAAN?</span><h3>Diskusikan kebutuhan koneksi Anda.</h3><p>Informasi kontak resmi perusahaan akan ditampilkan setelah tersedia.</p><button type="button" className="company-help-link" disabled><MessageCircle size={16}/> Kontak belum tersedia</button></div>
       </div></section>
     </main>
 
