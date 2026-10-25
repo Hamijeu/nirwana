@@ -3,6 +3,7 @@ import {createRoot} from 'react-dom/client';
 import {Activity, ArrowDownRight, ArrowLeft, ArrowRight, ArrowUpRight, Bell, Check, CheckCircle2, ChevronDown, ChevronRight, CircleHelp, Clock3, Download, FileText, Filter, Home, LayoutDashboard, ListFilter, LockKeyhole, MapPin, Menu, MoreHorizontal, Plus, Search, Settings, Shield, Ticket, UploadCloud, UserRound, Users, Wifi, Wrench, X} from 'lucide-react';
 import {customers, services, initialTickets, initialVouchers, regions} from './data';
 import CompanyLanding from './Landing';
+import AboutPage from './AboutPage';
 import {CustomerForm,ServiceForm,TechnicianProfile} from './ExtraPages';
 import UsersPage from './UsersPage';
 import VoucherPage from './VoucherPage';
@@ -22,6 +23,7 @@ import {normalizeTicket,canReadTicket,availableToTech,technicianNames} from './w
 import {getDemoSession,setDemoSession} from './demoAuth';
 import './pm-revisions.css';
 import './chat.css';
+import './workspace-design.css';
 import {FeedbackProvider, useFeedback, DemoWarningControls} from './Feedback';
 import {validateLogin} from './feedbackPolicy';
 
@@ -61,16 +63,17 @@ function App(){
   const changeVoucher=(index,delta)=>{setVouchers(prev=>prev.map((v,i)=>i===index?{...v,count:Math.max(0,v.count+delta)}:v));notify('Saldo voucher diperbarui dalam simulasi')};
   let content;
   if(path==='/') content=<CompanyLanding Brand={Brand} Link={Link} onAsk={question=>setModal({title:'Konsultasi paket',body:question+' Harga masih ilustrasi. Kontak resmi perusahaan belum tersedia; tidak ada pesan yang dikirim.',action:null})}/>;
+  else if(path==='/tentang-kami') content=<AboutPage Brand={Brand} Link={Link}/>;
   else if(path==='/portal') content=<PortalLanding Brand={Brand} Link={Link}/>;
-  else if(path==='/login') content=<PortalLogin Brand={Brand} Link={Link} go={go} onLogin={loginClient}/>;
+  else if(path==='/login') content=<PortalLogin Brand={Brand} Link={Link} go={go} onLogin={loginClient} notify={notify}/>;
    else if(path==='/forgot-password') content=<RecoveryFlow key={path} Brand={Brand} Link={Link} go={go} notify={notify}/>;
    else if(path==='/reset-password') content=<RecoveryFlow key={path} Brand={Brand} Link={Link} go={go} notify={notify}/>;
    else if(path==='/first-login') content=<RecoveryFlow key={path} activate Brand={Brand} Link={Link} go={go} notify={notify}/>;
-  else if(isClient) content=getDemoSession()==='client'?<ClientPages path={path} tickets={tickets} addTicket={addTicket} notify={notify}/>:<PortalLogin Brand={Brand} Link={Link} go={go} onLogin={loginClient}/>;
+  else if(isClient) content=getDemoSession()==='client'?<ClientPages path={path} tickets={tickets} addTicket={addTicket} notify={notify}/>:<PortalLogin Brand={Brand} Link={Link} go={go} onLogin={loginClient} notify={notify}/>;
    else if(isOps) content=<OpsPages path={path} role={role} tickets={tickets} commitTicket={commitTicket} updateTicket={updateTicket} archiveTicket={archiveTicket} vouchers={vouchers} changeVoucher={changeVoucher} notify={notify} setModal={setModal}/>;
   else if(isTech) content=<TechPages path={path} tickets={tickets} commitTicket={commitTicket} updateTicket={updateTicket} vouchers={vouchers} changeVoucher={changeVoucher} notify={notify}/>;
   else content=<div className="notfound"><h1>Halaman tidak ditemukan</h1><Button onClick={()=>go('/')}>Kembali ke beranda</Button></div>;
-  return <>{isOps?<OpsShell role={role} path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</OpsShell>:isClient&&getDemoSession()==='client'?<ClientShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</ClientShell>:isTech?<TechShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</TechShell>:content}<RoleSwitcher role={role}/>{(!isOps&&!isClient&&!isTech&&path!=='/'&&path!=='/portal')&&<div className="standalone-theme-control"><ThemeToggle/></div>}{isClient&&getDemoSession()==='client'&&path!=='/client/tickets/create'&&<div className="chat-widget"><button type="button" className="chat-launcher" onClick={()=>go('/client/tickets/create?mode=ai')}><Ticket size={19}/><span>Asisten pelaporan</span></button></div>}{toast&&<div className="toast"><CheckCircle2 size={18}/>{toast}</div>}{modal&&<div className="modal-backdrop" onClick={()=>setModal(null)}><div className="modal" role="dialog" aria-modal="true" aria-label={modal.title} onKeyDown={e=>{if(e.key==='Escape')setModal(null)}} onClick={e=>e.stopPropagation()}><button autoFocus className="icon-button modal-x" onClick={()=>setModal(null)} aria-label="Tutup"><X size={18}/></button><h2>{modal.title}</h2><p>{modal.body}</p><div className="modal-actions">{modal.action?<><Button variant="soft" onClick={()=>setModal(null)}>Batal</Button><Button onClick={()=>{modal.action();setModal(null)}}>Konfirmasi</Button></>:<Button onClick={()=>setModal(null)}>Mengerti</Button>}</div></div></div>}</>;
+  return <>{isOps?<OpsShell role={role} path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</OpsShell>:isClient&&getDemoSession()==='client'?<ClientShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</ClientShell>:isTech?<TechShell path={path} mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}>{content}</TechShell>:content}<RoleSwitcher role={role}/>{(!isOps&&!isClient&&!isTech&&path!=='/'&&path!=='/portal'&&path!=='/tentang-kami'&&!['/login','/first-login','/forgot-password','/reset-password'].includes(path))&&<div className="standalone-theme-control"><ThemeToggle/></div>}{isClient&&getDemoSession()==='client'&&path!=='/client/tickets/create'&&<div className="chat-widget"><button type="button" className="chat-launcher" onClick={()=>go('/client/tickets/create?mode=ai')}><Ticket size={19}/><span>Asisten pelaporan</span></button></div>}{toast&&<div className="toast"><CheckCircle2 size={18}/>{toast}</div>}{modal&&<div className="modal-backdrop" onClick={()=>setModal(null)}><div className="modal" role="dialog" aria-modal="true" aria-label={modal.title} onKeyDown={e=>{if(e.key==='Escape')setModal(null)}} onClick={e=>e.stopPropagation()}><button autoFocus className="icon-button modal-x" onClick={()=>setModal(null)} aria-label="Tutup"><X size={18}/></button><h2>{modal.title}</h2><p>{modal.body}</p><div className="modal-actions">{modal.action?<><Button variant="soft" onClick={()=>setModal(null)}>Batal</Button><Button onClick={()=>{modal.action();setModal(null)}}>Konfirmasi</Button></>:<Button onClick={()=>setModal(null)}>Mengerti</Button>}</div></div></div>}</>;
 }
 
 function RoleSwitcher({role}){const [open,setOpen]=useState(false);return <div className={'role-switcher '+(open?'open':'')}><button className="role-trigger" onClick={()=>setOpen(!open)}><span className="demo-dot"/> Mode demo <ChevronDown size={15}/></button>{open&&<div className="role-menu"><span>Lihat sebagai</span>{[['Company Profile','/'],['Portal Layanan','/portal'],['Login','/login'],['Client','/client/dashboard'],['Admin','/admin/dashboard'],['Officer','/officer/dashboard'],['Teknisi','/technician/dashboard']].map(([name,url])=><button key={name} onClick={()=>{setDemoSession(url.startsWith('/client/')?'client':null);go(url);setOpen(false)}}>{name}{role===url.split('/')[1]&&<Check size={15}/>}</button>)}<DemoWarningControls onSelect={()=>setOpen(false)} onLogin={()=>go('/login')}/></div>}</div>}

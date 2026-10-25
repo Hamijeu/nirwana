@@ -1,41 +1,22 @@
-import React, {useEffect, useState} from 'react';
-import {ArrowRight, Menu, MessageCircle, X} from 'lucide-react';
-import './landing.css';
+import React, {useEffect,useState} from 'react';
+import {ArrowRight, Wifi} from 'lucide-react';
 import Pricing from './Pricing';
-import ThemeToggle from './ThemeToggle';
-
-export default function CompanyLanding({Brand,Link,onAsk}){
-  const [menuOpen,setMenuOpen]=useState(false);
-  useEffect(()=>{const previous=document.title;document.title='Nirwana Akses Teknologi — Pilihan Internet untuk Anda';return()=>{document.title=previous}},[]);
-  const closeMenu=()=>setMenuOpen(false);
-  return <div className="company-page" id="beranda">
-    <header className="company-header"><div className="company-container company-nav">
-      <Link to="/" className="company-brand" onClick={closeMenu}><Brand small/></Link>
-      <nav className={'company-nav-links'+(menuOpen?' open':'')} aria-label="Navigasi utama">
-        <a href="#beranda" onClick={closeMenu}>Beranda</a><a href="#layanan" onClick={closeMenu}>Paket Internet</a><a href="#tentang" onClick={closeMenu}>Tentang</a><a href="#kontak" onClick={closeMenu}>Bantuan</a>
-
-      </nav>
-
-      <div className="company-theme-control"><ThemeToggle/></div>
-      <button className="company-menu-button" type="button" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X size={21}/>:<Menu size={21}/>}</button>
-    </div></header>
-
+import {ServiceDiscovery,SubscriptionSteps} from './ServiceDiscovery';
+import {PublicHeader,PublicFooter,scrollToPublicSection} from './PublicChrome';
+export default function CompanyLanding({Brand,Link,onAsk}) {
+  const [category,setCategory]=useState('home');
+  useEffect(()=>{const previous=document.title;document.title='Nirwana Akses Teknologi — Koneksi untuk keseharian Anda';return()=>{document.title=previous}},[]);
+  return <div className="company-page public-redesign" id="beranda">
+    <PublicHeader Brand={Brand} Link={Link}/>
     <main>
-      <section className="company-hero"><div className="company-container company-hero-content">
-        <span className="company-eyebrow"><span/> PT NIRWANA AKSES TEKNOLOGI</span>
-        <h1>Internet yang pas untuk <em>setiap kebutuhan.</em></h1>
-        <p>Konektivitas untuk rumah, bisnis, dan sekolah. Hubungi tim kami untuk membahas kebutuhan layanan Anda.</p>
-        <div className="company-hero-actions"><a href="#layanan" className="btn">Lihat paket <ArrowRight size={17}/></a></div>
-      </div></section>
-
-      <Pricing onAsk={onAsk}/>
-
-      <section className="company-summary" id="tentang"><div className="company-container company-summary-grid">
-        <div className="company-summary-copy"><span className="company-eyebrow">TENTANG NIRWANA</span><h2>Koneksi untuk keseharian Anda.</h2><p>PT Nirwana Akses Teknologi menyediakan pilihan internet untuk rumah, bisnis, dan sekolah, dengan bantuan pelanggan dalam satu portal.</p></div>
-        <div className="company-help-inline" id="kontak"><span className="company-eyebrow">ADA PERTANYAAN?</span><h3>Diskusikan kebutuhan koneksi Anda.</h3><p>Informasi kontak resmi perusahaan akan ditampilkan setelah tersedia.</p><button type="button" className="company-help-link" disabled><MessageCircle size={16}/> Kontak belum tersedia</button></div>
-      </div></section>
+      <section className="public-container public-hero">
+        <div className="public-hero-copy"><span className="public-kicker"><span/> TERHUBUNG BERSAMA NIRWANA</span><h1>Koneksi yang<br/>membawa Anda<br/><em>lebih jauh.</em></h1><p>Internet untuk rumah dan usaha Anda.</p><a className="btn public-primary" href="#layanan" onClick={event=>scrollToPublicSection(event,'layanan')}>Temukan paket Anda <ArrowRight size={18}/></a></div>
+        <figure className="public-hero-image"><img src={`${import.meta.env.BASE_URL}images/home-workspace.jpg`} alt="Suasana bekerja menggunakan laptop di rumah yang terang dengan tanaman di sekitar meja" width="1400" height="933" fetchPriority="high"/><figcaption><span className="public-photo-icon"><Wifi size={22}/></span><div><strong>Ruang Anda. Kemungkinan baru.</strong><span>Koneksi untuk hal-hal yang berarti.</span></div></figcaption><span className="public-photo-credit">Foto ilustrasi · George Milton / Pexels</span></figure>
+      </section>
+      <ServiceDiscovery/>
+      <Pricing onAsk={onAsk} selectedCategory={category} onCategoryChange={setCategory}/>
+      <SubscriptionSteps/>
     </main>
-
-    <footer className="company-footer"><div className="company-container company-footer-inner"><div><Brand small/><p>PT Nirwana Akses Teknologi · Koneksi untuk rumah, bisnis, dan sekolah.</p></div><nav aria-label="Navigasi footer"><a href="#layanan">Paket Internet</a><a href="#tentang">Tentang</a><a href="#kontak">Bantuan</a></nav></div><div className="company-container company-footer-bottom"><span>© 2026 PT Nirwana Akses Teknologi. Hak Cipta Dilindungi.</span><span>Prototype UI/UX</span></div></footer>
+    <PublicFooter Brand={Brand} Link={Link}/>
   </div>;
 }

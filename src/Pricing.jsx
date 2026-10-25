@@ -3,8 +3,10 @@ import {ArrowRight, BriefcaseBusiness, Check, House, SlidersHorizontal, Zap} fro
 import {homePlans, businessPlans, formatPrice} from './plans.js';
 import './pricing.css';
 
-export default function Pricing({onAsk}) {
-  const [category, setCategory] = useState('home');
+export default function Pricing({onAsk,selectedCategory,onCategoryChange}) {
+  const [localCategory, setLocalCategory] = useState('home');
+  const category=selectedCategory??localCategory;
+  const setCategory=value=>{setLocalCategory(value);onCategoryChange?.(value)};
   const plans = category === 'home' ? homePlans : businessPlans;
   return <section className="company-section company-pricing" id="layanan"><div className="company-container">
     <div className="company-section-heading"><div><span className="company-eyebrow">PAKET INTERNET</span><h2>Pilih koneksi yang pas untuk Anda.</h2><p>Dari kebutuhan sehari-hari hingga solusi untuk usaha.</p></div><span className="company-demo-label">Harga ilustrasi · Prototype</span></div>
