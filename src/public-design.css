@@ -34,3 +34,4 @@
 /* Footer keeps company information without repeating the header brand. */
 .public-footer-inner>p{display:block}
 
+.about-company-photo img{object-fit:contain;object-position:center}
