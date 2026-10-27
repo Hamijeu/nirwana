@@ -47,3 +47,29 @@ export function filterMapServices(services,query='',region='Semua wilayah',statu
 }
 
 export const staffPublication=status=>status==='Aktif'?{reviewStatus:'Tidak Wajib',published:true}:{reviewStatus:'Menunggu Review',published:false};
+
+const jakartaDay=value=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Jakarta',year:'numeric',month:'2-digit',day:'2-digit'}).format(value);
+function ticketDay(ticket){
+ if(timestamp(ticket.createdAt))return jakartaDay(ticket.createdAt);
+ const text=String(ticket.created||'');
+ const numeric=text.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+ if(numeric)return `${numeric[3]}-${numeric[2].padStart(2,'0')}-${numeric[1].padStart(2,'0')}`;
+ const legacy=text.match(/^(\d{1,2}) ([A-Za-z]{3}) (\d{4})/);
+ const month={Jan:'01',Feb:'02',Mar:'03',Apr:'04',Mei:'05',Jun:'06',Jul:'07',Agu:'08',Sep:'09',Okt:'10',Nov:'11',Des:'12'};
+ return legacy&&month[legacy[2]]?`${legacy[3]}-${month[legacy[2]]}-${legacy[1].padStart(2,'0')}`:null;
+}
+export function matchesTicketDate(ticket,filter,now=Date.now()){
+ if(filter==='Semua tanggal')return true;
+ const day=ticketDay(ticket),today=jakartaDay(now);
+ return !!day&&(filter==='Hari ini'?day===today:filter==='Sebelumnya'&&day<today);
+}
+export function matchesTicketTechnician(ticket,filter){
+ const names=technicianNames(ticket);
+ return filter==='Semua teknisi'||(filter==='Belum ditugaskan'?names.length===0:names.includes(filter));
+}
+export function recordTicketProgress(ticket,note,photos,role,actor,now=Date.now()){
+ if(ticket.archived||!ticket.published||!['OPEN','IN PROGRESS','PENDING'].includes(ticket.status)||!(office(role)||role==='technician'&&technicianNames(ticket).includes(actor)))throw Error('Progres hanya dapat dicatat petugas berwenang pada tiket yang sudah diterima dan belum selesai.');
+ if(!note.trim())throw Error('Isi catatan progres terlebih dahulu.');
+ if(!Array.isArray(photos)||photos.length>5||photos.some(p=>!Number.isFinite(p.size)||p.size<0||p.size>5*1024*1024||!String(p.type||'').startsWith('image/')))throw Error('Maksimal lima foto, masing-masing 5 MB.');
+ return appendAudit(ticket,{attachments:[...(ticket.attachments||[]),...photos]},'Progres ditambahkan',note.trim(),actor,now,true);
+}

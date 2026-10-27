@@ -6,3 +6,6 @@
 
 .public-redesign .portal-access>.btn,.public-redesign .auth-access-card .btn.full{justify-content:center}
 .portal-guide-cta{margin-top:20px}.portal-recovery-link{font-size:13px;margin-top:12px}
+
+.pm-actions.revision-review-actions{flex-direction:column;align-items:stretch}
+.app-shell .revision-review-actions>.btn.soft{--control-fill:var(--surface);--control-text:var(--text);--control-edge:var(--muted)}

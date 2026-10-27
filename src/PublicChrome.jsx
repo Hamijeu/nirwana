@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {ArrowRight, Menu, X} from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
+import {useSupportContact} from './SupportContact';
+import {normalizePhone} from './demoAuth';
 import './public-design.css';
 export function scrollToPublicSection(event,id) {
   // Preserve the hash route used by GitHub Pages when following an in-page link.
@@ -25,6 +27,9 @@ export function PublicFooter({portal=false, children}) {
 }
 
 export function AccessHelp({Link,login=false,verification=false}) {
-  return <div className="access-help-inline" id={login?undefined:'bantuan-akses'}><strong>{verification?'Perlu bantuan verifikasi?':'Kesulitan mengakses akun?'}</strong><p>{verification?'Pastikan nomor WhatsApp Anda sudah terdaftar.':login?'Gunakan pemulihan akses di atas.':'Pulihkan akses melalui halaman login.'} Kontak bantuan resmi akan ditampilkan setelah dikonfirmasi.</p>{!login&&!verification&&<Link to="/forgot-password">Pulihkan akses akun <ArrowRight size={13}/></Link>}</div>;
+  const support=useSupportContact();
+  const normalized=normalizePhone(support?.phone||'');
+  const configured=/^08\d{8,11}$/.test(normalized);
+  return <div className="access-help-inline" id={login?undefined:'bantuan-akses'}><strong>{verification?'Perlu bantuan verifikasi?':'Kesulitan mengakses akun?'}</strong><p>{verification?'Pastikan nomor WhatsApp Anda sudah terdaftar.':login?'Gunakan pemulihan akses di atas.':'Pulihkan akses melalui halaman login.'}</p>{configured?<><a href={`https://wa.me/62${normalized.slice(1)}`} target="_blank" rel="noopener noreferrer">WhatsApp bantuan · {support.phone} <ArrowRight size={13}/></a><p><a href={`mailto:${support.email}`}>{support.email}</a></p></>:<><button className="text-link" type="button" disabled>Kontak bantuan belum diatur</button><p>Admin belum mengatur kontak bantuan.</p></>}{!login&&!verification&&<Link to="/forgot-password">Pulihkan akses akun <ArrowRight size={13}/></Link>}</div>;
 }
 
