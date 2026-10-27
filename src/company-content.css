@@ -130,3 +130,6 @@
 [data-theme=dark] .company-page .company-closing-contact{background:#20242a}
 
 
+
+.company-closing-actions .company-closing-service{font-family:Company General,Arial,sans-serif;font-size:15px;font-weight:500;line-height:1.5;color:inherit;margin:0 0 10px}
+.company-closing-actions{scroll-margin-top:95px}
