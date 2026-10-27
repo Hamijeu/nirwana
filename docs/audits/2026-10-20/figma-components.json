@@ -1,0 +1,211 @@
+{
+  "page": "01 — Components & Patterns",
+  "sections": [
+    {
+      "id": "6:13",
+      "name": "02 — Components",
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1960
+    },
+    {
+      "id": "6:14",
+      "name": "03 — Patterns",
+      "x": 1700,
+      "y": 0,
+      "width": 900,
+      "height": 760
+    }
+  ],
+  "components": [
+    {
+      "id": "6:43",
+      "name": "Button",
+      "type": "COMPONENT_SET"
+    },
+    {
+      "id": "6:42",
+      "name": "Type=Primary, Size=Medium",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "6:44",
+      "name": "Type=Secondary, Size=Medium",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:93",
+      "name": "Badge / Ticket",
+      "type": "COMPONENT_SET"
+    },
+    {
+      "id": "26:87",
+      "name": "Category=Ticket, Status=New",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:88",
+      "name": "Category=Ticket, Status=Open",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:89",
+      "name": "Category=Ticket, Status=In Progress",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:90",
+      "name": "Category=Ticket, Status=Pending",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:91",
+      "name": "Category=Ticket, Status=Selesai",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:92",
+      "name": "Category=Ticket, Status=Archived",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:49",
+      "name": "Badge / Priority",
+      "type": "COMPONENT_SET"
+    },
+    {
+      "id": "27:45",
+      "name": "Category=Priority, Level=Low",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:46",
+      "name": "Category=Priority, Level=Medium",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:47",
+      "name": "Category=Priority, Level=High",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:48",
+      "name": "Category=Priority, Level=Critical",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:63",
+      "name": "Input",
+      "type": "COMPONENT_SET"
+    },
+    {
+      "id": "27:59",
+      "name": "State=Default",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:60",
+      "name": "State=Focus",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:61",
+      "name": "State=Error",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "27:62",
+      "name": "State=Disabled",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "199:292",
+      "name": "Client Header",
+      "type": "COMPONENT_SET"
+    },
+    {
+      "id": "198:46",
+      "name": "Property 1=Default",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "213:374",
+      "name": "Property 1=Bantuan",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "211:360",
+      "name": "Property 1=Profil",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "206:320",
+      "name": "Property 1=Layanan Saya",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "199:293",
+      "name": "Property 1=Beranda",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:71",
+      "name": "Ticket / List Item",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:72",
+      "name": "Customer / Detail Header",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "26:73",
+      "name": "Import / Validation Result",
+      "type": "COMPONENT"
+    },
+    {
+      "id": "222:424",
+      "name": "Brand / NAT Lockup",
+      "type": "COMPONENT"
+    }
+  ],
+  "textStyles": [
+    {
+      "id": "S:00d5d873ec425502e4fbd5d06a24aa2646f6eb99,",
+      "name": "Text/Button/Medium"
+    }
+  ],
+  "collections": [
+    {
+      "name": "Nirwana / Color",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "6:0"
+        }
+      ],
+      "count": 9
+    },
+    {
+      "name": "Nirwana / Dimension",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "6:1"
+        }
+      ],
+      "count": 14
+    },
+    {
+      "name": "Nirwana / Dark",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "340:0"
+        }
+      ],
+      "count": 16
+    }
+  ]
+}

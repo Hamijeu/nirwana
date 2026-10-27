@@ -20,3 +20,8 @@
 .checkbox-field > span{display:flex;align-items:center;gap:10px}.checkbox-field input{width:18px;height:18px;accent-color:var(--primary,#2563eb)}
 .inline-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.inline-select{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:#475569}.inline-select select{min-width:120px}
 .map-loading{min-height:360px;display:flex;align-items:center;justify-content:center;color:#64748b;font-weight:600}
+
+/* Route entry keeps fixed headers anchored to the viewport. */
+.route-page{min-width:0;animation:route-arrive .42s cubic-bezier(.22,1,.36,1) both}
+@keyframes route-arrive{from{opacity:.2}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.route-page{animation:none}.company-page .company-orange-button,.company-page .pricing-card>.btn{transition:none;translate:none}}

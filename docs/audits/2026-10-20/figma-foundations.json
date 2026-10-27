@@ -1,0 +1,60 @@
+{
+  "page": "00 — Cover & Foundations",
+  "sections": [
+    {
+      "id": "6:11",
+      "name": "00 — Cover & Notes",
+      "x": 0,
+      "y": 0,
+      "width": 900,
+      "height": 650
+    },
+    {
+      "id": "6:12",
+      "name": "01 — Foundations",
+      "x": 1000,
+      "y": 0,
+      "width": 900,
+      "height": 650
+    }
+  ],
+  "components": [],
+  "textStyles": [
+    {
+      "id": "S:00d5d873ec425502e4fbd5d06a24aa2646f6eb99,",
+      "name": "Text/Button/Medium"
+    }
+  ],
+  "collections": [
+    {
+      "name": "Nirwana / Color",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "6:0"
+        }
+      ],
+      "count": 9
+    },
+    {
+      "name": "Nirwana / Dimension",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "6:1"
+        }
+      ],
+      "count": 14
+    },
+    {
+      "name": "Nirwana / Dark",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "340:0"
+        }
+      ],
+      "count": 16
+    }
+  ]
+}

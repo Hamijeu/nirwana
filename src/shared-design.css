@@ -1,0 +1,22 @@
+/* Shared company design language for the live portal and workspaces. */
+.portal-guide-visual{display:block;width:100%;height:auto;aspect-ratio:12/7;margin:20px 0;border-radius:14px;font-family:Company General,Arial,sans-serif}
+:root{--control-fill:#121820;--control-text:#fff;--control-edge:#121820}
+[data-theme=dark]{--control-fill:#fff;--control-text:#121820;--control-edge:#d5dae1}
+:is(.public-redesign,.app-shell){font-family:Company General,Arial,sans-serif}
+:is(.portal-page,.public-auth-page,.auth-public-page,.app-shell){--shared-radius:16px}
+.app-shell :is(.panel,.metric,.voucher-card,.service-card,.ticket-card,.tech-task){border-radius:16px;box-shadow:none}
+.app-shell .page-heading h1,.portal-page :is(h1,h2),.public-redesign .auth-form h2{font-family:Company Erode,Georgia,serif;font-weight:500;letter-spacing:-.025em;line-height:1.15}
+.app-shell .page-heading h1{font-size:34px}
+.app-shell .side-links a{border-radius:12px}
+.app-shell :is(input,select,textarea){border-radius:10px}
+/* Filled actions use the local surface contrast; labels/icons keep their meaning. */
+:is(.public-redesign,.app-shell,.modal) .btn{background:var(--control-fill)!important;color:var(--control-text)!important;border:1px solid var(--control-edge)!important;border-radius:999px!important;min-height:44px;font-weight:600;box-shadow:none;transition:box-shadow .2s ease,transform .2s ease}
+:is(.public-redesign,.app-shell,.modal) .btn:hover:not(:disabled){background:var(--control-fill)!important;color:var(--control-text)!important;box-shadow:0 4px 14px #0c1b2c15;transform:translateY(-1px)}
+/* The featured pricing surface stays dark in both themes. */
+.company-profile-page .pricing-card.featured{--control-fill:#fff;--control-text:#121820;--control-edge:#d5dae1}
+.app-shell .tabs button.selected{color:var(--text);border-bottom-color:var(--text)}
+.public-redesign .auth-mode-tabs .auth-tab-indicator{background:var(--control-fill)}
+.chat-launcher{background:var(--control-fill);color:var(--control-text);border:1px solid var(--control-edge);border-radius:999px}
+.portal-page .portal-access,.public-redesign .auth-access-card{border-radius:18px;box-shadow:none}
+@media(max-width:640px){.app-shell .page-heading h1{font-size:29px}}
+@media(prefers-reduced-motion:reduce){:is(.public-redesign,.app-shell,.modal) .btn{transition:none}:is(.public-redesign,.app-shell,.modal) .btn:hover:not(:disabled){transform:none}}

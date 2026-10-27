@@ -1,0 +1,277 @@
+Browser tab: 19, Title: "Nirwana – Figma", URL: "https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=416-1167&t=98EEB23n9nLuVpjY-0".
+1 AXWebArea Nirwana – Figma, URL: figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=416-1167&t=98EEB23n9nLuVpjY-0
+	2 container react-page
+		8 container
+			9 container fullscreen-root
+				10 container Figma Design, 1 item selected
+			11 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+			12 container Comments on canvas
+				13 button Create new comment
+			14 container Left sidebar
+				15 toolbar Navigation Bar
+					16 pop up button (collapsed) Description: Main menu, ID: :r9:-trigger, Secondary Actions: Expand
+						17 image
+					18 button (expanded) Description: File, Secondary Actions: Collapse
+						19 image
+						20 text File
+					21 pop up button (collapsed) Description: Agents, Secondary Actions: Expand
+						22 text Agents
+					23 button (collapsed) Description: Assets, Secondary Actions: Expand
+						24 image
+						25 text Assets
+					26 button (collapsed) Description: Tools, Secondary Actions: Expand
+						27 image
+						28 text Tools
+					29 button (collapsed) Description: Variables, Secondary Actions: Expand
+						30 image
+						31 text Variables
+				32 container left-panel-container
+					33 container
+						34 button Nirwana, file name
+						35 text File name
+						36 pop up button (collapsed) Description: Edit file menu, ID: :re:, Secondary Actions: Expand
+						37 button Minimize UI
+						38 link Description: Team project, Value: figma.com/files/team/1112011876501429930/project/57679135
+						39 button Free
+						40 heading Pages Find Add new page, Value: 2
+							41 button (expanded) Pages, Secondary Actions: Collapse
+							42 button Description: Find, ID: canvas-search-icon-button
+							43 button Add new page
+						44 container
+							45 container
+								46 table
+									47 row (selectable) 00 — Cover & Foundations
+										48 cell
+											49 button 00 — Cover & Foundations
+									50 row (selectable) 01 — Components & Patterns
+										51 cell
+											52 button 01 — Components & Patterns
+									53 row (selectable) 02 — Screens & Flows
+										54 cell
+											55 button 02 — Screens & Flows
+							56 slider Description: Resize handle, Value: 100
+						57 heading Layers, Value: 2
+							58 button (expanded) Layers, Secondary Actions: Collapse
+						59 table
+							60 container
+								61 row (selectable, collapsed) 03 — Patterns, Secondary Actions: Expand
+									62 container
+										63 cell
+											64 text 03 — Patterns
+								65 row (selectable, collapsed) 02 — Components, Secondary Actions: Expand
+									66 container
+										67 cell
+											68 text 02 — Components
+					69 slider Description: Resize handle, Value: 280
+			70 container Right sidebar
+				71 container
+					72 container
+						73 pop up button (collapsed) Description: Multiplayer tools, ID: self-avatar-with-tools-container, Secondary Actions: Expand
+							74 image
+						75 container Prototype view
+							76 button Description: Present, ID: :r10:
+							77 pop up button (collapsed) Description: Prototype view, ID: :rv:, Secondary Actions: Expand
+						78 button Share
+						79 tab group
+							80 tab (selected, settable, boolean) Design, Value: 1, ID: tab:r13:-0-trigger
+							81 tab (selectable, settable, boolean) Prototype, Value: 0, ID: tab:r13:-1-trigger
+						82 pop up button (collapsed) Description: 96%, zoom and view options, ID: :r16:, Secondary Actions: Expand
+							83 text 96%
+							84 image
+						85 container
+							86 container
+								87 text field (settable) Pattern / Nira
+								88 checkbox (settable, integer) Description: Multi-edit variants, Value: 0, ID: :r1o:
+								89 text Multi-edit variants
+								90 button Select matching layers
+								91 pop up button (collapsed) Description: Component configuration, ID: COMPONENT_CONTROLS_ID-{button}-:r19:, Secondary Actions: Expand
+								92 pop up button (collapsed) Description: More actions, ID: :r1r:, Secondary Actions: Expand
+								93 text Authenticated Client report flow only; never public page. Simulation only: no data sent to AI. AI never assigns operational priority; Admin/Officer do. Unknown information must not be invented. Preserve native Button/Textarea instances.
+								94 text Current variant
+								95 button Select component
+								96 table
+									97 row Edit property name for State Edit property value for State Failed
+										98 cell
+											99 button Edit property name for State
+												100 text State
+										101 cell
+											102 container
+												103 list Edit property value for State
+												104 combo box (collapsed, settable) Description: Edit property value for State, Value: Failed, ID: states-property-select-State, Secondary Actions: Expand
+									105 row Edit property name for Theme Edit property value for Theme Dark
+										106 cell
+											107 button Edit property name for Theme
+												108 text Theme
+										109 cell
+											110 container
+												111 list Edit property value for Theme
+												112 combo box (collapsed, settable) Description: Edit property value for Theme, Value: Dark, ID: states-property-select-Theme, Secondary Actions: Expand
+								113 heading Position, Value: 2
+									114 text Position
+								115 checkbox (settable, integer) Description: Ignore auto layout, Value: 0, ID: :r25:
+								116 text Ignore auto layout
+								117 container Alignment
+									118 text Alignment
+									119 button (disabled) Align left
+										120 image
+									121 button (disabled) Align horizontal centers
+										122 image
+									123 button (disabled) Align right
+										124 image
+									125 button (disabled) Align top
+										126 image
+									127 button (disabled) Align vertical centers
+										128 image
+									129 button (disabled) Align bottom
+										130 image
+									131 button More actions
+								132 container Position
+									133 text Position
+									134 stepper (disabled, settable, integer) Description: X-position, Value: 904
+									135 stepper (disabled, settable, integer) Description: Y-position, Value: 686
+								136 container Rotation
+									137 text Rotation
+									138 stepper (settable, integer) Description: Rotation, Value: 0, Details: 0Â°
+									139 button Rotate 90˚ right
+										140 image
+									141 button Flip horizontal
+										142 image
+									143 button Flip vertical
+										144 image
+								145 heading Auto layout, Value: 2
+									146 text Auto layout
+								147 checkbox (settable, integer) Description: Toggle auto layout, Value: 1, ID: :r26:
+								148 text Toggle auto layout
+								149 container Flow
+									150 text Flow
+									151 Layout
+										152 text Layout
+										153 radio button (settable, integer) Description: Freeform, Value: 0, ID: :r27:-NONE
+										154 radio button (settable, integer) Description: Vertical, Value: 1, ID: :r27:-VERTICAL
+										155 radio button (settable, integer) Description: Horizontal, Value: 0, ID: :r27:-HORIZONTAL
+										156 radio button (settable, integer) Description: Grid, Value: 0, ID: :r27:-GRID
+									157 checkbox (settable, integer) Description: Wrap, Value: 0, ID: :r28:
+									158 text Wrap
+								159 container Resizing
+									160 text Resizing
+									161 container
+										162 list
+										163 container Horizontal resizing
+											164 combo box (collapsed, settable) Description: Horizontal resizing, Value: 404, Secondary Actions: Expand
+									165 container
+										166 list
+										167 container Vertical resizing
+											168 combo box (collapsed, settable) Description: Vertical resizing, Value: 602, Secondary Actions: Expand
+											169 text Hug
+									170 checkbox (settable, integer) Description: Lock aspect ratio, Value: 0, ID: :r29:
+									171 text Lock aspect ratio
+								172 Alignment
+									173 text Alignment
+									174 container
+										175 radio button (settable, integer) Description: Align top left, Value: 1, ID: :r2a:-TOP_LEFT
+										176 radio button (settable, integer) Description: Align top center, Value: 0, ID: :r2a:-TOP_CENTER
+										177 radio button (settable, integer) Description: Align top right, Value: 0, ID: :r2a:-TOP_RIGHT
+										178 radio button (settable, integer) Description: Align left, Value: 0, ID: :r2a:-LEFT
+										179 radio button (settable, integer) Description: Align center, Value: 0, ID: :r2a:-CENTER
+										180 radio button (settable, integer) Description: Align right, Value: 0, ID: :r2a:-RIGHT
+										181 radio button (settable, integer) Description: Align bottom left, Value: 0, ID: :r2a:-BOTTOM_LEFT
+										182 radio button (settable, integer) Description: Align bottom center, Value: 0, ID: :r2a:-BOTTOM_CENTER
+										183 radio button (settable, integer) Description: Align bottom right, Value: 0, ID: :r2a:-BOTTOM_RIGHT
+								184 list
+								185 container Vertical gap between objects
+									186 combo box (collapsed, settable) Description: Vertical gap between objects, Value: 16, Secondary Actions: Expand
+								187 pop up button (collapsed) Description: Auto layout settings, Secondary Actions: Expand
+								188 container Horizontal padding
+									189 text field (settable) Description: Horizontal padding, Value: 32
+								190 container Vertical padding
+									191 text field (settable) Description: Vertical padding, Value: 32
+								192 pop up button (collapsed) Description: Individual padding, Secondary Actions: Expand
+								193 checkbox (settable, integer) Description: Clip content, Value: 0, ID: :r2d:
+								194 text Clip content
+								195 heading Appearance, Value: 2
+									196 text Appearance
+								197 checkbox (settable, integer) Description: Hide, Value: 0, ID: :r2e:
+								198 text Hide
+								199 pop up button (collapsed) Description: Apply blend mode, ID: :r2h:, Secondary Actions: Expand
+								200 container
+									201 image
+									202 text field (settable) 100%
+								203 container
+									204 text field (settable) 0
+								205 pop up button (collapsed) Description: Individual corners, Secondary Actions: Expand
+								206 heading Fill, Value: 2
+									207 text Fill
+								208 pop up button (collapsed) Description: Fill, Apply styles and variables, Secondary Actions: Expand
+								209 button Add fill
+								210 table
+									211 row (selectable) Color Variable Color/Surface/Default with value #141F32 · 100% Toggle visibility Remove
+										212 cell
+											213 button Color Variable Color/Surface/Default with value #141F32 · 100%
+												214 container Color/Surface/Default
+													215 text Color/Surface/Default
+										216 cell
+											217 checkbox (settable, integer) Description: Toggle visibility, Value: 1, ID: :r2v:
+											218 text Toggle visibility
+										219 cell
+											220 button Remove
+								221 button Stroke
+									222 heading Stroke, Value: 2
+										223 text Stroke
+								224 pop up button (collapsed) Description: Stroke, Apply styles and variables, Secondary Actions: Expand
+								225 button Add stroke
+								226 container
+									227 button Effects
+										228 heading Effects, Value: 2
+											229 text Effects
+									230 pop up button (collapsed) Description: Effects, Apply styles, Secondary Actions: Expand
+									231 button Add effect
+								232 button Selection colors +4
+									233 heading Selection colors, Value: 2
+										234 text Selection colors
+									235 text +4
+								236 button Layout guide
+									237 heading Layout guide, Value: 2
+										238 text Layout guide
+								239 pop up button (collapsed) Description: Layout guide, Apply styles, Secondary Actions: Expand
+								240 button Add layout guide
+								241 button Export
+								242 button Add export settings
+					243 slider Description: Resize handle, Value: 241
+		244 container Application toolbar
+			245 toolbar Editor
+				246 container Move
+					247 checkbox Description: Move, Value: 1
+						248 image
+					249 checkbox (collapsed) Description: Move tools, Value: 0, ID: :r45:, Secondary Actions: Expand
+				250 container Frame
+					251 checkbox Description: Frame, Value: 0
+						252 image
+					253 checkbox (collapsed) Description: Region tools, Value: 0, ID: :r4a:, Secondary Actions: Expand
+				254 container Rectangle
+					255 checkbox Description: Rectangle, Value: 0
+						256 image
+					257 checkbox (collapsed) Description: Shape tools, Value: 0, ID: :r4f:, Secondary Actions: Expand
+				258 container Pen
+					259 checkbox Description: Pen, Value: 0
+						260 image
+					261 checkbox (collapsed) Description: Creation tools, Value: 0, ID: :r4k:, Secondary Actions: Expand
+				262 container Text
+					263 checkbox Description: Text, Value: 0
+						264 image
+					265 checkbox (collapsed) Description: Type tools, Value: 0, ID: :r4p:, Secondary Actions: Expand
+				266 checkbox Description: Comment (1 unread), Value: 0
+					267 image
+				268 checkbox Description: Actions, Value: 0
+					269 image
+				270 Toolbelt Mode
+					271 text Toolbelt Mode
+					272 radio button (settable, integer) Description: Draw, Value: 0, ID: :r3u:-illustration
+					273 radio button (settable, integer) Description: Design, Value: 1, ID: :r3u:-design
+					274 radio button (settable, integer) Description: Motion, Value: 0, ID: :r3u:-metronome
+					275 radio button (settable, integer) Description: Dev Mode, Value: 0, ID: :r3u:-handoff
+		4 container Help/zoom toolbar
+			5 toolbar Help/zoom toolbar
+				6 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					7 image
+
+The focused UI element is 10 container Figma Design, 1 item selected

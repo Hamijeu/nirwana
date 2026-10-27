@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "00 — Cover & Foundations"
+    },
+    {
+      "id": "4:3",
+      "name": "01 — Components & Patterns"
+    },
+    {
+      "id": "4:2",
+      "name": "02 — Screens & Flows"
+    }
+  ],
+  "screenCount": 53,
+  "overlaps": [],
+  "working": {
+    "x": 9600,
+    "y": 8200
+  },
+  "archive": {
+    "x": 11450,
+    "y": 8200
+  }
+}

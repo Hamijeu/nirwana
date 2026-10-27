@@ -1,0 +1,668 @@
+{
+  "page": {
+    "id": "4:2",
+    "name": "02 — Screens & Flows",
+    "x": "0",
+    "y": "0",
+    "width": "0",
+    "height": "0"
+  },
+  "sections": [
+    {
+      "id": "6:2",
+      "name": "05 — Public & Auth",
+      "x": "0",
+      "y": "0",
+      "width": "4590",
+      "height": "4800",
+      "children": [
+        {
+          "id": "13:2",
+          "name": "Public / Landing / Desktop",
+          "x": "0",
+          "y": "0",
+          "width": "1440",
+          "height": "1710",
+          "type": "frame"
+        },
+        {
+          "id": "13:52",
+          "name": "Public / Landing / Mobile",
+          "x": "1530",
+          "y": "0",
+          "width": "390",
+          "height": "1730",
+          "type": "frame"
+        },
+        {
+          "id": "13:89",
+          "name": "Auth / Login / Desktop",
+          "x": "3060",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "13:103",
+          "name": "Auth / Forgot Password / Desktop",
+          "x": "0",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "13:114",
+          "name": "Auth / OTP / Desktop",
+          "x": "1530",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "13:125",
+          "name": "Auth / New Password / Desktop",
+          "x": "3060",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "13:139",
+          "name": "Auth / First Login / Desktop",
+          "x": "0",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        }
+      ]
+    },
+    {
+      "id": "6:3",
+      "name": "06 — Client",
+      "x": "0",
+      "y": "5050",
+      "width": "4590",
+      "height": "8600",
+      "children": [
+        {
+          "id": "15:7",
+          "name": "Client / Dashboard / Desktop",
+          "x": "0",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "15:41",
+          "name": "Client / Dashboard / Mobile",
+          "x": "1530",
+          "y": "0",
+          "width": "390",
+          "height": "844",
+          "type": "frame"
+        },
+        {
+          "id": "15:65",
+          "name": "Client / Services / Desktop",
+          "x": "3060",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "15:96",
+          "name": "Client / Service Detail / Desktop",
+          "x": "0",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "15:123",
+          "name": "Client / Tickets / Desktop",
+          "x": "1530",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "76:36",
+          "name": "Client / Tickets / Initial / Desktop",
+          "x": "3060",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "15:151",
+          "name": "Client / Create Ticket / Desktop",
+          "x": "0",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "15:177",
+          "name": "Client / Ticket Detail / Desktop",
+          "x": "1530",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "237:345",
+          "name": "Client / Ticket Detail / #016 / Desktop",
+          "x": "3060",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "178:37",
+          "name": "Client / Ticket Detail / #013 / Desktop",
+          "x": "0",
+          "y": "5700",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "60:36",
+          "name": "Client / Ticket Submitted / Desktop",
+          "x": "1530",
+          "y": "5700",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "15:202",
+          "name": "Client / Profile / Desktop",
+          "x": "3060",
+          "y": "5700",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "15:226",
+          "name": "Client / Help / Desktop",
+          "x": "0",
+          "y": "7600",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        }
+      ]
+    },
+    {
+      "id": "6:4",
+      "name": "07 — Admin",
+      "x": "0",
+      "y": "13900",
+      "width": "4590",
+      "height": "8600",
+      "children": [
+        {
+          "id": "16:15",
+          "name": "Admin / Dashboard / Desktop",
+          "x": "0",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:62",
+          "name": "Admin / Customers / Desktop",
+          "x": "1530",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:93",
+          "name": "Admin / Customer New / Desktop",
+          "x": "3060",
+          "y": "0",
+          "width": "1440",
+          "height": "1200",
+          "type": "frame"
+        },
+        {
+          "id": "16:122",
+          "name": "Admin / Customer Detail / Desktop",
+          "x": "0",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:154",
+          "name": "Admin / Services / Desktop",
+          "x": "1530",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:185",
+          "name": "Admin / Service New / Desktop",
+          "x": "3060",
+          "y": "1900",
+          "width": "1440",
+          "height": "1200",
+          "type": "frame"
+        },
+        {
+          "id": "16:214",
+          "name": "Admin / Service Detail / Desktop",
+          "x": "0",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:244",
+          "name": "Admin / Tickets / Desktop",
+          "x": "1530",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:285",
+          "name": "Admin / Ticket Detail / Desktop",
+          "x": "3060",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:325",
+          "name": "Admin / Map / Desktop",
+          "x": "0",
+          "y": "5700",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:356",
+          "name": "Admin / Voucher / Desktop",
+          "x": "1530",
+          "y": "5700",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:385",
+          "name": "Admin / Import Export / Desktop",
+          "x": "3060",
+          "y": "5700",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:414",
+          "name": "Admin / Users and Access / Desktop",
+          "x": "0",
+          "y": "7600",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "16:446",
+          "name": "Admin / Settings / Desktop",
+          "x": "1530",
+          "y": "7600",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        }
+      ]
+    },
+    {
+      "id": "6:5",
+      "name": "08 — Officer",
+      "x": "0",
+      "y": "22750",
+      "width": "4590",
+      "height": "6700",
+      "children": [
+        {
+          "id": "17:26",
+          "name": "Officer / Dashboard / Desktop",
+          "x": "0",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:62",
+          "name": "Officer / Customers / Desktop",
+          "x": "1530",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:88",
+          "name": "Officer / Customer Detail / Desktop",
+          "x": "3060",
+          "y": "0",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:115",
+          "name": "Officer / Services / Desktop",
+          "x": "0",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:141",
+          "name": "Officer / Service Detail / Desktop",
+          "x": "1530",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:168",
+          "name": "Officer / Tickets / Desktop",
+          "x": "3060",
+          "y": "1900",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:203",
+          "name": "Officer / Ticket Detail / Desktop",
+          "x": "0",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:233",
+          "name": "Officer / Map / Desktop",
+          "x": "1530",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:258",
+          "name": "Officer / Voucher / Desktop",
+          "x": "3060",
+          "y": "3800",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "17:284",
+          "name": "Officer / Import Export / Desktop",
+          "x": "0",
+          "y": "5700",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        }
+      ]
+    },
+    {
+      "id": "6:6",
+      "name": "09 — Technician",
+      "x": "0",
+      "y": "29700",
+      "width": "4590",
+      "height": "2844",
+      "children": [
+        {
+          "id": "17:310",
+          "name": "Technician / Dashboard / Mobile",
+          "x": "0",
+          "y": "0",
+          "width": "390",
+          "height": "844",
+          "type": "frame"
+        },
+        {
+          "id": "17:339",
+          "name": "Technician / Tickets / Mobile",
+          "x": "1530",
+          "y": "0",
+          "width": "390",
+          "height": "844",
+          "type": "frame"
+        },
+        {
+          "id": "17:356",
+          "name": "Technician / Ticket Detail / Mobile",
+          "x": "3060",
+          "y": "0",
+          "width": "390",
+          "height": "844",
+          "type": "frame"
+        },
+        {
+          "id": "17:382",
+          "name": "Technician / Map / Mobile",
+          "x": "0",
+          "y": "1900",
+          "width": "390",
+          "height": "844",
+          "type": "frame"
+        },
+        {
+          "id": "17:398",
+          "name": "Technician / Voucher / Mobile",
+          "x": "1530",
+          "y": "1900",
+          "width": "390",
+          "height": "844",
+          "type": "frame"
+        },
+        {
+          "id": "17:414",
+          "name": "Technician / Profile / Mobile",
+          "x": "3060",
+          "y": "1900",
+          "width": "390",
+          "height": "844",
+          "type": "frame"
+        }
+      ]
+    },
+    {
+      "id": "6:7",
+      "name": "10 — Prototype",
+      "x": "9600",
+      "y": "5200",
+      "width": "3000",
+      "height": "2500",
+      "children": []
+    },
+    {
+      "id": "6:8",
+      "name": "98 — Codex Working Area",
+      "x": "9600",
+      "y": "8200",
+      "width": "1600",
+      "height": "800",
+      "children": []
+    },
+    {
+      "id": "6:9",
+      "name": "99 — Archive",
+      "x": "11450",
+      "y": "8200",
+      "width": "1600",
+      "height": "800",
+      "children": []
+    },
+    {
+      "id": "6:10",
+      "name": "04 — User Flows",
+      "x": "5232",
+      "y": "9850",
+      "width": "3600",
+      "height": "1300",
+      "children": [
+        {
+          "id": "25:36",
+          "name": "ALUR PENGGUNA NIRWANA",
+          "x": "179",
+          "y": "136",
+          "width": "1101",
+          "height": "97",
+          "type": "text"
+        },
+        {
+          "id": "25:37",
+          "name": "CLIENT  Landing → Login → Dashboard  Layanan → Lapor Gangguan  Tiket → Detail → Progress",
+          "x": "179",
+          "y": "471",
+          "width": "783",
+          "height": "252",
+          "type": "text"
+        },
+        {
+          "id": "25:38",
+          "name": "ADMIN  Dashboard → Tiket → Detail  Terima / Assign Teknisi  Progress → Selesai → Arsip",
+          "x": "1005",
+          "y": "471",
+          "width": "715",
+          "height": "252",
+          "type": "text"
+        },
+        {
+          "id": "25:39",
+          "name": "OFFICER  Dashboard → Pelanggan  Detail → Tiket → Detail  Assign Teknisi → Progress",
+          "x": "1831",
+          "y": "471",
+          "width": "684",
+          "height": "252",
+          "type": "text"
+        },
+        {
+          "id": "25:40",
+          "name": "TEKNISI  Dashboard → Klaim Tiket  Detail → Mulai Pekerjaan  Catatan → Status → Selesai",
+          "x": "2657",
+          "y": "471",
+          "width": "712",
+          "height": "252",
+          "type": "text"
+        },
+        {
+          "id": "25:41",
+          "name": "AUTH  Login → Lupa Password  OTP → Password Baru  Kembali ke Login",
+          "x": "179",
+          "y": "890",
+          "width": "614",
+          "height": "252",
+          "type": "text"
+        },
+        {
+          "id": "25:42",
+          "name": "PELANGGAN  Daftar → Tambah  Simpan → Detail  Admin / Officer",
+          "x": "1005",
+          "y": "890",
+          "width": "450",
+          "height": "252",
+          "type": "text"
+        },
+        {
+          "id": "25:43",
+          "name": "LAYANAN  Daftar → Tambah  Simpan → Detail  Admin / Officer",
+          "x": "1831",
+          "y": "890",
+          "width": "450",
+          "height": "252",
+          "type": "text"
+        },
+        {
+          "id": "25:44",
+          "name": "IMPORT CSV  Upload → Validasi  Preview → Konfirmasi  Selesai",
+          "x": "2657",
+          "y": "890",
+          "width": "564",
+          "height": "252",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "340:346",
+      "name": "11 — Theme / Light & Dark",
+      "x": "0",
+      "y": "33000",
+      "width": "4590",
+      "height": "1100",
+      "children": [
+        {
+          "id": "340:347",
+          "name": "Client / Dashboard / Desktop / Dark",
+          "x": "0",
+          "y": "100",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "340:464",
+          "name": "Auth / Login / Desktop / Dark",
+          "x": "1530",
+          "y": "100",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        },
+        {
+          "id": "340:504",
+          "name": "Admin / Customers / Desktop / Dark",
+          "x": "3060",
+          "y": "100",
+          "width": "1440",
+          "height": "900",
+          "type": "frame"
+        }
+      ]
+    }
+  ],
+  "frameCount": 53
+}

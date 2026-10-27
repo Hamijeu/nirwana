@@ -1,0 +1,694 @@
+[
+  {
+    "id": "6:2",
+    "name": "05 — Public & Auth",
+    "x": 0,
+    "y": 0,
+    "width": 4590,
+    "height": 4800,
+    "frames": [
+      {
+        "id": "13:2",
+        "name": "Public / Landing / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda     Layanan     Tentang Kami     Kelebihan     Bantuan     Kontak     Masuk | PT NIRWANA AKSES TEKNOLOGI | Internet yang pas untuk setiap kebutuhan. | Konektivitas untuk rumah, bisnis, dan sekolah. Hubungi tim kami untuk membahas kebutuhan layanan Anda. | Lihat layanan | Masuk Portal | Koneksi untuk berbagai kebutuhan | Internet Rumah | Koneksi untuk bekerja, belajar, dan hiburan di rumah. | Internet Bisnis | Konektivitas untuk operasional usaha. | Internet Sekolah | Dukungan internet untuk ruang belajar digital. | SUDAH MENJADI PELANGGAN? | Semua layanan dalam satu portal. | Lihat layanan, laporkan gangguan, dan pantau progres tiket dalam satu tempat. | Buka Portal | Tentang Nirwana | PT Nirwana Akses Teknologi membantu kebutuhan konektivitas pelanggan. | Kelebihan | Layanan, laporan, dan progres penanganan dapat dilihat dari portal pelanggan. | Cara melaporkan gangguan | Masuk ke portal → pilih layanan → kirim laporan → pantau tiket. | Testimonial contoh | Narasi desain sementara; menunggu testimoni pelanggan yang disetujui. | Butuh informasi lebih lanjut? | Form kontak dalam prototype adalah simulasi. Kontak resmi perlu dikonfirmasi. | Hubungi Kami | © 2026 PT Nirwana Akses Teknologi  ·  Prototype UI/UX",
+        "instances": 1,
+        "autoLayouts": 20,
+        "reactionCount": 3,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "13:52",
+        "name": "Public / Landing / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | PT NIRWANA AKSES TEKNOLOGI | Internet untuk setiap kebutuhan. | Koneksi rumah, bisnis, dan sekolah. | Lihat layanan | Layanan | Internet Rumah | Bekerja, belajar, dan hiburan di rumah. | Internet Bisnis | Konektivitas operasional usaha. | Internet Sekolah | Dukungan ruang belajar digital. | Portal pelanggan | Lihat layanan, laporkan gangguan, dan pantau tiket. | Masuk Portal | Tentang dan kelebihan | Layanan dan bantuan pelanggan dalam satu tempat. | Lapor gangguan | Masuk → pilih layanan → kirim laporan → pantau tiket. | Testimonial contoh | Menunggu testimoni pelanggan yang disetujui. | Hubungi kami | Kontak resmi perlu dikonfirmasi. | © 2026 Nirwana · Prototype",
+        "instances": 1,
+        "autoLayouts": 12,
+        "reactionCount": 0,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "13:89",
+        "name": "Auth / Login / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | NIRWANA MANAGEMENT SYSTEM | Satu ruang kerja.\nSemua layanan terhubung. | Akses informasi layanan, kelola laporan gangguan, dan pantau setiap langkah penanganan dengan mudah. | PT Nirwana Akses Teknologi · Prototype 2026 | SELAMAT DATANG KEMBALI | Masuk ke akun Anda | Gunakan nomor telepon yang terdaftar untuk melanjutkan. | Nomor WhatsApp / Nomor Telepon | Contoh: 0812 3456 7890 | Password | Masukkan password | Lupa password? | Masuk  → | Prototype: isi sembarang nomor dan password. Gunakan Mode demo untuk mencoba peran lain. | Gelap",
+        "instances": 1,
+        "autoLayouts": 11,
+        "reactionCount": 3,
+        "themeNodes": [
+          {
+            "name": "Theme / Toggle",
+            "x": 4235,
+            "y": 842
+          },
+          {
+            "name": "Gelap",
+            "x": 4278.5,
+            "y": 854.5
+          }
+        ],
+        "imageCount": 1
+      },
+      {
+        "id": "13:103",
+        "name": "Auth / Forgot Password / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | PEMULIHAN AKUN | Kembali terhubung\ndengan mudah. | Pulihkan akses akun Anda melalui langkah verifikasi sederhana. | PT Nirwana Akses Teknologi · Prototype 2026 | ←  Kembali ke login | LANGKAH 1 DARI 3 | Lupa password? | Masukkan nomor WhatsApp yang terhubung dengan akun. | Nomor WhatsApp | 0812 3456 7890 | Kirim kode verifikasi  → | Alur OTP ini hanya simulasi visual. Tidak ada pesan yang benar-benar dikirim.",
+        "instances": 1,
+        "autoLayouts": 8,
+        "reactionCount": 2,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "13:114",
+        "name": "Auth / OTP / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | PEMULIHAN AKUN | Kembali terhubung\ndengan mudah. | Pulihkan akses akun Anda melalui langkah verifikasi sederhana. | PT Nirwana Akses Teknologi · Prototype 2026 | ←  Kembali ke login | LANGKAH 2 DARI 3 | Verifikasi nomor Anda | Kode verifikasi dikirim ke +62 812••••1234. | Kode verifikasi 6 digit | •••••• | Verifikasi kode  → | Alur OTP ini hanya simulasi visual. Tidak ada pesan yang benar-benar dikirim.",
+        "instances": 1,
+        "autoLayouts": 8,
+        "reactionCount": 2,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "13:125",
+        "name": "Auth / New Password / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | PEMULIHAN AKUN | Kembali terhubung\ndengan mudah. | Pulihkan akses akun Anda melalui langkah verifikasi sederhana. | PT Nirwana Akses Teknologi · Prototype 2026 | ←  Kembali ke login | PEMULIHAN AKUN | Buat password baru | Gunakan password yang mudah Anda ingat. | Password baru | Minimal 6 karakter | Konfirmasi password | Ulangi password baru | Simpan password | Alur OTP ini hanya simulasi visual. Tidak ada pesan yang benar-benar dikirim.",
+        "instances": 1,
+        "autoLayouts": 10,
+        "reactionCount": 2,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "13:139",
+        "name": "Auth / First Login / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | PEMULIHAN AKUN | Kembali terhubung\ndengan mudah. | Pulihkan akses akun Anda melalui langkah verifikasi sederhana. | PT Nirwana Akses Teknologi · Prototype 2026 | ←  Kembali ke login | AKTIVASI AKUN | Buat password Anda | Lengkapi keamanan akun sebelum mulai menggunakan layanan. | Password baru | Minimal 6 karakter | Konfirmasi password | Ulangi password baru | Simpan dan lanjutkan | Alur OTP ini hanya simulasi visual. Tidak ada pesan yang benar-benar dikirim.",
+        "instances": 1,
+        "autoLayouts": 10,
+        "reactionCount": 2,
+        "themeNodes": [],
+        "imageCount": 1
+      }
+    ]
+  },
+  {
+    "id": "6:3",
+    "name": "06 — Client",
+    "x": 0,
+    "y": 5050,
+    "width": 4590,
+    "height": 8600,
+    "frames": [
+      {
+        "id": "15:7",
+        "name": "Client / Dashboard / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | PORTAL PELANGGAN | Halo, Budi 👋 | Berikut informasi layanan dan laporan gangguan Anda. | + Buat laporan | Layanan aktif | 2 | Di 2 lokasi berbeda | Tiket aktif | 2 | Sedang dalam penanganan | Tiket selesai | 7 | Riwayat penanganan | Layanan Saya | Lihat semua  → | AKTIF | Internet Rumah | SRV-2026-001 | Paket       Home Internet\nLokasi      Bandung Utara | Lihat detail  → | Laporkan gangguan | AKTIF | Internet Kantor | SRV-2026-002 | Paket       Business Internet\nLokasi      Bandung Timur | Lihat detail  → | Laporkan gangguan | Tiket Aktif | Lihat semua  → | #TKT-2026-014 | IN PROGRESS | Internet tidak dapat digunakan | Internet Rumah · Bandung Utara | 10 menit lalu  › | #TKT-2026-013 | PENDING | Koneksi lambat pada jam kerja | Internet Kantor · Bandung Timur | 2 jam lalu  › | Gelap",
+        "instances": 2,
+        "autoLayouts": 30,
+        "reactionCount": 15,
+        "themeNodes": [
+          {
+            "name": "Theme / Toggle",
+            "x": 1175,
+            "y": 5892
+          },
+          {
+            "name": "Gelap",
+            "x": 1218.5,
+            "y": 5904.5
+          }
+        ],
+        "imageCount": 1
+      },
+      {
+        "id": "15:41",
+        "name": "Client / Dashboard / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | CLIENT / DASHBOARD | Selamat datang, Budi | Pantau layanan dan laporan Anda. | Layanan aktif | 2 | Tiket aktif | 2 | Lapor gangguan | Layanan Saya | SRV-2026-001 · Internet Rumah | Aktif · Bandung Utara | Tiket Aktif | #TKT-2026-014 · IN PROGRESS | Internet tidak dapat digunakan | Beranda     Layanan Saya     Tiket Saya     Profil     Bantuan",
+        "instances": 2,
+        "autoLayouts": 7,
+        "reactionCount": 0,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "15:65",
+        "name": "Client / Services / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | AKUN SAYA | Layanan Saya | Setiap layanan dan lokasi pemasangan yang terhubung dengan akun Anda. | AKTIF | Internet Rumah | SRV-2026-001 | Paket       Home Internet\nLokasi      Bandung Utara | Jl. Cikutra No. 42, Bandung | Lihat detail  → | Laporkan gangguan | AKTIF | Internet Kantor | SRV-2026-002 | Paket       Business Internet\nLokasi      Bandung Timur | Jl. AH Nasution No. 18, Bandung | Lihat detail  → | Laporkan gangguan",
+        "instances": 1,
+        "autoLayouts": 12,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "15:96",
+        "name": "Client / Service Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | CLIENT / LAYANAN | SRV-2026-001 | Internet Rumah · Home Internet | Laporkan Gangguan | Informasi layanan | Pemilik · Budi Santoso | Status administratif · Aktif | Wilayah · Bandung Utara | Alamat pemasangan · Jl. Cikutra No. 42, Bandung | Tanggal pemasangan · 14 Jan 2024 | Riwayat tiket | #TKT-2026-014 · IN PROGRESS | #TKT-2026-012 · SELESAI",
+        "instances": 2,
+        "autoLayouts": 4,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "15:123",
+        "name": "Client / Tickets / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | CLIENT / TIKET | Tiket Saya | Riwayat laporan gangguan pada layanan Anda. | Aktif | 3 | Selesai | 0 | Buat laporan | Daftar tiket | #TKT-2026-016 · Laporan gangguan baru · NEW | #TKT-2026-014 · Internet tidak dapat digunakan · IN PROGRESS | #TKT-2026-013 · Koneksi lambat · PENDING",
+        "instances": 2,
+        "autoLayouts": 6,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "76:36",
+        "name": "Client / Tickets / Initial / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | AKUN SAYA | Tiket Saya | Pantau laporan gangguan dan riwayat penanganannya. | Semua | Aktif | Selesai | #TKT-2026-014 | IN PROGRESS | Internet tidak dapat digunakan | Internet Rumah · Bandung Utara | 10 menit lalu   › | #TKT-2026-013 | PENDING | Koneksi lambat pada jam kerja | Internet Kantor · Bandung Timur | 2 jam lalu   › | Buat laporan",
+        "instances": 2,
+        "autoLayouts": 10,
+        "reactionCount": 13,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "15:151",
+        "name": "Client / Create Ticket / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | ← Tiket Saya | LAPORAN GANGGUAN | Laporkan gangguan | Ceritakan kendala pada layanan Anda. Tim kami akan membantu menanganinya. | Layanan yang bermasalah | Internet Rumah · SRV-2026-001 · Bandung Utara | Kategori masalah (opsional) | Pilih kategori | Ceritakan gangguan Anda | Contoh: Sejak pagi koneksi internet di rumah tidak dapat digunakan... | Foto pendukung (opsional) | ＋ Pilih foto gangguan | Laporan akan terhubung ke layanan yang dipilih. | Batal | Kirim Laporan",
+        "instances": 3,
+        "autoLayouts": 8,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "15:177",
+        "name": "Client / Ticket Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | ← Tiket Saya | TKT-2026-014 | Internet tidak dapat digunakan | Dilaporkan 04 Okt 2026 · 08:42 | Progress penanganan | Laporan dibuat\n04 Okt 2026 · 08:42 · Budi Santoso\nPelanggan melaporkan koneksi terputus. | Tiket diterima\n04 Okt 2026 · 08:55 · Nadia · Officer\nLaporan telah diverifikasi. | Teknisi ditugaskan\n04 Okt 2026 · 09:10 · Nadia · Officer\nAndi Saputra dan Reza Putra ditugaskan. | Pemeriksaan lokasi\n04 Okt 2026 · 10:05 · Andi Saputra\nTeknisi sedang memeriksa sambungan di lokasi. | Informasi laporan | Layanan · SRV-2026-001 | Lokasi · Jl. Cikutra No. 42, Bandung | Tanggal laporan · 04 Okt 2026, 08:42\nStatus · IN PROGRESS | Deskripsi gangguan | Sejak pagi koneksi internet di rumah terputus. Lampu indikator modem menyala merah.",
+        "instances": 1,
+        "autoLayouts": 12,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "237:345",
+        "name": "Client / Ticket Detail / #016 / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | ← Tiket Saya | TKT-2026-016 | Internet tidak dapat digunakan | Dilaporkan 04 Okt 2026 · 08:42 | Progress penanganan | Laporan dibuat\n04 Okt 2026 · 08:42 · Budi Santoso\nPelanggan melaporkan gangguan layanan internet. | Informasi laporan | Layanan · SRV-2026-001 | Lokasi · Jl. Cikutra No. 42, Bandung | Tanggal laporan · 04 Okt 2026, 08:42\nStatus · NEW | Deskripsi gangguan | Sejak pagi koneksi internet di rumah tidak dapat digunakan.",
+        "instances": 1,
+        "autoLayouts": 9,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "178:37",
+        "name": "Client / Ticket Detail / #013 / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | ← Tiket Saya | TKT-2026-013 | Koneksi lambat pada jam kerja | Dilaporkan 03 Okt 2026 · 14:20 | Progress penanganan | Laporan dibuat\n03 Okt 2026 · 14:20 · Budi Santoso\nKoneksi melambat. | Menunggu pemeriksaan lanjutan\n03 Okt 2026 · 16:30 · Reza Putra\nPerlu pengecekan saat jam kerja. | Informasi laporan | Layanan · SRV-2026-002 | Lokasi · Jl. A.H. Nasution No. 18, Bandung | Tanggal laporan · 03 Okt 2026, 14:20\nStatus · PENDING | Deskripsi gangguan | Koneksi kantor melambat pada siang hari.",
+        "instances": 1,
+        "autoLayouts": 10,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "60:36",
+        "name": "Client / Ticket Submitted / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | LAPORAN TERCATAT | Laporan berhasil dibuat | Tim kami akan meninjau gangguan pada Internet Rumah. Pantau progress melalui halaman tiket. | #TKT-2026-016 | Lihat tiket",
+        "instances": 2,
+        "autoLayouts": 4,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "15:202",
+        "name": "Client / Profile / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | AKUN SAYA | Profil Saya | Informasi akun dan kontak Anda. | Data pelanggan | Nama lengkap | Budi Santoso | Nomor telepon | 0812 •••• 1234 | Status akun | Aktif | Terdaftar sejak | 12 Januari 2024 | Keamanan akun | Perbarui password secara berkala untuk menjaga keamanan akun Anda. | Ubah password",
+        "instances": 1,
+        "autoLayouts": 11,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "15:226",
+        "name": "Client / Help / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | BANTUAN | Ada yang bisa kami bantu? | Untuk gangguan layanan, buat laporan agar tim kami dapat menindaklanjutinya. | Bantuan pelanggan | Pilih layanan yang bermasalah, jelaskan kendalanya, lalu pantau progress melalui Tiket Saya. | Buat laporan gangguan",
+        "instances": 1,
+        "autoLayouts": 5,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      }
+    ]
+  },
+  {
+    "id": "6:4",
+    "name": "07 — Admin",
+    "x": 0,
+    "y": 13900,
+    "width": 4590,
+    "height": 8600,
+    "frames": [
+      {
+        "id": "16:15",
+        "name": "Admin / Dashboard / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / DASHBOARD | Dashboard Operasional | Ringkasan layanan dan penanganan gangguan hari ini. | Total pelanggan | 4 | Layanan aktif | 3 | Tiket aktif | 3 | Belum ditugaskan | 1 | Selesai | 1 | Filter | Tanggal · Semua tanggal | Wilayah · Semua wilayah | Teknisi · Semua teknisi | Tiket membutuhkan perhatian | #TKT-2026-015 · Internet mati total · CRITICAL · NEW | #TKT-2026-014 · Internet tidak dapat digunakan · HIGH | Aktivitas terbaru | Tiket #014 dalam pemeriksaan lokasi. | Tiket #015 menunggu penugasan. | Workspace  ›  Dashboard | Minggu, 4 Oktober 2026     NA",
+        "instances": 1,
+        "autoLayouts": 13,
+        "reactionCount": 9,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:62",
+        "name": "Admin / Customers / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | Workspace  ›  Customers | Minggu, 4 Oktober 2026     NA | DATA OPERASIONAL | Pelanggan | Kelola data pelanggan dan layanan yang terhubung. | ⌕  Cari nama atau nomor telepon | Semua status  ⌄ | Semua wilayah  ⌄ | NAMA PELANGGAN | NOMOR TELEPON | JUMLAH LAYANAN | STATUS AKUN | REGISTRASI |  | Budi Santoso | 0812 •••• 1234 | 2 | Aktif | 12 Jan 2024 | › | Siti Rahma | 0813 •••• 4402 | 1 | Aktif | 03 Mar 2024 | › | Dewi Lestari | 0821 •••• 8721 | 2 | Aktif | 22 Jun 2025 | › | Rizky Pratama | 0857 •••• 9916 | 1 | Nonaktif | 07 Sep 2025 | › | Gelap",
+        "instances": 1,
+        "autoLayouts": 47,
+        "reactionCount": 13,
+        "themeNodes": [
+          {
+            "name": "Theme / Toggle",
+            "x": 2705,
+            "y": 14742
+          },
+          {
+            "name": "Gelap",
+            "x": 2748.5,
+            "y": 14754.5
+          }
+        ],
+        "imageCount": 1
+      },
+      {
+        "id": "16:93",
+        "name": "Admin / Customer New / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | Workspace  ›  Customer New | Minggu, 4 Oktober 2026     NA | ←  Pelanggan | DATA OPERASIONAL | Tambah pelanggan | Isi identitas dan kontak pelanggan fiktif untuk simulasi. | Nama lengkap | Nomor WhatsApp | Wilayah | Bandung Utara  ⌄ | Alamat | Tanggal registrasi | 04/10/2026 | Dokumen identitas (opsional, demo) | Choose File    No file chosen | ☑  Buat akun pelanggan demo | Batal | Simpan pelanggan  →",
+        "instances": 1,
+        "autoLayouts": 22,
+        "reactionCount": 12,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:122",
+        "name": "Admin / Customer Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | Workspace  ›  Customer Detail | Minggu, 4 Oktober 2026     NA | ←  Pelanggan | DETAIL PELANGGAN | Budi Santoso | Terdaftar sejak 12 Jan 2024 | Overview | Layanan | Tiket | Riwayat | Nama lengkap | Budi Santoso | Nomor telepon | 0812 •••• 1234 | Wilayah | Bandung Utara | Tanggal registrasi | 12 Jan 2024 | Status akun | Aktif | Dokumen identitas | Placeholder dokumen. Tidak menggunakan data pribadi nyata.",
+        "instances": 1,
+        "autoLayouts": 15,
+        "reactionCount": 10,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:154",
+        "name": "Admin / Services / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | Workspace  ›  Services | Minggu, 4 Oktober 2026     NA | DATA OPERASIONAL | Layanan | Setiap layanan memiliki lokasi, status, dan riwayat tiketnya sendiri. | ⌕  Cari nomor layanan atau pelanggan | Semua status  ⌄ | Semua wilayah  ⌄ | NOMOR LAYANAN | PELANGGAN | PAKET | WILAYAH | STATUS LAYANAN | PEMASANGAN |  | SRV-2026-001 | Budi Santoso | Home Internet | Bandung Utara | Aktif | 14 Jan 2024 | › | SRV-2026-002 | Budi Santoso | Business Internet | Bandung Timur | Aktif | 08 Jul 2025 | › | SRV-2026-003 | Siti Rahma | Home Internet | Bandung Timur | Aktif | 04 Mar 2024 | › | SRV-2026-004 | Dewi Lestari | Home Internet | Bandung Selatan | Nonaktif | 26 Jun 2025 | ›",
+        "instances": 1,
+        "autoLayouts": 51,
+        "reactionCount": 12,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:185",
+        "name": "Admin / Service New / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | Workspace  ›  Service New | Minggu, 4 Oktober 2026     NA | ←  Layanan | DATA OPERASIONAL | Tambah layanan | Satu layanan terhubung ke satu pelanggan. | Pelanggan | Budi Santoso  ⌄ | Nama layanan | Internet Rumah | Paket / jenis layanan | Home Internet | Status administratif | Aktif  ⌄ | Wilayah | Bandung Utara  ⌄ | Alamat pemasangan | Koordinat (opsional) | -6.90, 107.60 | Tanggal pemasangan | 04/10/2026 | Batal | Simpan layanan  ✓",
+        "instances": 1,
+        "autoLayouts": 26,
+        "reactionCount": 12,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:214",
+        "name": "Admin / Service Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | Workspace  ›  Service Detail | Minggu, 4 Oktober 2026     NA | ←  Layanan | DETAIL LAYANAN | SRV-2026-001 | Internet Rumah | Informasi layanan | Pemilik | Budi Santoso | Paket | Home Internet | Status layanan | Aktif | Wilayah | Bandung Utara | Alamat | Jl. Cikutra No. 42, Bandung | Koordinat | -6.8881, 107.6472 | Tanggal pemasangan | 14 Jan 2024 | Catatan | Layanan pelanggan aktif dalam simulasi. | Lihat di peta  → | Riwayat tiket | #TKT-2026-014 | IN PROGRESS | Internet tidak dapat digunakan | Internet Rumah · Bandung Utara | 10 menit lalu  ›",
+        "instances": 1,
+        "autoLayouts": 20,
+        "reactionCount": 12,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:244",
+        "name": "Admin / Tickets / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / TIKET | Ticket Gangguan | Pantau prioritas, status, dan teknisi. | NEW | 1 | OPEN | 0 | IN PROGRESS | 1 | PENDING | 1 | Filter tiket | Cari ID, pelanggan, layanan | Status · Prioritas · Wilayah · Teknisi | Tanggal · Penugasan | Daftar tiket | #TKT-2026-015 · Dewi Lestari · CRITICAL · NEW · Belum ditugaskan | #TKT-2026-014 · Budi Santoso · HIGH · IN PROGRESS | #TKT-2026-013 · Budi Santoso · MEDIUM · PENDING | Workspace  ›  Tickets | Minggu, 4 Oktober 2026     NA",
+        "instances": 1,
+        "autoLayouts": 11,
+        "reactionCount": 9,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:285",
+        "name": "Admin / Ticket Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / TIKET | #TKT-2026-014 | Internet tidak dapat digunakan · HIGH · IN PROGRESS | Tambah Progress | Deskripsi & lampiran | Koneksi terputus. Indikator modem menyala merah. | Lampiran foto · Placeholder demo | Timeline | 08:42 Laporan dibuat | 08:55 Tiket diterima | 09:10 Andi Saputra ditugaskan | 10:05 Pemeriksaan lokasi | Panel kanan | Pelanggan · Budi Santoso | Layanan · SRV-2026-001 | Teknisi · Andi Saputra + Reza Putra | Response time · 14 menit | Tindakan | Assign · Change Priority · Change Status | Complete · Reopen · Archive (Admin) | Workspace  ›  Ticket Detail | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 8,
+        "reactionCount": 9,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:325",
+        "name": "Admin / Map / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / PETA | Peta Layanan | Lokasi pemasangan dan daftar hasil filter. | Pencarian dan filter | Cari pelanggan atau layanan | Wilayah · Status | Peta layanan | ● Bandung Utara · SRV-2026-001 | ● Bandung Timur · SRV-2026-002, SRV-2026-003 | Lokasi tanpa koordinat · SRV-2026-004 | State | Loading · Loaded · Failed · No Coordinate | Jika gagal, daftar layanan tetap tampil. | Workspace  ›  Map | Minggu, 4 Oktober 2026     NA",
+        "instances": 1,
+        "autoLayouts": 7,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:356",
+        "name": "Admin / Voucher / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / VOUCHER | Stok Voucher | Saldo voucher perusahaan per jenis. | Tambah Stok | Saldo saat ini | Voucher 10 GB · 342 | Voucher 20 GB · 127 | Voucher 50 GB · 58 | Koreksi dan riwayat | Tambah / Kurangi melalui dialog | Tanggal · Jenis · Kuantitas · Pengguna · Catatan | Workspace  ›  Voucher | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 6,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:385",
+        "name": "Admin / Import Export / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / DATA | Import / Export | Simulasi validasi data CSV dan ekspor contoh. | Pilih File CSV | Import | Upload → Validate → Preview → Confirm → Success | Tabel masalah: Baris · Field · Pesan | Import dinonaktifkan jika ada error. | Export | Jumlah baris contoh · 4 pelanggan | Konfirmasi ekspor · Unduh CSV demo | Workspace  ›  Import Export | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 6,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:414",
+        "name": "Admin / Users and Access / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / ADMINISTRASI | Pengguna & Akses | Kelola akun staff dan pelanggan. | Tambah Staff | Tabs | Staff     Client Accounts | Daftar akun | Nadia Amelia · Admin · Aktif | Rani Putri · Officer · Aktif | Andi Saputra · Technician · Aktif | Tindakan | Lihat · Edit Role · Aktifkan · Nonaktifkan | Konfirmasi untuk perubahan status akun. | Workspace  ›  Users and Access | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 7,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "16:446",
+        "name": "Admin / Settings / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | ADMIN / ADMINISTRASI | Pengaturan | Informasi perusahaan dan kontak prototype. | Simpan Perubahan | Informasi perusahaan | Nama · PT Nirwana Akses Teknologi | Zona waktu · WIB (UTC+7) | Kontak | Bantuan pelanggan · Belum dikonfirmasi | Website publik · Belum dikonfirmasi | Workspace  ›  Settings | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 6,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      }
+    ]
+  },
+  {
+    "id": "6:5",
+    "name": "08 — Officer",
+    "x": 0,
+    "y": 22750,
+    "width": 4590,
+    "height": 6700,
+    "frames": [
+      {
+        "id": "17:26",
+        "name": "Officer / Dashboard / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | OFFICER / DASHBOARD | Dashboard Operasional | Kondisi layanan dan tiket aktif. | Pelanggan | 4 | Layanan aktif | 3 | Tiket aktif | 3 | Belum ditugaskan | 1 | Filter | Tanggal · Wilayah · Teknisi | Tiket membutuhkan perhatian | #TKT-2026-015 · CRITICAL · NEW | #TKT-2026-014 · HIGH · IN PROGRESS | Workspace  ›  Dashboard | Minggu, 4 Oktober 2026     NA",
+        "instances": 1,
+        "autoLayouts": 11,
+        "reactionCount": 7,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:62",
+        "name": "Officer / Customers / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | Workspace  ›  Customers | Minggu, 4 Oktober 2026     NA | DATA OPERASIONAL | Pelanggan | Kelola data pelanggan dan layanan yang terhubung. | ⌕  Cari nama atau nomor telepon | Semua status  ⌄ | Semua wilayah  ⌄ | NAMA PELANGGAN | NOMOR TELEPON | JUMLAH LAYANAN | STATUS AKUN | REGISTRASI |  | Budi Santoso | 0812 •••• 1234 | 2 | Aktif | 12 Jan 2024 | › | Siti Rahma | 0813 •••• 4402 | 1 | Aktif | 03 Mar 2024 | › | Dewi Lestari | 0821 •••• 8721 | 2 | Aktif | 22 Jun 2025 | › | Rizky Pratama | 0857 •••• 9916 | 1 | Nonaktif | 07 Sep 2025 | ›",
+        "instances": 1,
+        "autoLayouts": 46,
+        "reactionCount": 10,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:88",
+        "name": "Officer / Customer Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | Workspace  ›  Customer Detail | Minggu, 4 Oktober 2026     NA | ←  Pelanggan | DETAIL PELANGGAN | Budi Santoso | Terdaftar sejak 12 Jan 2024 | Overview | Layanan | Tiket | Riwayat | Nama lengkap | Budi Santoso | Nomor telepon | 0812 •••• 1234 | Wilayah | Bandung Utara | Tanggal registrasi | 12 Jan 2024 | Status akun | Aktif | Dokumen identitas | Placeholder dokumen. Tidak menggunakan data pribadi nyata.",
+        "instances": 1,
+        "autoLayouts": 15,
+        "reactionCount": 8,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:115",
+        "name": "Officer / Services / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | Workspace  ›  Services | Minggu, 4 Oktober 2026     NA | DATA OPERASIONAL | Layanan | Setiap layanan memiliki lokasi, status, dan riwayat tiketnya sendiri. | ⌕  Cari nomor layanan atau pelanggan | Semua status  ⌄ | Semua wilayah  ⌄ | NOMOR LAYANAN | PELANGGAN | PAKET | WILAYAH | STATUS LAYANAN | PEMASANGAN |  | SRV-2026-001 | Budi Santoso | Home Internet | Bandung Utara | Aktif | 14 Jan 2024 | › | SRV-2026-002 | Budi Santoso | Business Internet | Bandung Timur | Aktif | 08 Jul 2025 | › | SRV-2026-003 | Siti Rahma | Home Internet | Bandung Timur | Aktif | 04 Mar 2024 | › | SRV-2026-004 | Dewi Lestari | Home Internet | Bandung Selatan | Nonaktif | 26 Jun 2025 | ›",
+        "instances": 1,
+        "autoLayouts": 51,
+        "reactionCount": 10,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:141",
+        "name": "Officer / Service Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | Workspace  ›  Service Detail | Minggu, 4 Oktober 2026     NA | ←  Layanan | DETAIL LAYANAN | SRV-2026-001 | Internet Rumah | Informasi layanan | Pemilik | Budi Santoso | Paket | Home Internet | Status layanan | Aktif | Wilayah | Bandung Utara | Alamat | Jl. Cikutra No. 42, Bandung | Koordinat | -6.8881, 107.6472 | Tanggal pemasangan | 14 Jan 2024 | Catatan | Layanan pelanggan aktif dalam simulasi. | Lihat di peta  → | Riwayat tiket | #TKT-2026-014 | IN PROGRESS | Internet tidak dapat digunakan | Internet Rumah · Bandung Utara | 10 menit lalu  ›",
+        "instances": 1,
+        "autoLayouts": 20,
+        "reactionCount": 10,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:168",
+        "name": "Officer / Tickets / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | OFFICER / TIKET | Ticket Gangguan | Pantau dan tindak lanjuti laporan. | NEW | 1 | IN PROGRESS | 1 | PENDING | 1 | Filter | Cari ID · Status · Prioritas · Wilayah | Teknisi · Tanggal · Penugasan | Daftar tiket | #TKT-2026-015 · CRITICAL · NEW | #TKT-2026-014 · HIGH · IN PROGRESS | #TKT-2026-013 · MEDIUM · PENDING | Workspace  ›  Tickets | Minggu, 4 Oktober 2026     NA",
+        "instances": 1,
+        "autoLayouts": 10,
+        "reactionCount": 7,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:203",
+        "name": "Officer / Ticket Detail / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | OFFICER / TIKET | #TKT-2026-014 | Internet tidak dapat digunakan · IN PROGRESS | Assign Teknisi | Timeline | Laporan dibuat · Tiket diterima | Andi Saputra ditugaskan · Pemeriksaan lokasi | Progress | Status · IN PROGRESS | Catatan tindakan · Form | Tindakan | Assign · Change Priority · Change Status | Complete · Reopen setelah selesai | Workspace  ›  Ticket Detail | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 7,
+        "reactionCount": 7,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:233",
+        "name": "Officer / Map / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | OFFICER / PETA | Peta Layanan | Lokasi layanan dan daftar filter. | Peta | ● Bandung Utara · SRV-2026-001 | ● Bandung Timur · SRV-2026-002 | Lokasi tanpa koordinat · SRV-2026-004 | State | Loading · Loaded · Failed | Daftar tetap ada jika map gagal. | Workspace  ›  Map | Minggu, 4 Oktober 2026     NA",
+        "instances": 1,
+        "autoLayouts": 6,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:258",
+        "name": "Officer / Voucher / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | OFFICER / VOUCHER | Stok Voucher | Saldo voucher perusahaan. | Koreksi Stok | Saldo | 10 GB · 342 | 20 GB · 127 | 50 GB · 58 | Riwayat mutasi | Tanggal · Jenis · Jumlah · Pengguna · Catatan | Workspace  ›  Voucher | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 6,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:284",
+        "name": "Officer / Import Export / Desktop",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Nadia Officer · Officer Operasional | OFFICER / DATA | Import / Export | Validasi dan ekspor data demo. | Pilih CSV | Import | Upload → Validate → Preview → Confirm → Success | Masalah per baris dan field | Export | Pratinjau jumlah data | Konfirmasi · Unduh CSV demo | Workspace  ›  Import Export | Minggu, 4 Oktober 2026     NA",
+        "instances": 2,
+        "autoLayouts": 6,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      }
+    ]
+  },
+  {
+    "id": "6:6",
+    "name": "09 — Technician",
+    "x": 0,
+    "y": 29700,
+    "width": 4590,
+    "height": 2844,
+    "frames": [
+      {
+        "id": "17:310",
+        "name": "Technician / Dashboard / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | TECHNICIAN / DASHBOARD | Selamat pagi, Andi | Pekerjaan lapangan yang perlu ditangani. | Pekerjaan saya | 2 | Belum ditugaskan | 1 | Lihat Tiket | Pekerjaan Saya | #TKT-2026-014 · HIGH | Internet tidak dapat digunakan | Budi Santoso · Bandung Utara | Tiket Belum Ditugaskan | #TKT-2026-015 · CRITICAL | Internet mati total · Klaim tiket | Ringkasan | Pending · 1 | Selesai hari ini · 1 | Dashboard | Ticket | Peta | Voucher | Profil",
+        "instances": 2,
+        "autoLayouts": 9,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:339",
+        "name": "Technician / Tickets / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | TECHNICIAN / TIKET | Ticket Saya | Daftar pekerjaan aktif dan tersedia. | Klaim Tiket | Ditugaskan kepada saya | #TKT-2026-014 · IN PROGRESS | Budi Santoso · Jl. Cikutra No. 42 | Belum ditugaskan | #TKT-2026-015 · NEW | Dewi Lestari · Bandung Selatan | Dashboard | Ticket | Peta | Voucher | Profil",
+        "instances": 2,
+        "autoLayouts": 5,
+        "reactionCount": 6,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:356",
+        "name": "Technician / Ticket Detail / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | TECHNICIAN / TIKET | #TKT-2026-014 | Internet tidak dapat digunakan · HIGH | Simpan Update | Informasi pekerjaan | Budi Santoso · SRV-2026-001 | Jl. Cikutra No. 42 · Bandung Utara | Status · IN PROGRESS | Teknisi lain · Reza Putra | Timeline | 08:42 Laporan dibuat | 08:55 Tiket diterima | 10:05 Pemeriksaan lokasi | Update Progress | Status · Pilih status | Catatan tindakan · Teks | Foto progress · Opsional | Pending · Selesai | Dashboard | Ticket | Peta | Voucher | Profil",
+        "instances": 2,
+        "autoLayouts": 6,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:382",
+        "name": "Technician / Map / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | TECHNICIAN / PETA | Peta Layanan | Lokasi pekerjaan lapangan. | Peta pekerjaan | ● Bandung Utara | ● Bandung Timur | Titik lokasi sesuai layanan | Daftar pekerjaan | #TKT-2026-014 · Jl. Cikutra No. 42 | Buka detail tiket | Dashboard | Ticket | Peta | Voucher | Profil",
+        "instances": 1,
+        "autoLayouts": 5,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:398",
+        "name": "Technician / Voucher / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | TECHNICIAN / VOUCHER | Stok Voucher | Lihat saldo stok perusahaan. | Saldo | Voucher 10 GB · 342 | Voucher 20 GB · 127 | Voucher 50 GB · 58 | Akses | Perubahan stok dikelola Admin/Officer. | Teknisi melihat stok dan riwayat. | Dashboard | Ticket | Peta | Voucher | Profil",
+        "instances": 1,
+        "autoLayouts": 5,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      },
+      {
+        "id": "17:414",
+        "name": "Technician / Profile / Mobile",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | TECHNICIAN / PROFIL | Profil Saya | Informasi akun teknisi contoh. | Data teknisi | Andi Saputra | Peran · Teknisi | Wilayah · Bandung Utara | Nomor telepon · 0822 •••• 1265 | Dashboard | Ticket | Peta | Voucher | Profil",
+        "instances": 1,
+        "autoLayouts": 4,
+        "reactionCount": 5,
+        "themeNodes": [],
+        "imageCount": 1
+      }
+    ]
+  },
+  {
+    "id": "6:7",
+    "name": "10 — Prototype",
+    "x": 9600,
+    "y": 5200,
+    "width": 3000,
+    "height": 2500,
+    "frames": []
+  },
+  {
+    "id": "6:8",
+    "name": "98 — Codex Working Area",
+    "x": 0,
+    "y": 10100,
+    "width": 1600,
+    "height": 800,
+    "frames": []
+  },
+  {
+    "id": "6:9",
+    "name": "99 — Archive",
+    "x": 1800,
+    "y": 10100,
+    "width": 1600,
+    "height": 800,
+    "frames": []
+  },
+  {
+    "id": "6:10",
+    "name": "04 — User Flows",
+    "x": 5232,
+    "y": 9850,
+    "width": 3600,
+    "height": 1300,
+    "frames": []
+  },
+  {
+    "id": "340:346",
+    "name": "11 — Theme / Light & Dark",
+    "x": 0,
+    "y": 33000,
+    "width": 4590,
+    "height": 1100,
+    "frames": [
+      {
+        "id": "340:347",
+        "name": "Client / Dashboard / Desktop / Dark",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | Beranda | Layanan Saya | Tiket Saya | Profil | Bantuan | Budi Santoso | BS | PORTAL PELANGGAN | Halo, Budi 👋 | Berikut informasi layanan dan laporan gangguan Anda. | + Buat laporan | Layanan aktif | 2 | Di 2 lokasi berbeda | Tiket aktif | 2 | Sedang dalam penanganan | Tiket selesai | 7 | Riwayat penanganan | Layanan Saya | Lihat semua  → | AKTIF | Internet Rumah | SRV-2026-001 | Paket       Home Internet\nLokasi      Bandung Utara | Lihat detail  → | Laporkan gangguan | AKTIF | Internet Kantor | SRV-2026-002 | Paket       Business Internet\nLokasi      Bandung Timur | Lihat detail  → | Laporkan gangguan | Tiket Aktif | Lihat semua  → | #TKT-2026-014 | IN PROGRESS | Internet tidak dapat digunakan | Internet Rumah · Bandung Utara | 10 menit lalu  › | #TKT-2026-013 | PENDING | Koneksi lambat pada jam kerja | Internet Kantor · Bandung Timur | 2 jam lalu  › | Terang",
+        "instances": 2,
+        "autoLayouts": 30,
+        "reactionCount": 15,
+        "themeNodes": [
+          {
+            "name": "Theme / Toggle",
+            "x": 1175,
+            "y": 33942
+          },
+          {
+            "name": "Terang",
+            "x": 1215.5,
+            "y": 33954.5
+          }
+        ],
+        "imageCount": 1
+      },
+      {
+        "id": "340:464",
+        "name": "Auth / Login / Desktop / Dark",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | NIRWANA MANAGEMENT SYSTEM | Satu ruang kerja.\nSemua layanan terhubung. | Akses informasi layanan, kelola laporan gangguan, dan pantau setiap langkah penanganan dengan mudah. | PT Nirwana Akses Teknologi · Prototype 2026 | SELAMAT DATANG KEMBALI | Masuk ke akun Anda | Gunakan nomor telepon yang terdaftar untuk melanjutkan. | Nomor WhatsApp / Nomor Telepon | Contoh: 0812 3456 7890 | Password | Masukkan password | Lupa password? | Masuk  → | Prototype: isi sembarang nomor dan password. Gunakan Mode demo untuk mencoba peran lain. | Terang",
+        "instances": 1,
+        "autoLayouts": 11,
+        "reactionCount": 3,
+        "themeNodes": [
+          {
+            "name": "Theme / Toggle",
+            "x": 2705,
+            "y": 33942
+          },
+          {
+            "name": "Terang",
+            "x": 2745.5,
+            "y": 33954.5
+          }
+        ],
+        "imageCount": 1
+      },
+      {
+        "id": "340:504",
+        "name": "Admin / Customers / Desktop / Dark",
+        "texts": "Nirwana | MANAGEMENT SYSTEM | WORKSPACE | Dashboard | Pelanggan | Layanan | Tiket | Peta Layanan | Stok Voucher | Import / Export | Pengguna & Akses | Pengaturan | Nadia Amelia · Administrator | Workspace  ›  Customers | Minggu, 4 Oktober 2026     NA | DATA OPERASIONAL | Pelanggan | Kelola data pelanggan dan layanan yang terhubung. | ⌕  Cari nama atau nomor telepon | Semua status  ⌄ | Semua wilayah  ⌄ | NAMA PELANGGAN | NOMOR TELEPON | JUMLAH LAYANAN | STATUS AKUN | REGISTRASI |  | Budi Santoso | 0812 •••• 1234 | 2 | Aktif | 12 Jan 2024 | › | Siti Rahma | 0813 •••• 4402 | 1 | Aktif | 03 Mar 2024 | › | Dewi Lestari | 0821 •••• 8721 | 2 | Aktif | 22 Jun 2025 | › | Rizky Pratama | 0857 •••• 9916 | 1 | Nonaktif | 07 Sep 2025 | › | Terang",
+        "instances": 1,
+        "autoLayouts": 47,
+        "reactionCount": 13,
+        "themeNodes": [
+          {
+            "name": "Theme / Toggle",
+            "x": 4235,
+            "y": 33942
+          },
+          {
+            "name": "Terang",
+            "x": 4275.5,
+            "y": 33954.5
+          }
+        ],
+        "imageCount": 1
+      }
+    ]
+  }
+]

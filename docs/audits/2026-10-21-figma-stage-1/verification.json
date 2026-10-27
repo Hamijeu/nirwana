@@ -1,0 +1,30 @@
+{
+  "baselineCommit": "141ddff2637ecbdeb1e5f590950a8c123f771501",
+  "routeCount": 50,
+  "existingFrameCount": 53,
+  "routeActions": {
+    "REVISI": 43,
+    "TAMBAH": 7
+  },
+  "byRole": {
+    "Public": 1,
+    "Portal": 1,
+    "Auth": 4,
+    "Client": 8,
+    "Admin": 16,
+    "Officer": 14,
+    "Technician": 6
+  },
+  "missingRouteFrames": [
+    "/portal",
+    "/admin/customers/:id/edit",
+    "/admin/services/:id/edit",
+    "/officer/customers/new",
+    "/officer/customers/:id/edit",
+    "/officer/services/new",
+    "/officer/services/:id/edit"
+  ],
+  "metadataSha256": "3fee5c94d0d0f3ba8d118a78a541176221c9e47ba0deae473c5140209c06ea6e",
+  "metadataNodeCount": 2186,
+  "note": "Counts are route patterns and existing screen frames, not final frame/state count."
+}

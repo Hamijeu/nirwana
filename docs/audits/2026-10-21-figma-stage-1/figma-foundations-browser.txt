@@ -1,0 +1,178 @@
+Browser tab: 19, Title: "Nirwana – Figma", URL: "https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=0-1&p=f&t=U4vhK5gHSIETbxOw-0".
+0 AXWebArea Nirwana – Figma, URL: figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=0-1&p=f&t=U4vhK5gHSIETbxOw-0
+	1 container react-page
+		7 container
+			174 container fullscreen-root
+				175 container Figma Design
+			8 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+			176 container Comments on canvas
+				177 button Create new comment
+			11 container Left sidebar
+				12 toolbar Navigation Bar
+					13 pop up button (collapsed) Description: Main menu, ID: :r6:-trigger, Secondary Actions: Expand
+						14 image
+					15 button (expanded) Description: File, Secondary Actions: Collapse
+						16 image
+						17 text File
+					18 button (collapsed) Description: Agents, Secondary Actions: Expand
+						19 text Agents
+					20 button (collapsed) Description: Assets, Secondary Actions: Expand
+						21 image
+						22 text Assets
+					23 button (collapsed) Description: Tools, Secondary Actions: Expand
+						24 image
+						25 text Tools
+					26 button (collapsed) Description: Variables, Secondary Actions: Expand
+						27 image
+						28 text Variables
+				29 container left-panel-container
+					30 container
+						31 button Nirwana, file name
+						32 text File name
+						33 pop up button (collapsed) Description: Edit file menu, ID: :rb:, Secondary Actions: Expand
+						34 button Minimize UI
+						35 link Description: Team project, Value: figma.com/files/team/1112011876501429930/project/57679135
+						36 button Free
+						37 heading Pages Find Add new page, Value: 2
+							38 button (expanded) Pages, Secondary Actions: Collapse
+							39 button Description: Find, ID: canvas-search-icon-button
+							40 button Add new page
+						41 container
+							42 container
+								43 table
+									44 row (selectable) 00 — Cover & Foundations
+										45 cell
+											46 button 00 — Cover & Foundations
+									47 row (selectable) 01 — Components & Patterns
+										48 cell
+											49 button 01 — Components & Patterns
+									50 row (selectable) 02 — Screens & Flows
+										51 cell
+											52 button 02 — Screens & Flows
+							53 slider Description: Resize handle, Value: 100
+						54 heading Layers, Value: 2
+							55 button (expanded) Layers, Secondary Actions: Collapse
+						56 table
+							57 container
+								178 row (selectable, collapsed) 01 — Foundations, Secondary Actions: Expand
+									179 container
+										180 cell
+											181 text 01 — Foundations
+								182 row (selectable, collapsed) 00 — Cover & Notes, Secondary Actions: Expand
+									183 container
+										184 cell
+											185 text 00 — Cover & Notes
+					66 slider Description: Resize handle, Value: 280
+			67 container Right sidebar
+				68 container
+					69 container
+						70 pop up button (collapsed) Description: Multiplayer tools, ID: self-avatar-with-tools-container, Secondary Actions: Expand
+							71 image
+						72 container Prototype view
+							73 button Description: Present, ID: :rt:
+							74 pop up button (collapsed) Description: Prototype view, ID: :rs:, Secondary Actions: Expand
+						75 button Share
+						76 tab group
+							77 tab (selected, settable, boolean) Design, Value: 1, ID: tab:r10:-0-trigger
+							78 tab (selectable, settable, boolean) Prototype, Value: 0, ID: tab:r10:-1-trigger
+						79 pop up button (collapsed) Description: 11%, zoom and view options, ID: :r13:, Secondary Actions: Expand
+							80 text 11%
+							81 image
+						186 container
+							187 text Page
+							188 button Solid color hex: 1E1E1E
+							189 container
+								190 text Color
+								191 stepper (settable, integer) Description: Color, Value: 0, Details: 1E1E1E, ID: :r73:
+							192 container
+								193 text field (settable) %, Value: 100
+								194 text %
+							195 checkbox (settable, integer) Description: Toggle visibility, Value: 1, ID: :r74:
+							196 text Toggle visibility
+							197 heading Styles, Value: 2
+								198 text Styles
+							199 pop up button (collapsed) Description: Create style, ID: :r7b:, Secondary Actions: Expand
+							200 heading Text styles, Value: 3
+								201 text Text styles
+							202 button Create text style
+							203 outline
+								204 row (collapsed) Secondary Actions: Expand
+									205 cell (collapsed) Secondary Actions: Expand
+										206 button (collapsed) Description: Toggle folder, Secondary Actions: Expand
+									207 cell
+										208 button Text
+									209 cell
+										210 button Create style
+								211 row (collapsed) Secondary Actions: Expand
+									212 cell (collapsed) Secondary Actions: Expand
+										213 button (collapsed) Description: Toggle folder, Secondary Actions: Expand
+									214 cell
+										215 button Nirwana
+									216 cell
+										217 button Create style
+							218 heading Effect styles, Value: 3
+								219 text Effect styles
+							220 button Create effect style
+							221 outline
+								222 row (collapsed) Secondary Actions: Expand
+									223 cell (collapsed) Secondary Actions: Expand
+										224 button (collapsed) Description: Toggle folder, Secondary Actions: Expand
+									225 cell
+										226 button Nirwana
+									227 cell
+										228 button Create style
+							229 heading Layout guide styles, Value: 3
+								230 text Layout guide styles
+							231 button Create layout guide style
+							232 outline
+								233 row (collapsed) Secondary Actions: Expand
+									234 cell (collapsed) Secondary Actions: Expand
+										235 button (collapsed) Description: Toggle folder, Secondary Actions: Expand
+									236 cell
+										237 button Nirwana
+									238 cell
+										239 button Create style
+							240 button Export
+							241 button Add export settings
+							242 text MCP
+							243 text 1 connection
+							244 button Set up agents for Figma MCP
+					141 slider Description: Resize handle, Value: 241
+		142 container Application toolbar
+			143 toolbar Editor
+				144 container Move
+					145 checkbox Description: Move, Value: 1
+						146 image
+					147 checkbox (collapsed) Description: Move tools, Value: 0, ID: :r2r:, Secondary Actions: Expand
+				148 container Frame
+					149 checkbox Description: Frame, Value: 0
+						150 image
+					151 checkbox (collapsed) Description: Region tools, Value: 0, ID: :r30:, Secondary Actions: Expand
+				152 container Rectangle
+					153 checkbox Description: Rectangle, Value: 0
+						154 image
+					155 checkbox (collapsed) Description: Shape tools, Value: 0, ID: :r35:, Secondary Actions: Expand
+				156 container Pen
+					157 checkbox Description: Pen, Value: 0
+						158 image
+					159 checkbox (collapsed) Description: Creation tools, Value: 0, ID: :r3a:, Secondary Actions: Expand
+				160 container Text
+					161 checkbox Description: Text, Value: 0
+						162 image
+					163 checkbox (collapsed) Description: Type tools, Value: 0, ID: :r3f:, Secondary Actions: Expand
+				164 checkbox Description: Comment (1 unread), Value: 0
+					165 image
+				166 checkbox Description: Actions, Value: 0
+					167 image
+				168 Toolbelt Mode
+					169 text Toolbelt Mode
+					170 radio button (settable, integer) Description: Draw, Value: 0, ID: :r2o:-illustration
+					171 radio button (settable, integer) Description: Design, Value: 1, ID: :r2o:-design
+					172 radio button (settable, integer) Description: Motion, Value: 0, ID: :r2o:-metronome
+					173 radio button (settable, integer) Description: Dev Mode, Value: 0, ID: :r2o:-handoff
+		3 container Help/zoom toolbar
+			4 toolbar Help/zoom toolbar
+				5 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					6 image
+
+The focused UI element is 175 container Figma Design

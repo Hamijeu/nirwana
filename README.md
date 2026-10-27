@@ -10,7 +10,7 @@ React 19, Vite 6, JavaScript, CSS, Lucide React. Package manager: npm (`package-
 npm ci
 npm run dev
 npm run build
-node --test src/domain.test.js
+node --test src/*.test.js
 ```
 
 Vite biasanya menampilkan `http://127.0.0.1:5173/`. Route lokal memakai History API.
@@ -50,3 +50,21 @@ Warna dasar: biru `#2563EB`, sukses `#16A34A`, peringatan `#F59E0B`, bahaya `#DC
 ## Batas dan asumsi
 
 Prototype tidak menyimpan data setelah refresh. CSV diimpor sebagai simulasi validasi dan preview; tombol ekspor menghasilkan CSV demo. Peta adalah ilustrasi, bukan geolokasi. Kategori masalah, prioritas, KPI, dan copy website memerlukan konfirmasi. Lihat [ASSUMPTIONS.md](ASSUMPTIONS.md) dan [UI_AUDIT.md](UI_AUDIT.md).
+
+## Revisi lokal 26 Oktober 2026
+
+Kategori laporan Client bersifat opsional; Nira simulasi menawarkan kategori untuk dikonfirmasi. Admin/Officer dapat memeriksa kategori dengan jejak audit. Petugas membuat laporan pelanggan dengan prioritas; layanan Aktif diterbitkan New/Tidak Wajib, sedangkan Nonaktif diperiksa sebelum penerbitan.
+
+Menu Arsip Tiket (`/admin/archives`) khusus Admin dan seluruh arsip baca saja. Informasi waktu memakai timestamp yang benar-benar tercatat; data lama tanpa timestamp ditampilkan Belum tersedia. Peta tetap ilustrasi, dengan filter dan daftar lokasi tanpa koordinat.
+
+Ledger voucher disimpan di state aplikasi selama tab terbuka: jenis, saldo unit, mutasi dan koreksi tertaut. Teknisi dapat mencatat mutasi; pengelolaan jenis/koreksi khusus Admin/Officer. Perpindahan halaman/peran mempertahankan state; refresh mengembalikan fixture demo. Login, OTP, dan perubahan akun tetap simulasi lokal.
+
+## Company profile 27 Oktober 2026
+
+Mode demo menyediakan **Company Profile** (`/`) dan **Company Profile Beta Page** (`/company-profile-beta`). Beta menampilkan salinan staging untuk pembanding. Halaman utama mengambil gaya kartu paket dan footer referensi, dengan katalog serta aksi konsultasi lokal tetap dipertahankan. Detail sumber, batas salinan, dan hasil verifikasi: [audit company profile](docs/audits/2026-10-27-company-reference.md). Checkpoint utama tetap rollback #010; backup batch #011.
+
+Halaman utama juga menyediakan timeline berlangganan dan konsultasi alamat yang diteruskan ke **Tentang Kami**. Galeri teknisi tetap menjadi pembuka Tentang Kami, diikuti profil, ilustrasi jaringan, portal, formulir konsultasi dan peta kantor. Informasi kontak beta telah dikonfirmasi pengguna; tombol WhatsApp menyiapkan draf dan pengguna mengirimnya sendiri. Statistik, logo pelanggan institusi dan cakupan otomatis belum ditambahkan. Lihat [audit penataan konten](docs/audits/2026-10-27-company-about-content.md); backup sebelum batch ini #016.
+
+Pembaruan berikutnya mengganti formulir alamat di halaman utama dengan peta pin dari beta: lokasi kantor, pengenalan kecamatan, geolocation dan tautan WhatsApp. Ketersediaan pemasangan akhir dikonfirmasi tim Nirwana. Label ilustrasi/prototype pada main/About dihapus sesuai permintaan pengguna, sementara atribusi peta tetap ada. Sumber pin dan hasil uji: [audit peta publik](docs/audits/2026-10-27-public-coverage.md). Backup sebelum perubahan #018.
+
+Bukti dan cakupan: [audit revisi](docs/audits/2026-10-26-document-revisions.md). Snapshot sebelum revisi: rollback #009 pada folder saudara `nirwana-rollbacks`.

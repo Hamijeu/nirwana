@@ -1,0 +1,238 @@
+[
+  {
+    "route": "/",
+    "heading": "Internet yang pas untuk setiap kebutuhan.",
+    "scrollWidth": 1440,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nBeranda\nPaket Internet\nTentang\nBantuan\nMasuk Portal\nPT NIRWANA AKSES TEKNOLOGI\nInternet yang pas untuk setiap kebutuhan.\n\nKonektivitas untuk rumah, bisnis, dan sekolah. Hubungi tim kami untuk membahas kebutuhan layanan Anda.\n\nLihat paket\nPAKET INTERNET\nPilih koneksi yang pas untuk Anda.\n\nDari kebutuhan sehari-hari hingga solusi untuk usaha.\n\nHarga ilustrasi · Prototype\nInternet Rumah\nBisnis & Custom\nHome Lite\n\nMulai dari kebutuhan sehari-hari.\n\nHingga\n30\nMbps\nRp179.000\n/bulan\nBrowsing & media sosial\nBelajar dari rumah\nBantuan melalui portal\nTanya paket ini\nHome Comfort\n\nLebih nyaman untuk keluarga kecil.\n\nHingga\n50\nMbps\nRp229.000\n/bulan\nStreaming & video call\nBekerja dari rumah\nBantuan melalui portal\nTanya paket ini\nPaling populer\nHome Family\n\nSatu koneksi untuk aktivitas keluarga.\n\nHingga\n100\nMbps\nRp299.000\n/bulan\nBanyak aktivitas bersamaan\nHiburan & kerja online\nBantuan melalui portal\nTanya paket ini\nHome Ultimate\n\nRuang lebih luas untuk kebutuhan digital.\n\nHingga\n300\nMbps\nRp499.000\n/bulan\nStreaming resolusi tinggi\nUnduh file berukuran besar\nBantuan melalui portal\nTanya paket ini\n\nHarga dan kecepatan merupakan contoh untuk desain, bukan penawaran resmi. Harga per bulan belum termasuk pajak dan biaya pemasangan. Layanan mengikuti ketersediaan area.\n\nTENTANG NIRWANA\nKoneksi untuk keseharian Anda.\n\nPT Nirwana Akses Teknologi menyediakan pilihan internet untuk rumah, bisnis, dan sekolah, dengan bantuan pelanggan dalam satu portal.\n\nADA PERTANYAAN?\nKami bantu memilih paket.\n\nTanyakan harga, kebutuhan koneksi, atau area pemasangan lewat Nira.\n\nTanya Nira\nNirwana\nMANAGEMENT SYSTEM\n\nPT Nirwana Akses Teknologi · Koneksi untuk rumah, bisnis, dan sekolah.\n\nPaket Internet\nTentang\nBantuan\n© 2026 PT Nirwana Akses Teknologi. Hak Cipta Dilindungi.\nPrototype UI/UX\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Akses Teknologi — Pilihan Internet untuk Anda",
+    "width": 1440,
+    "screenshot": "screenshots/public-1440.png"
+  },
+  {
+    "route": "/login",
+    "scrollWidth": 1440,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nPT Nirwana Akses Teknologi · Prototype 2026\nSELAMAT DATANG KEMBALI\nMasuk ke akun Anda\n\nGunakan nomor telepon yang terdaftar untuk melanjutkan.\n\nNomor WhatsApp / Nomor Telepon\nPassword\nLupa password?\nMasuk\nPrototype: isi sembarang nomor dan password. Gunakan Mode demo untuk mencoba peran lain.\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 1440,
+    "screenshot": "screenshots/login-1440.png"
+  },
+  {
+    "route": "/client/dashboard",
+    "heading": "Halo, Budi 👋",
+    "scrollWidth": 1425,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nBeranda\nLayanan Saya\nTiket Saya\nProfil\nBantuan\nBS\nBudi Santoso\nPORTAL PELANGGAN\nHalo, Budi 👋\n\nBerikut informasi layanan dan laporan gangguan Anda.\n\nBuat laporan\nLayanan aktif\n2\nDi 2 lokasi berbeda\nTiket aktif\n2\nSedang dalam penanganan\nTiket selesai\n7\nRiwayat penanganan\nLayanan Saya\nLihat semua\nAKTIF\nInternet Rumah\nSRV-2026-001\nPaket\nHome Internet\nLokasi\nBandung Utara\nLihat detail\nLaporkan gangguan\nAKTIF\nInternet Kantor\nSRV-2026-002\nPaket\nBusiness Internet\nLokasi\nBandung Timur\nLihat detail\nLaporkan gangguan\nTiket Aktif\nLihat semua\n#TKT-2026-014\nIN PROGRESS\nInternet tidak dapat digunakan\nInternet Rumah · Bandung Utara\n10 menit lalu\n#TKT-2026-013\nPENDING\nKoneksi lambat pada jam kerja\nInternet Kantor · Bandung Timur\n2 jam lalu\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 1440,
+    "screenshot": "screenshots/client-1440.png"
+  },
+  {
+    "route": "/admin/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 1425,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nADMINISTRATION\nPengguna & Akses\nPengaturan\nNA\nNadia Amelia\nAdministrator\nWorkspace\nDashboard\nMinggu, 4 Oktober 2026\nNA\nADMIN WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\tMASALAH\tPELANGGAN\tLAYANAN\tPRIORITAS\tSTATUS\tTEKNISI\tWAKTU\n#TKT-2026-014\tInternet tidak dapat digunakan\tBudi Santoso\tSRV-2026-001\tHIGH\tIN PROGRESS\tAndi Saputra\t10 menit lalu\n#TKT-2026-013\tKoneksi lambat pada jam kerja\tBudi Santoso\tSRV-2026-002\tMEDIUM\tPENDING\tReza Putra\t2 jam lalu\n#TKT-2026-015\tInternet mati total\tDewi Lestari\tSRV-2026-004\tCRITICAL\tNEW\tBelum ditugaskan\t15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\n10 menit lalu\nTiket #TKT-2026-015 menunggu penugasan\n15 menit lalu\nTiket #TKT-2026-012 selesai ditangani\n2 hari lalu\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 1440,
+    "screenshot": "screenshots/admin-1440.png"
+  },
+  {
+    "route": "/officer/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 1425,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nNO\nNadia Officer\nOfficer Operasional\nWorkspace\nDashboard\nMinggu, 4 Oktober 2026\nNA\nOFFICER WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\tMASALAH\tPELANGGAN\tLAYANAN\tPRIORITAS\tSTATUS\tTEKNISI\tWAKTU\n#TKT-2026-014\tInternet tidak dapat digunakan\tBudi Santoso\tSRV-2026-001\tHIGH\tIN PROGRESS\tAndi Saputra\t10 menit lalu\n#TKT-2026-013\tKoneksi lambat pada jam kerja\tBudi Santoso\tSRV-2026-002\tMEDIUM\tPENDING\tReza Putra\t2 jam lalu\n#TKT-2026-015\tInternet mati total\tDewi Lestari\tSRV-2026-004\tCRITICAL\tNEW\tBelum ditugaskan\t15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\n10 menit lalu\nTiket #TKT-2026-015 menunggu penugasan\n15 menit lalu\nTiket #TKT-2026-012 selesai ditangani\n2 hari lalu\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 1440,
+    "screenshot": "screenshots/officer-1440.png"
+  },
+  {
+    "route": "/technician/dashboard",
+    "heading": "Selamat pagi, Andi 👋",
+    "scrollWidth": 1425,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nFIELD WORKSPACE\nDashboard\nTicket\nPeta\nVoucher\nProfil\nAS\nAndi Saputra\nTeknisi Lapangan\nWorkspace Teknisi\nDashboard\nAS\nWORKSPACE TEKNISI\nSelamat pagi, Andi 👋\n\nBerikut pekerjaan yang perlu Anda tangani hari ini.\n\nPekerjaan saya\n5\nPerlu dikerjakan\n3\nPending\n1\nSelesai hari ini\n4\nPekerjaan Saya\nLihat semua\nHIGH\n#TKT-2026-014\nInternet tidak dapat digunakan\n\nBudi Santoso\n\nJl. Cikutra No. 42, Bandung\nIN PROGRESS\nLihat tiket\nLOW\n#TKT-2026-012\nSinyal Wi-Fi tidak stabil\n\nSiti Rahma\n\nJl. Antapani No. 7, Bandung\nSELESAI\nLihat tiket\nTiket belum ditugaskan\nCRITICAL\n#TKT-2026-015\nInternet mati total\n\nDewi Lestari · Bandung Selatan\n\nKlaim tiket\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 1440,
+    "screenshot": "screenshots/technician-1440.png"
+  },
+  {
+    "route": "/",
+    "heading": "Internet yang pas untuk setiap kebutuhan.",
+    "scrollWidth": 375,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nPT NIRWANA AKSES TEKNOLOGI\nInternet yang pas untuk setiap kebutuhan.\n\nKonektivitas untuk rumah, bisnis, dan sekolah. Hubungi tim kami untuk membahas kebutuhan layanan Anda.\n\nLihat paket\nPAKET INTERNET\nPilih koneksi yang pas untuk Anda.\n\nDari kebutuhan sehari-hari hingga solusi untuk usaha.\n\nHarga ilustrasi · Prototype\nInternet Rumah\nBisnis & Custom\nHome Lite\n\nMulai dari kebutuhan sehari-hari.\n\nHingga\n30\nMbps\nRp179.000\n/bulan\nBrowsing & media sosial\nBelajar dari rumah\nBantuan melalui portal\nTanya paket ini\nHome Comfort\n\nLebih nyaman untuk keluarga kecil.\n\nHingga\n50\nMbps\nRp229.000\n/bulan\nStreaming & video call\nBekerja dari rumah\nBantuan melalui portal\nTanya paket ini\nPaling populer\nHome Family\n\nSatu koneksi untuk aktivitas keluarga.\n\nHingga\n100\nMbps\nRp299.000\n/bulan\nBanyak aktivitas bersamaan\nHiburan & kerja online\nBantuan melalui portal\nTanya paket ini\nHome Ultimate\n\nRuang lebih luas untuk kebutuhan digital.\n\nHingga\n300\nMbps\nRp499.000\n/bulan\nStreaming resolusi tinggi\nUnduh file berukuran besar\nBantuan melalui portal\nTanya paket ini\n\nHarga dan kecepatan merupakan contoh untuk desain, bukan penawaran resmi. Harga per bulan belum termasuk pajak dan biaya pemasangan. Layanan mengikuti ketersediaan area.\n\nTENTANG NIRWANA\nKoneksi untuk keseharian Anda.\n\nPT Nirwana Akses Teknologi menyediakan pilihan internet untuk rumah, bisnis, dan sekolah, dengan bantuan pelanggan dalam satu portal.\n\nADA PERTANYAAN?\nKami bantu memilih paket.\n\nTanyakan harga, kebutuhan koneksi, atau area pemasangan lewat Nira.\n\nTanya Nira\nNirwana\nMANAGEMENT SYSTEM\n\nPT Nirwana Akses Teknologi · Koneksi untuk rumah, bisnis, dan sekolah.\n\nPaket Internet\nTentang\nBantuan\n© 2026 PT Nirwana Akses Teknologi. Hak Cipta Dilindungi.\nPrototype UI/UX\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Akses Teknologi — Pilihan Internet untuk Anda",
+    "width": 390,
+    "screenshot": "screenshots/public-390.png"
+  },
+  {
+    "route": "/login",
+    "scrollWidth": 390,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nSELAMAT DATANG KEMBALI\nMasuk ke akun Anda\n\nGunakan nomor telepon yang terdaftar untuk melanjutkan.\n\nNomor WhatsApp / Nomor Telepon\nPassword\nLupa password?\nMasuk\nPrototype: isi sembarang nomor dan password. Gunakan Mode demo untuk mencoba peran lain.\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 390,
+    "screenshot": "screenshots/login-390.png"
+  },
+  {
+    "route": "/client/dashboard",
+    "heading": "Halo, Budi 👋",
+    "scrollWidth": 375,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nBS\nPORTAL PELANGGAN\nHalo, Budi 👋\n\nBerikut informasi layanan dan laporan gangguan Anda.\n\nBuat laporan\nLayanan aktif\n2\nDi 2 lokasi berbeda\nTiket aktif\n2\nSedang dalam penanganan\nTiket selesai\n7\nRiwayat penanganan\nLayanan Saya\nLihat semua\nAKTIF\nInternet Rumah\nSRV-2026-001\nPaket\nHome Internet\nLokasi\nBandung Utara\nLihat detail\nLaporkan gangguan\nAKTIF\nInternet Kantor\nSRV-2026-002\nPaket\nBusiness Internet\nLokasi\nBandung Timur\nLihat detail\nLaporkan gangguan\nTiket Aktif\nLihat semua\n#TKT-2026-014\nIN PROGRESS\nInternet tidak dapat digunakan\nInternet Rumah · Bandung Utara\n10 menit lalu\n#TKT-2026-013\nPENDING\nKoneksi lambat pada jam kerja\nInternet Kantor · Bandung Timur\n2 jam lalu\nBeranda\nLayanan Saya\nTiket Saya\nProfil\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 390,
+    "screenshot": "screenshots/client-390.png"
+  },
+  {
+    "route": "/admin/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 375,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nADMINISTRATION\nPengguna & Akses\nPengaturan\nNA\nNadia Amelia\nAdministrator\nDashboard\nNA\nADMIN WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\n#TKT-2026-014\nMasalah\nInternet tidak dapat digunakan\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-001\nPrioritas\nHIGH\nStatus\nIN PROGRESS\nTeknisi\nAndi Saputra\nWaktu\n10 menit lalu\nID\n#TKT-2026-013\nMasalah\nKoneksi lambat pada jam kerja\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-002\nPrioritas\nMEDIUM\nStatus\nPENDING\nTeknisi\nReza Putra\nWaktu\n2 jam lalu\nID\n#TKT-2026-015\nMasalah\nInternet mati total\nPelanggan\nDewi Lestari\nLayanan\nSRV-2026-004\nPrioritas\nCRITICAL\nStatus\nNEW\nTeknisi\nBelum ditugaskan\nWaktu\n15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\nTiket #TKT-2026-015 menunggu penugasan\nTiket #TKT-2026-012 selesai ditangani\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 390,
+    "screenshot": "screenshots/admin-390.png"
+  },
+  {
+    "route": "/officer/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 375,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nNO\nNadia Officer\nOfficer Operasional\nDashboard\nNA\nOFFICER WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\n#TKT-2026-014\nMasalah\nInternet tidak dapat digunakan\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-001\nPrioritas\nHIGH\nStatus\nIN PROGRESS\nTeknisi\nAndi Saputra\nWaktu\n10 menit lalu\nID\n#TKT-2026-013\nMasalah\nKoneksi lambat pada jam kerja\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-002\nPrioritas\nMEDIUM\nStatus\nPENDING\nTeknisi\nReza Putra\nWaktu\n2 jam lalu\nID\n#TKT-2026-015\nMasalah\nInternet mati total\nPelanggan\nDewi Lestari\nLayanan\nSRV-2026-004\nPrioritas\nCRITICAL\nStatus\nNEW\nTeknisi\nBelum ditugaskan\nWaktu\n15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\nTiket #TKT-2026-015 menunggu penugasan\nTiket #TKT-2026-012 selesai ditangani\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 390,
+    "screenshot": "screenshots/officer-390.png"
+  },
+  {
+    "route": "/technician/dashboard",
+    "heading": "Selamat pagi, Andi 👋",
+    "scrollWidth": 375,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nFIELD WORKSPACE\nDashboard\nTicket\nPeta\nVoucher\nProfil\nAS\nAndi Saputra\nTeknisi Lapangan\nDashboard\nAS\nWORKSPACE TEKNISI\nSelamat pagi, Andi 👋\n\nBerikut pekerjaan yang perlu Anda tangani hari ini.\n\nPekerjaan saya\n5\nPerlu dikerjakan\n3\nPending\n1\nSelesai hari ini\n4\nPekerjaan Saya\nLihat semua\nHIGH\n#TKT-2026-014\nInternet tidak dapat digunakan\n\nBudi Santoso\n\nJl. Cikutra No. 42, Bandung\nIN PROGRESS\nLihat tiket\nLOW\n#TKT-2026-012\nSinyal Wi-Fi tidak stabil\n\nSiti Rahma\n\nJl. Antapani No. 7, Bandung\nSELESAI\nLihat tiket\nTiket belum ditugaskan\nCRITICAL\n#TKT-2026-015\nInternet mati total\n\nDewi Lestari · Bandung Selatan\n\nKlaim tiket\nDashboard\nTicket\nPeta\nVoucher\nProfil\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 390,
+    "screenshot": "screenshots/technician-390.png"
+  },
+  {
+    "route": "/",
+    "heading": "Internet yang pas untuk setiap kebutuhan.",
+    "scrollWidth": 753,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nPT NIRWANA AKSES TEKNOLOGI\nInternet yang pas untuk setiap kebutuhan.\n\nKonektivitas untuk rumah, bisnis, dan sekolah. Hubungi tim kami untuk membahas kebutuhan layanan Anda.\n\nLihat paket\nPAKET INTERNET\nPilih koneksi yang pas untuk Anda.\n\nDari kebutuhan sehari-hari hingga solusi untuk usaha.\n\nHarga ilustrasi · Prototype\nInternet Rumah\nBisnis & Custom\nHome Lite\n\nMulai dari kebutuhan sehari-hari.\n\nHingga\n30\nMbps\nRp179.000\n/bulan\nBrowsing & media sosial\nBelajar dari rumah\nBantuan melalui portal\nTanya paket ini\nHome Comfort\n\nLebih nyaman untuk keluarga kecil.\n\nHingga\n50\nMbps\nRp229.000\n/bulan\nStreaming & video call\nBekerja dari rumah\nBantuan melalui portal\nTanya paket ini\nPaling populer\nHome Family\n\nSatu koneksi untuk aktivitas keluarga.\n\nHingga\n100\nMbps\nRp299.000\n/bulan\nBanyak aktivitas bersamaan\nHiburan & kerja online\nBantuan melalui portal\nTanya paket ini\nHome Ultimate\n\nRuang lebih luas untuk kebutuhan digital.\n\nHingga\n300\nMbps\nRp499.000\n/bulan\nStreaming resolusi tinggi\nUnduh file berukuran besar\nBantuan melalui portal\nTanya paket ini\n\nHarga dan kecepatan merupakan contoh untuk desain, bukan penawaran resmi. Harga per bulan belum termasuk pajak dan biaya pemasangan. Layanan mengikuti ketersediaan area.\n\nTENTANG NIRWANA\nKoneksi untuk keseharian Anda.\n\nPT Nirwana Akses Teknologi menyediakan pilihan internet untuk rumah, bisnis, dan sekolah, dengan bantuan pelanggan dalam satu portal.\n\nADA PERTANYAAN?\nKami bantu memilih paket.\n\nTanyakan harga, kebutuhan koneksi, atau area pemasangan lewat Nira.\n\nTanya Nira\nNirwana\nMANAGEMENT SYSTEM\n\nPT Nirwana Akses Teknologi · Koneksi untuk rumah, bisnis, dan sekolah.\n\nPaket Internet\nTentang\nBantuan\n© 2026 PT Nirwana Akses Teknologi. Hak Cipta Dilindungi.\nPrototype UI/UX\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Akses Teknologi — Pilihan Internet untuk Anda",
+    "width": 768,
+    "screenshot": "screenshots/public-768.png"
+  },
+  {
+    "route": "/login",
+    "scrollWidth": 768,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nPT Nirwana Akses Teknologi · Prototype 2026\nSELAMAT DATANG KEMBALI\nMasuk ke akun Anda\n\nGunakan nomor telepon yang terdaftar untuk melanjutkan.\n\nNomor WhatsApp / Nomor Telepon\nPassword\nLupa password?\nMasuk\nPrototype: isi sembarang nomor dan password. Gunakan Mode demo untuk mencoba peran lain.\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 768,
+    "screenshot": "screenshots/login-768.png"
+  },
+  {
+    "route": "/client/dashboard",
+    "heading": "Halo, Budi 👋",
+    "scrollWidth": 753,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nBS\nBudi Santoso\nPORTAL PELANGGAN\nHalo, Budi 👋\n\nBerikut informasi layanan dan laporan gangguan Anda.\n\nBuat laporan\nLayanan aktif\n2\nDi 2 lokasi berbeda\nTiket aktif\n2\nSedang dalam penanganan\nTiket selesai\n7\nRiwayat penanganan\nLayanan Saya\nLihat semua\nAKTIF\nInternet Rumah\nSRV-2026-001\nPaket\nHome Internet\nLokasi\nBandung Utara\nLihat detail\nLaporkan gangguan\nAKTIF\nInternet Kantor\nSRV-2026-002\nPaket\nBusiness Internet\nLokasi\nBandung Timur\nLihat detail\nLaporkan gangguan\nTiket Aktif\nLihat semua\n#TKT-2026-014\nIN PROGRESS\nInternet tidak dapat digunakan\nInternet Rumah · Bandung Utara\n10 menit lalu\n#TKT-2026-013\nPENDING\nKoneksi lambat pada jam kerja\nInternet Kantor · Bandung Timur\n2 jam lalu\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 768,
+    "screenshot": "screenshots/client-768.png"
+  },
+  {
+    "route": "/admin/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 753,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nADMINISTRATION\nPengguna & Akses\nPengaturan\nNA\nNadia Amelia\nAdministrator\nWorkspace\nDashboard\nMinggu, 4 Oktober 2026\nNA\nADMIN WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\tMASALAH\tPELANGGAN\tLAYANAN\tPRIORITAS\tSTATUS\tTEKNISI\tWAKTU\n#TKT-2026-014\tInternet tidak dapat digunakan\tBudi Santoso\tSRV-2026-001\tHIGH\tIN PROGRESS\tAndi Saputra\t10 menit lalu\n#TKT-2026-013\tKoneksi lambat pada jam kerja\tBudi Santoso\tSRV-2026-002\tMEDIUM\tPENDING\tReza Putra\t2 jam lalu\n#TKT-2026-015\tInternet mati total\tDewi Lestari\tSRV-2026-004\tCRITICAL\tNEW\tBelum ditugaskan\t15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\n10 menit lalu\nTiket #TKT-2026-015 menunggu penugasan\n15 menit lalu\nTiket #TKT-2026-012 selesai ditangani\n2 hari lalu\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 768,
+    "screenshot": "screenshots/admin-768.png"
+  },
+  {
+    "route": "/officer/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 753,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nNO\nNadia Officer\nOfficer Operasional\nWorkspace\nDashboard\nMinggu, 4 Oktober 2026\nNA\nOFFICER WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\tMASALAH\tPELANGGAN\tLAYANAN\tPRIORITAS\tSTATUS\tTEKNISI\tWAKTU\n#TKT-2026-014\tInternet tidak dapat digunakan\tBudi Santoso\tSRV-2026-001\tHIGH\tIN PROGRESS\tAndi Saputra\t10 menit lalu\n#TKT-2026-013\tKoneksi lambat pada jam kerja\tBudi Santoso\tSRV-2026-002\tMEDIUM\tPENDING\tReza Putra\t2 jam lalu\n#TKT-2026-015\tInternet mati total\tDewi Lestari\tSRV-2026-004\tCRITICAL\tNEW\tBelum ditugaskan\t15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\n10 menit lalu\nTiket #TKT-2026-015 menunggu penugasan\n15 menit lalu\nTiket #TKT-2026-012 selesai ditangani\n2 hari lalu\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 768,
+    "screenshot": "screenshots/officer-768.png"
+  },
+  {
+    "route": "/technician/dashboard",
+    "heading": "Selamat pagi, Andi 👋",
+    "scrollWidth": 753,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nFIELD WORKSPACE\nDashboard\nTicket\nPeta\nVoucher\nProfil\nAS\nAndi Saputra\nTeknisi Lapangan\nWorkspace Teknisi\nDashboard\nAS\nWORKSPACE TEKNISI\nSelamat pagi, Andi 👋\n\nBerikut pekerjaan yang perlu Anda tangani hari ini.\n\nPekerjaan saya\n5\nPerlu dikerjakan\n3\nPending\n1\nSelesai hari ini\n4\nPekerjaan Saya\nLihat semua\nHIGH\n#TKT-2026-014\nInternet tidak dapat digunakan\n\nBudi Santoso\n\nJl. Cikutra No. 42, Bandung\nIN PROGRESS\nLihat tiket\nLOW\n#TKT-2026-012\nSinyal Wi-Fi tidak stabil\n\nSiti Rahma\n\nJl. Antapani No. 7, Bandung\nSELESAI\nLihat tiket\nTiket belum ditugaskan\nCRITICAL\n#TKT-2026-015\nInternet mati total\n\nDewi Lestari · Bandung Selatan\n\nKlaim tiket\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 768,
+    "screenshot": "screenshots/technician-768.png"
+  },
+  {
+    "route": "/",
+    "heading": "Internet yang pas untuk setiap kebutuhan.",
+    "scrollWidth": 305,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nPT NIRWANA AKSES TEKNOLOGI\nInternet yang pas untuk setiap kebutuhan.\n\nKonektivitas untuk rumah, bisnis, dan sekolah. Hubungi tim kami untuk membahas kebutuhan layanan Anda.\n\nLihat paket\nPAKET INTERNET\nPilih koneksi yang pas untuk Anda.\n\nDari kebutuhan sehari-hari hingga solusi untuk usaha.\n\nHarga ilustrasi · Prototype\nInternet Rumah\nBisnis & Custom\nHome Lite\n\nMulai dari kebutuhan sehari-hari.\n\nHingga\n30\nMbps\nRp179.000\n/bulan\nBrowsing & media sosial\nBelajar dari rumah\nBantuan melalui portal\nTanya paket ini\nHome Comfort\n\nLebih nyaman untuk keluarga kecil.\n\nHingga\n50\nMbps\nRp229.000\n/bulan\nStreaming & video call\nBekerja dari rumah\nBantuan melalui portal\nTanya paket ini\nPaling populer\nHome Family\n\nSatu koneksi untuk aktivitas keluarga.\n\nHingga\n100\nMbps\nRp299.000\n/bulan\nBanyak aktivitas bersamaan\nHiburan & kerja online\nBantuan melalui portal\nTanya paket ini\nHome Ultimate\n\nRuang lebih luas untuk kebutuhan digital.\n\nHingga\n300\nMbps\nRp499.000\n/bulan\nStreaming resolusi tinggi\nUnduh file berukuran besar\nBantuan melalui portal\nTanya paket ini\n\nHarga dan kecepatan merupakan contoh untuk desain, bukan penawaran resmi. Harga per bulan belum termasuk pajak dan biaya pemasangan. Layanan mengikuti ketersediaan area.\n\nTENTANG NIRWANA\nKoneksi untuk keseharian Anda.\n\nPT Nirwana Akses Teknologi menyediakan pilihan internet untuk rumah, bisnis, dan sekolah, dengan bantuan pelanggan dalam satu portal.\n\nADA PERTANYAAN?\nKami bantu memilih paket.\n\nTanyakan harga, kebutuhan koneksi, atau area pemasangan lewat Nira.\n\nTanya Nira\nNirwana\nMANAGEMENT SYSTEM\n\nPT Nirwana Akses Teknologi · Koneksi untuk rumah, bisnis, dan sekolah.\n\nPaket Internet\nTentang\nBantuan\n© 2026 PT Nirwana Akses Teknologi. Hak Cipta Dilindungi.\nPrototype UI/UX\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Akses Teknologi — Pilihan Internet untuk Anda",
+    "width": 320,
+    "screenshot": "screenshots/public-320.png"
+  },
+  {
+    "route": "/login",
+    "scrollWidth": 320,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nSELAMAT DATANG KEMBALI\nMasuk ke akun Anda\n\nGunakan nomor telepon yang terdaftar untuk melanjutkan.\n\nNomor WhatsApp / Nomor Telepon\nPassword\nLupa password?\nMasuk\nPrototype: isi sembarang nomor dan password. Gunakan Mode demo untuk mencoba peran lain.\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 320,
+    "screenshot": "screenshots/login-320.png"
+  },
+  {
+    "route": "/client/dashboard",
+    "heading": "Halo, Budi 👋",
+    "scrollWidth": 305,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nPORTAL PELANGGAN\nHalo, Budi 👋\n\nBerikut informasi layanan dan laporan gangguan Anda.\n\nBuat laporan\nLayanan aktif\n2\nDi 2 lokasi berbeda\nTiket aktif\n2\nSedang dalam penanganan\nTiket selesai\n7\nRiwayat penanganan\nLayanan Saya\nLihat semua\nAKTIF\nInternet Rumah\nSRV-2026-001\nPaket\nHome Internet\nLokasi\nBandung Utara\nLihat detail\nLaporkan gangguan\nAKTIF\nInternet Kantor\nSRV-2026-002\nPaket\nBusiness Internet\nLokasi\nBandung Timur\nLihat detail\nLaporkan gangguan\nTiket Aktif\nLihat semua\n#TKT-2026-014\nIN PROGRESS\nInternet tidak dapat digunakan\nInternet Rumah · Bandung Utara\n10 menit lalu\n#TKT-2026-013\nPENDING\nKoneksi lambat pada jam kerja\nInternet Kantor · Bandung Timur\n2 jam lalu\nBeranda\nLayanan Saya\nTiket Saya\nProfil\nMode demo\nTanya Nira AI",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 320,
+    "screenshot": "screenshots/client-320.png"
+  },
+  {
+    "route": "/admin/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 305,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nADMINISTRATION\nPengguna & Akses\nPengaturan\nNA\nNadia Amelia\nAdministrator\nDashboard\nNA\nADMIN WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\n#TKT-2026-014\nMasalah\nInternet tidak dapat digunakan\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-001\nPrioritas\nHIGH\nStatus\nIN PROGRESS\nTeknisi\nAndi Saputra\nWaktu\n10 menit lalu\nID\n#TKT-2026-013\nMasalah\nKoneksi lambat pada jam kerja\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-002\nPrioritas\nMEDIUM\nStatus\nPENDING\nTeknisi\nReza Putra\nWaktu\n2 jam lalu\nID\n#TKT-2026-015\nMasalah\nInternet mati total\nPelanggan\nDewi Lestari\nLayanan\nSRV-2026-004\nPrioritas\nCRITICAL\nStatus\nNEW\nTeknisi\nBelum ditugaskan\nWaktu\n15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\nTiket #TKT-2026-015 menunggu penugasan\nTiket #TKT-2026-012 selesai ditangani\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 320,
+    "screenshot": "screenshots/admin-320.png"
+  },
+  {
+    "route": "/officer/dashboard",
+    "heading": "Dashboard Operasional",
+    "scrollWidth": 305,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nWORKSPACE\nDashboard\nPelanggan\nLayanan\nTiket\nPeta Layanan\nStok Voucher\nImport / Export\nNO\nNadia Officer\nOfficer Operasional\nDashboard\nNA\nOFFICER WORKSPACE\nDashboard Operasional\n\nRingkasan kondisi layanan dan penanganan gangguan hari ini.\n\nSemua wilayah\nBandung Utara\nBandung Timur\nBandung Selatan\nSemua tanggal\nHari ini\nSebelumnya\nSemua teknisi\nAndi Saputra\nReza Putra\nBelum ditugaskan\nTotal pelanggan\n4\n+42 bulan ini\nLayanan aktif\n3\n92,6% dari layanan\nTiket aktif\n3\nPerlu dipantau\nBelum ditugaskan\n1\nButuh tindakan\nSelesai\n1\nDalam data demo\nTren laporan gangguan\n7 hari terakhir\n40\n30\n20\n10\n0\nSen\nSel\nRab\nKam\nJum\nSab\nMin\nDistribusi status tiket\n168\nTotal tiket\nBaru\n16\nDibuka\n24\nDitangani\n32\nPending\n12\nSelesai\n84\nTiket membutuhkan perhatian\nLihat semua\nID\n#TKT-2026-014\nMasalah\nInternet tidak dapat digunakan\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-001\nPrioritas\nHIGH\nStatus\nIN PROGRESS\nTeknisi\nAndi Saputra\nWaktu\n10 menit lalu\nID\n#TKT-2026-013\nMasalah\nKoneksi lambat pada jam kerja\nPelanggan\nBudi Santoso\nLayanan\nSRV-2026-002\nPrioritas\nMEDIUM\nStatus\nPENDING\nTeknisi\nReza Putra\nWaktu\n2 jam lalu\nID\n#TKT-2026-015\nMasalah\nInternet mati total\nPelanggan\nDewi Lestari\nLayanan\nSRV-2026-004\nPrioritas\nCRITICAL\nStatus\nNEW\nTeknisi\nBelum ditugaskan\nWaktu\n15 menit lalu\nAktivitas terbaru\nTiket #TKT-2026-014 diperbarui oleh Andi Saputra\nTiket #TKT-2026-015 menunggu penugasan\nTiket #TKT-2026-012 selesai ditangani\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 320,
+    "screenshot": "screenshots/officer-320.png"
+  },
+  {
+    "route": "/technician/dashboard",
+    "heading": "Selamat pagi, Andi 👋",
+    "scrollWidth": 305,
+    "text": "Nirwana\nMANAGEMENT SYSTEM\nFIELD WORKSPACE\nDashboard\nTicket\nPeta\nVoucher\nProfil\nAS\nAndi Saputra\nTeknisi Lapangan\nDashboard\nAS\nWORKSPACE TEKNISI\nSelamat pagi, Andi 👋\n\nBerikut pekerjaan yang perlu Anda tangani hari ini.\n\nPekerjaan saya\n5\nPerlu dikerjakan\n3\nPending\n1\nSelesai hari ini\n4\nPekerjaan Saya\nLihat semua\nHIGH\n#TKT-2026-014\nInternet tidak dapat digunakan\n\nBudi Santoso\n\nJl. Cikutra No. 42, Bandung\nIN PROGRESS\nLihat tiket\nLOW\n#TKT-2026-012\nSinyal Wi-Fi tidak stabil\n\nSiti Rahma\n\nJl. Antapani No. 7, Bandung\nSELESAI\nLihat tiket\nTiket belum ditugaskan\nCRITICAL\n#TKT-2026-015\nInternet mati total\n\nDewi Lestari · Bandung Selatan\n\nKlaim tiket\nDashboard\nTicket\nPeta\nVoucher\nProfil\nMode demo",
+    "theme": "light",
+    "title": "Nirwana Management System — Prototype",
+    "width": 320,
+    "screenshot": "screenshots/technician-320.png"
+  }
+]

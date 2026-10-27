@@ -1,0 +1,176 @@
+{
+  "source": "https://company-staging.nirwana.id",
+  "capturedAt": "2026-10-26T17:35:14.210035+00:00",
+  "adaptations": [
+    "local asset base and navigation",
+    "local pathname normalization",
+    "analytics disabled"
+  ],
+  "files": {
+    "/": {
+      "sourceSha256": "f41156fe3944ec40d4e301e98e4c40e5fad2ac9cb833060b4f8e0a4e6e37e7ba",
+      "localSha256": "4506ac5524c9f7d7bf53f5e6eb046dd2c6f73846b71353a7445d74114def0e6f",
+      "file": "index.html"
+    },
+    "/internet-rumah-dan-usaha/": {
+      "sourceSha256": "c5864ecffe29ae599ed92772d6a7960168636e3a089971dabde53768c7b3b9e0",
+      "localSha256": "21707441c886d93c38c9e163b55844be8977416c359b79718caabede45c91e49",
+      "file": "internet-rumah-dan-usaha/index.html"
+    },
+    "/voucher-hotspot/": {
+      "sourceSha256": "569f47fcb953c2aac328bc252965d5276208c6d1837aa459efe4d718a5d50cb5",
+      "localSha256": "2b21928087c6b4c2341c42388fbf96921e92bd30a2b8989a65ca4f8836ea48ae",
+      "file": "voucher-hotspot/index.html"
+    },
+    "/website-dan-sistem/": {
+      "sourceSha256": "3419afd14d9a01307366e6b97f9718888802a75283ad077195468a8801cc7f22",
+      "localSha256": "5e3f9b9a89d2b3aa6fbcd2443510ab27f356f8a9bfb51beb1e563dae002dbf77",
+      "file": "website-dan-sistem/index.html"
+    },
+    "/kebijakan-privasi/": {
+      "sourceSha256": "6bc48e6020e83857c29286b0d426ff85dd9c4216cea86f36ec0dae22d94f9817",
+      "localSha256": "af57d2cda44f829cc6fef38f8bf85c806d8a4adcb59afa40ec79dab7979e7fe7",
+      "file": "kebijakan-privasi/index.html"
+    },
+    "/syarat-penggunaan/": {
+      "sourceSha256": "e83f5865f807b5b1bf9192fa1fa658bfee872745d6c16851967f81b9f5cecfca",
+      "localSha256": "1afc6e3220b2c29d141e94292ab5d4a1da6ad4f35fa67b9505c0e743fbaf66cf",
+      "file": "syarat-penggunaan/index.html"
+    },
+    "/apple-touch-icon.png": {
+      "sourceSha256": "72b5774b6beaa8280c029ab1caa7ebc91564378ce46f6e47283746640dc55d86",
+      "localSha256": "72b5774b6beaa8280c029ab1caa7ebc91564378ce46f6e47283746640dc55d86",
+      "file": "apple-touch-icon.png"
+    },
+    "/assets/access-point-DX8Ns9uF.webp": {
+      "sourceSha256": "8fadd1b082cdf07ef2dddc5ffbf7e0cb9d23bd84a9586fea16bb240ad7a449d9",
+      "localSha256": "8fadd1b082cdf07ef2dddc5ffbf7e0cb9d23bd84a9586fea16bb240ad7a449d9",
+      "file": "assets/access-point-DX8Ns9uF.webp"
+    },
+    "/assets/fiber-patch-CklqDRti.webp": {
+      "sourceSha256": "26deb33558972ffcb453a138aa1185818e404dee8ca8a70bd6f1fae277ca4008",
+      "localSha256": "26deb33558972ffcb453a138aa1185818e404dee8ca8a70bd6f1fae277ca4008",
+      "file": "assets/fiber-patch-CklqDRti.webp"
+    },
+    "/assets/hero-loop-D7J1NpWK.mp4": {
+      "sourceSha256": "a056b6480b93868ea4ff6c26de1e8d9b23c46d943edf37ddb9d6960c260818f7",
+      "localSha256": "a056b6480b93868ea4ff6c26de1e8d9b23c46d943edf37ddb9d6960c260818f7",
+      "file": "assets/hero-loop-D7J1NpWK.mp4"
+    },
+    "/assets/hero-poster-DbAyCSDN.webp": {
+      "sourceSha256": "8c188d9ba4d7f6d94092dac4fdd7b6204e0794b3df61aacbd4c8d78f1f4e1a62",
+      "localSha256": "8c188d9ba4d7f6d94092dac4fdd7b6204e0794b3df61aacbd4c8d78f1f4e1a62",
+      "file": "assets/hero-poster-DbAyCSDN.webp"
+    },
+    "/assets/index-BinKGbTT.css": {
+      "sourceSha256": "a2eece10994e1f0a3745c48ea85509eca10e5bdccfde969c359fa37c24f396d9",
+      "localSha256": "d51ad2e8230a299d531985fa32e36ec9b1a794c8f0819171cbf58cd5a58a2ba0",
+      "file": "assets/index-BinKGbTT.css"
+    },
+    "/assets/index-Cwj9HtTe.js": {
+      "sourceSha256": "507ac98adf83f4133dca0d0e3cb2c9d99f1d908f30d2268081c594f5cf3ba908",
+      "localSha256": "3dd6a79065444b1c043012f2c77d12499254a05d20ca72aec9bf750be2a985a5",
+      "file": "assets/index-Cwj9HtTe.js"
+    },
+    "/assets/logo-nat-240-BpxM_fM6.webp": {
+      "sourceSha256": "323ff87a539820155231f7650745fec4f686cdb96adb67408a2c4bfef1746084",
+      "localSha256": "323ff87a539820155231f7650745fec4f686cdb96adb67408a2c4bfef1746084",
+      "file": "assets/logo-nat-240-BpxM_fM6.webp"
+    },
+    "/assets/logo-nat-white-240-BDH65WSx.webp": {
+      "sourceSha256": "e8d489840156f442c8cd3c9f0450c6e799955b1fbc32fcf3aceee7f3ac10cc3f",
+      "localSha256": "e8d489840156f442c8cd3c9f0450c6e799955b1fbc32fcf3aceee7f3ac10cc3f",
+      "file": "assets/logo-nat-white-240-BDH65WSx.webp"
+    },
+    "/assets/logo-nat-white-480-pGLteGPW.webp": {
+      "sourceSha256": "abeb9f8fc9d8977595262f8ba403b26bb3ada0dfa3cefcd313b1c78b77c0822d",
+      "localSha256": "abeb9f8fc9d8977595262f8ba403b26bb3ada0dfa3cefcd313b1c78b77c0822d",
+      "file": "assets/logo-nat-white-480-pGLteGPW.webp"
+    },
+    "/assets/patch-ethernet-0Bp6U9EP.webp": {
+      "sourceSha256": "2bd1368b6d36b5459288ea68a956d494791ede76896fef2f7ae863febdde9c17",
+      "localSha256": "2bd1368b6d36b5459288ea68a956d494791ede76896fef2f7ae863febdde9c17",
+      "file": "assets/patch-ethernet-0Bp6U9EP.webp"
+    },
+    "/assets/tower-sky-DzsPeWtr.webp": {
+      "sourceSha256": "98601809df66993c99f5db7aa6fdbb79b6c2f69a19da9de660e96ac82f989cf6",
+      "localSha256": "98601809df66993c99f5db7aa6fdbb79b6c2f69a19da9de660e96ac82f989cf6",
+      "file": "assets/tower-sky-DzsPeWtr.webp"
+    },
+    "/assets/towers-dusk-BDeuUrvr.webp": {
+      "sourceSha256": "9760a67519bd8d817faf913672166e52715631d7d9efbdc054c80c3bcc11f7c4",
+      "localSha256": "9760a67519bd8d817faf913672166e52715631d7d9efbdc054c80c3bcc11f7c4",
+      "file": "assets/towers-dusk-BDeuUrvr.webp"
+    },
+    "/assets/ummah-KpWEndHx.webp": {
+      "sourceSha256": "184e77c3bed57098871ba9dbbbfeaa3b11db6b7003f7c3d35a7e02b1458dc4a9",
+      "localSha256": "184e77c3bed57098871ba9dbbbfeaa3b11db6b7003f7c3d35a7e02b1458dc4a9",
+      "file": "assets/ummah-KpWEndHx.webp"
+    },
+    "/assets/umuslim-DZ0_sxW1.webp": {
+      "sourceSha256": "251459a34f4f2e5dd859fe56a876d111ebf446c3661710f0eda91551f005b9c9",
+      "localSha256": "251459a34f4f2e5dd859fe56a876d111ebf446c3661710f0eda91551f005b9c9",
+      "file": "assets/umuslim-DZ0_sxW1.webp"
+    },
+    "/assets/uniki-Cf8aoMFF.webp": {
+      "sourceSha256": "22b0e9a3bc07c2f0287a3da87b21fa1823daf1c4505520bf1eeed1d14edc18f5",
+      "localSha256": "22b0e9a3bc07c2f0287a3da87b21fa1823daf1c4505520bf1eeed1d14edc18f5",
+      "file": "assets/uniki-Cf8aoMFF.webp"
+    },
+    "/favicon.svg": {
+      "sourceSha256": "3201e321f2e284a440069fa5e94e6ffa3c82a75ef704886845707c1facda1146",
+      "localSha256": "3201e321f2e284a440069fa5e94e6ffa3c82a75ef704886845707c1facda1146",
+      "file": "favicon.svg"
+    },
+    "/fonts/erode-500.woff2": {
+      "sourceSha256": "8381d7f93d775c13c392561f39b311fc7b0e00adbf29155c3a51390ce949f6dd",
+      "localSha256": "8381d7f93d775c13c392561f39b311fc7b0e00adbf29155c3a51390ce949f6dd",
+      "file": "fonts/erode-500.woff2"
+    },
+    "/fonts/general-sans-400.woff2": {
+      "sourceSha256": "3ec2be771caf168b077ca05af4df1dace77088e2b3a27da570036e61be58a039",
+      "localSha256": "3ec2be771caf168b077ca05af4df1dace77088e2b3a27da570036e61be58a039",
+      "file": "fonts/general-sans-400.woff2"
+    },
+    "/icon-192.png": {
+      "sourceSha256": "d602a4853e26b01fe9f09f0add11d62a1f88f0b3b9aea5e70bdf1974f08b893c",
+      "localSha256": "d602a4853e26b01fe9f09f0add11d62a1f88f0b3b9aea5e70bdf1974f08b893c",
+      "file": "icon-192.png"
+    },
+    "/site.webmanifest": {
+      "sourceSha256": "3a3e4b6c427438de1e1f181381f0d6ae35fcb30021944baebb116c309f7e3660",
+      "localSha256": "3a3e4b6c427438de1e1f181381f0d6ae35fcb30021944baebb116c309f7e3660",
+      "file": "site.webmanifest"
+    },
+    "/assets/coverage-map-canvas-DzJmXHV0.js": {
+      "sourceSha256": "aaf7fba4475a8a2ebabd2882bf4c1cbeb6f08742bf7a215b1b0cd4ba0b6c3d29",
+      "localSha256": "f785dfc9df40eedada7a7df647d589f5089dee46251548c12a908043ad615aa6",
+      "file": "assets/coverage-map-canvas-DzJmXHV0.js"
+    },
+    "/assets/coverage-map-canvas-qvkd0SPb.css": {
+      "sourceSha256": "280f62458bee97adaab9c817e977cc89e02cc34d07a3107ba4a545c17c41976d",
+      "localSha256": "280f62458bee97adaab9c817e977cc89e02cc34d07a3107ba4a545c17c41976d",
+      "file": "assets/coverage-map-canvas-qvkd0SPb.css"
+    },
+    "/fonts/erode-400.woff2": {
+      "sourceSha256": "835b4392e9bf7f1afd2764e89083cb01dd51ec7308d23caee0c63a91e8ee739d",
+      "localSha256": "835b4392e9bf7f1afd2764e89083cb01dd51ec7308d23caee0c63a91e8ee739d",
+      "file": "fonts/erode-400.woff2"
+    },
+    "/fonts/general-sans-500.woff2": {
+      "sourceSha256": "c30377df1de8444d07161725c751f458beec07c28034df2fd275d1aa587a239f",
+      "localSha256": "c30377df1de8444d07161725c751f458beec07c28034df2fd275d1aa587a239f",
+      "file": "fonts/general-sans-500.woff2"
+    },
+    "/fonts/general-sans-700.woff2": {
+      "sourceSha256": "a29eab9b114f3c631cb24d537400dfb8d0ceea8cc9fb514864a68c4ead960490",
+      "localSha256": "a29eab9b114f3c631cb24d537400dfb8d0ceea8cc9fb514864a68c4ead960490",
+      "file": "fonts/general-sans-700.woff2"
+    },
+    "/assets/maplibre-gl-worker-Br3j0JGE.js": {
+      "sourceSha256": "8f1d61da119b6435280520b6e81896d47858d83e2af76b2288015425550d8dc4",
+      "localSha256": "8f1d61da119b6435280520b6e81896d47858d83e2af76b2288015425550d8dc4",
+      "file": "assets/maplibre-gl-worker-Br3j0JGE.js"
+    }
+  }
+}

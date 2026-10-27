@@ -1,0 +1,36 @@
+﻿US,AC,routes,figma_existing_ids,status,caution
+US-001,AC-US001-01;AC-US001-02;AC-US001-03;AC-US001-04,/;/portal,13:2;13:52,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-002,AC-US002-01;AC-US002-02;AC-US002-03;AC-US002-04,/login,13:89;340:464,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-003,AC-US003-01;AC-US003-02;AC-US003-03;AC-US003-04,/client/profile;/forgot-password,13:103;13:114;15:202,GAP_WEB,"Profil membuka recovery, belum alur change-password sesi aktif penuh."
+US-004,AC-US004-01;AC-US004-02;AC-US004-03;AC-US004-04,/first-login;/forgot-password;/reset-password,13:103;13:114;13:125;13:139,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-005,AC-US005-01;AC-US005-02;AC-US005-03;AC-US005-04,/admin/users,16:414,GAP_WEB,Unik nomor dan server RBAC belum lengkap; prototype.
+US-006,AC-US006-01;AC-US006-02;AC-US006-03;AC-US006-04,/admin/users,16:414,GAP_WEB,Status akun belum sinkron dengan auth/sesi/OTP; prototype.
+US-007,AC-US007-01;AC-US007-02;AC-US007-03;AC-US007-04;AC-US007-05,/admin/customers/new;/officer/customers/new;/admin/customers/:id/edit;/officer/customers/:id/edit,16:93,GAP_WEB,Form pelanggan masih opsi akun/status lama; gate privasi ditunda.
+US-008,AC-US008-01;AC-US008-02;AC-US008-03;AC-US008-04,/admin/customers/:id/edit;/officer/customers/:id/edit,,GAP_WEB,Verifikasi nomor baru belum ada di web.
+US-009,AC-US009-01;AC-US009-02;AC-US009-03;AC-US009-04,/client/profile,15:202,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-010,AC-US010-01;AC-US010-02;AC-US010-03;AC-US010-04,/admin/services/new;/admin/services/:id/edit;/officer/services/new;/officer/services/:id/edit,16:185,GAP_WEB,Format nomor dan snapshot tiket lama belum dibuktikan.
+US-011,AC-US011-01;AC-US011-02;AC-US011-03;AC-US011-04,/client/services;/client/services/:id,15:65;15:96,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-012,AC-US012-01;AC-US012-02;AC-US012-03;AC-US012-04,/client/tickets/create,15:151;60:36,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-013,AC-US013-01;AC-US013-02;AC-US013-03;AC-US013-04,/client/tickets/create,15:151;60:36,SIMULASI_WEB,"Percakapan dan penilaian simulasi, tidak ada model AI asli."
+US-014,AC-US014-01;AC-US014-02;AC-US014-03;AC-US014-04,/client/tickets;/client/tickets/:id,15:123;15:177;178:37;237:345;76:36,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-015,AC-US015-01;AC-US015-02;AC-US015-03;AC-US015-04,,,GAP_WEB,Belum ada UI membuat tiket atas nama pelanggan bagi staf/Teknisi.
+US-016,AC-US016-01;AC-US016-02;AC-US016-03;AC-US016-04,/admin/tickets;/admin/tickets/:id;/officer/tickets;/officer/tickets/:id,16:244;16:285;17:168;17:203,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-017,AC-US017-01;AC-US017-02;AC-US017-03;AC-US017-04,/admin/tickets/:id;/officer/tickets/:id,16:285;17:203,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-018,AC-US018-01;AC-US018-02;AC-US018-03;AC-US018-04,/technician/tickets;/technician/tickets/:id,17:339;17:356,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-019,AC-US019-01;AC-US019-02;AC-US019-03;AC-US019-04,/admin/tickets/:id;/officer/tickets/:id,16:285;17:203,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-020,AC-US020-01;AC-US020-02;AC-US020-03;AC-US020-04,/admin/tickets/:id;/officer/tickets/:id;/technician/tickets/:id,16:285;17:203;17:356,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-021,AC-US021-01;AC-US021-02;AC-US021-03;AC-US021-04,/admin/tickets/:id;/officer/tickets/:id;/technician/tickets/:id,16:285;17:203;17:356,GAP_WEB,Waktu respons/penyelesaian belum ditampilkan dari peristiwa nyata.
+US-022,AC-US022-01;AC-US022-02;AC-US022-03;AC-US022-04,/admin/tickets/:id,16:285,GAP_WEB,Tindakan arsip ada; halaman daftar arsip khusus belum ada.
+US-023,AC-US023-01;AC-US023-02;AC-US023-03;AC-US023-04,/client/tickets/:id,15:177;178:37;237:345,GAP_WEB,Hanya catatan simulasi; status delivery/retry tidak ada.
+US-024,AC-US024-01;AC-US024-02;AC-US024-03;AC-US024-04,/technician/tickets,17:339,GAP_WEB,Telegram tidak terhubung; retry/pengiriman tidak ada.
+US-025,AC-US025-01;AC-US025-02;AC-US025-03;AC-US025-04,/admin/dashboard;/officer/dashboard,16:15;17:26,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-026,AC-US026-01;AC-US026-02;AC-US026-03;AC-US026-04,/technician/dashboard,17:310,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-027,AC-US027-01;AC-US027-02;AC-US027-03;AC-US027-04,/client/dashboard,15:41;15:7;340:347,SIMULASI_WEB,"Pemetaan UI, bukan bukti semua AC lulus."
+US-028,AC-US028-01;AC-US028-02;AC-US028-03;AC-US028-04,/admin/map;/officer/map;/technician/map,16:325;17:233;17:382,GAP_WEB,Peta ilustrasi dan batas data rinci Teknisi belum lengkap.
+US-029,AC-US029-01;AC-US029-02;AC-US029-03;AC-US029-04,/admin/vouchers;/officer/vouchers;/technician/vouchers,16:356;17:258;17:398,GAP_WEB,Pengelolaan jenis belum ada.
+US-030,AC-US030-01;AC-US030-02;AC-US030-03;AC-US030-04,/admin/vouchers;/officer/vouchers;/technician/vouchers,16:356;17:258;17:398,GAP_WEB,"Teknisi masih baca saja, bertentangan hak tambah/kurangi pada AC."
+US-031,AC-US031-01;AC-US031-02;AC-US031-03;AC-US031-04,/admin/vouchers;/officer/vouchers,16:356;17:258,GAP_WEB,Mutasi koreksi tertaut asal belum ada.
+US-032,AC-US032-01;AC-US032-02;AC-US032-03;AC-US032-04,/admin/data;/officer/data,16:385;17:284,GAP_WEB,"Impor validasi dasar, tidak menyimpan atomik/menjaga relasi nyata."
+US-033,AC-US033-01;AC-US033-02;AC-US033-03;AC-US033-04,/admin/data;/officer/data,16:385;17:284,GAP_WEB,Ekspor per layanan termasuk Nonaktif; belum pelanggan aktif unik.
+US-034,AC-US034-01;AC-US034-02;AC-US034-03;AC-US034-04,,,DITUNDA_PM,Menunggu keputusan PM; tidak didesain.
+US-035,AC-US035-01;AC-US035-02;AC-US035-03;AC-US035-04;AC-US035-05,,,DITUNDA_PM,Menunggu keputusan PM; tidak didesain.

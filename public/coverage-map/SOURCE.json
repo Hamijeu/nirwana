@@ -1,0 +1,16 @@
+{
+  "source": "https://company-staging.nirwana.id/",
+  "baseSnapshot": "../company-reference/snapshot.json",
+  "office": {
+    "lat": 5.1966411,
+    "lng": 96.7883505
+  },
+  "officeDistrict": "Peusangan",
+  "geographicData": [
+    "Bireuen boundary",
+    "neighbouring regencies",
+    "kecamatan boundaries"
+  ],
+  "adaptation": "Dedicated coverage entry, parent resize/theme bridge, final availability confirmation text",
+  "sourceRuntimeSha256": "3dd6a79065444b1c043012f2c77d12499254a05d20ca72aec9bf750be2a985a5"
+}

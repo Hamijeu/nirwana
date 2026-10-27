@@ -1,0 +1,15 @@
+/* Shared transparent brand artwork, consistent with the company home page. */
+.brand.unified-brand{justify-content:center;gap:0}
+.brand.unified-brand img,.public-header .brand.unified-brand img,:is(.client-shell,.app-shell) .brand.unified-brand img{display:block;width:100px;height:64px;object-fit:contain;padding:0;background:transparent;border-radius:0;filter:none}
+.brand.unified-brand .brand-logo-dark,.public-header .brand.unified-brand .brand-logo-dark,:is(.client-shell,.app-shell) .brand.unified-brand .brand-logo-dark{display:none}
+[data-theme=dark] .brand.unified-brand .brand-logo-light{display:none}
+[data-theme=dark] .brand.unified-brand .brand-logo-dark{display:block}
+.public-header .brand.unified-brand img{width:88px;height:56px}
+.app-shell .sidebar .brand.unified-brand{justify-content:center;width:100%}
+.app-shell .sidebar .brand.unified-brand img{width:112px;height:72px}
+.company-about-page .about-centered-logo img{width:170px;height:108px}
+.client-sidebar-shell .topbar{gap:12px}.client-sidebar-shell .breadcrumb{min-width:0;flex:1}.client-sidebar-shell .breadcrumb strong{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.client-workspace-content{max-width:1400px}
+.client-sidebar-backdrop{display:none}
+@media(max-width:850px){.client-sidebar-backdrop{display:block;position:fixed;inset:0;border:0;background:#0c17285c;z-index:19}.client-sidebar-shell .sidebar{z-index:20;visibility:hidden}.client-sidebar-shell .sidebar.show{visibility:visible}.client-sidebar-shell .topbar .mobile-menu{flex:none}.client-sidebar-shell .breadcrumb-label{display:none}.client-sidebar-shell .breadcrumb>svg{display:none}}
+@media(max-width:700px){.company-about-page .about-centered-logo img{width:150px;height:96px}}
+@media(prefers-reduced-motion:reduce){.client-sidebar-shell .sidebar{transition:none}}

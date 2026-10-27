@@ -1,0 +1,10 @@
+{
+  "method": "read-only Figma Plugin API",
+  "overlaps": [["06 — Client", "98 — Codex Working Area"], ["06 — Client", "99 — Archive"]],
+  "prototypeNavigationActions": 382,
+  "brokenDestinationIds": [],
+  "semanticNavigationClickTested": false,
+  "sampleImageScaleMode": "FILL",
+  "technicianFrameClipsContent": {"17:310":true,"17:339":true,"17:356":true,"17:382":true,"17:398":true,"17:414":true},
+  "canvasMutations": 0
+}

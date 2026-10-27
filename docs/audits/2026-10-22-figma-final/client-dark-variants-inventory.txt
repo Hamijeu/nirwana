@@ -1,0 +1,27 @@
+								495 row (selected, collapsed) Client / Help / Desktop / Dark, Secondary Actions: Expand
+								499 row (selected, collapsed) Client / Profile / Desktop / Dark, Secondary Actions: Expand
+								503 row (selected, collapsed) Client / Ticket Submitted / Desktop / Dark, Secondary Actions: Expand
+								507 row (selected, collapsed) Client / Ticket Detail / #013 / Desktop / Dark, Secondary Actions: Expand
+								511 row (selected, collapsed) Client / Ticket Detail / #016 / Desktop / Dark, Secondary Actions: Expand
+								515 row (selected, collapsed) Client / Ticket Detail / Desktop / Dark, Secondary Actions: Expand
+								519 row (selected, collapsed) Client / Create Ticket / Assistant Summary / Desktop / Dark, Secondary Actions: Expand
+								523 row (selected, collapsed) Client / Create Ticket / Assistant Failed / Desktop / Dark, Secondary Actions: Expand
+								527 row (selected, collapsed) Client / Create Ticket / Assistant Typing / Desktop / Dark, Secondary Actions: Expand
+								531 row (selected, collapsed) Client / Create Ticket / Assistant Question 2 / Desktop / Dark, Secondary Actions: Expand
+								535 row (selected, collapsed) Client / Create Ticket / Assistant Question 2 / Desktop / Dark, Secondary Actions: Expand
+								539 row (selected, collapsed) Client / Create Ticket / Assistant Question 4 / Desktop / Dark, Secondary Actions: Expand
+								543 row (selected, collapsed) Client / Create Ticket / Assistant Question 3 / Desktop / Dark, Secondary Actions: Expand
+								547 row (selected, collapsed) Client / Create Ticket / Assistant Question 2 / Desktop / Dark, Secondary Actions: Expand
+								551 row (selected, collapsed) Client / Create Ticket / Assistant / Desktop / Dark, Secondary Actions: Expand
+								555 row (selected, collapsed) Client / Create Ticket / Send Failed / Desktop / Dark, Secondary Actions: Expand
+								559 row (selected, collapsed) Client / Create Ticket / Confirmed / Desktop / Dark, Secondary Actions: Expand
+								563 row (selected, collapsed) Client / Create Ticket / Invalid File / Desktop / Dark, Secondary Actions: Expand
+								567 row (selected, collapsed) Client / Create Ticket / Filled / Desktop / Dark, Secondary Actions: Expand
+								571 row (selected, collapsed) Client / Create Ticket / Validation / Desktop / Dark, Secondary Actions: Expand
+								575 row (selected, collapsed) Client / Create Ticket / Desktop / Dark, Secondary Actions: Expand
+								579 row (selected, collapsed) Client / Tickets / Initial / Desktop / Dark, Secondary Actions: Expand
+								583 row (selected, collapsed) Client / Tickets / Desktop / Dark, Secondary Actions: Expand
+								587 row (selected, collapsed) Client / Service Detail / Desktop / Dark, Secondary Actions: Expand
+								591 row (selected, collapsed) Client / Services / Desktop / Dark, Secondary Actions: Expand
+								595 row (selected, collapsed) Client / Services / Mobile / Dark / Dark, Secondary Actions: Expand
+								599 row (selected, expanded) Client / Services / Mobile / Dark, Secondary Actions: Collapse

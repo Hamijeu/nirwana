@@ -1,0 +1,14 @@
+{
+  "RouteRows": 49,
+  "MatrixRows": 49,
+  "ObservedRoutes": 49,
+  "FigmaPages": 3,
+  "FigmaScreens": 53,
+  "MissingDedicatedFrames": 6,
+  "ResponsiveSamples": 24,
+  "PngProofs": 30,
+  "InvalidNodeIds": 0,
+  "MissingScreenshotFiles": 0,
+  "ThemeControlIssues": 0,
+  "HorizontalOverflowSamples": 0
+}

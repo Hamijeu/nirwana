@@ -1,0 +1,118 @@
+/* Reference-inspired company page styles are scoped away from portal/workspaces. */
+@font-face{font-family:Company Erode;src:url('../public/company-reference/fonts/erode-500.woff2') format('woff2');font-weight:500;font-display:swap}
+.company-profile-page{--profile-navy:#0c1b2c;--profile-soft:#f3f4f6;--profile-ink:#141d27}
+.company-profile-page .company-pricing{background:var(--pub-bg);border:0;padding-block:55px 60px}
+.company-profile-page .company-section-heading h2,.company-profile-page .company-services h2{font-family:Company Erode,Georgia,serif;font-weight:500;letter-spacing:-.035em;font-size:clamp(30px,3.2vw,42px)}
+.company-profile-page .pricing-switch{gap:8px;border:0;margin-bottom:26px}
+.company-profile-page .pricing-switch button{background:var(--profile-soft);color:var(--profile-ink);padding:11px 20px;min-height:46px;border-radius:30px;font-weight:500}
+.company-profile-page .pricing-switch button[aria-pressed=true]{background:var(--profile-navy);color:#fff}
+.company-profile-page .pricing-switch button[aria-pressed=true]:after{display:none}
+.company-profile-page .pricing-card,.company-profile-page .pricing-card.featured{background:var(--profile-soft);border:0;border-radius:16px;padding:28px 25px;box-shadow:none;color:var(--profile-ink)}
+.company-profile-page .pricing-card:hover{transform:translateY(-3px);box-shadow:0 8px 20px #0c1b2c0a}
+.company-profile-page .pricing-card.featured{background:var(--profile-navy);color:#fff}
+.company-profile-page .pricing-card-top{min-height:24px;margin-bottom:18px}
+.company-profile-page .pricing-icon{display:none}
+.company-profile-page .pricing-popular{background:#ffffff15;color:#fff;border-radius:30px;padding:6px 10px;font-size:10px}
+.company-profile-page .pricing-card h3{font-family:Company Erode,Georgia,serif;font-weight:500;font-size:25px;line-height:1.2;margin-bottom:9px;letter-spacing:-.02em}
+.company-profile-page .pricing-description{font-size:12px;min-height:38px;line-height:1.65}
+.company-profile-page .pricing-speed{border:0;padding:17px 0 12px}
+.company-profile-page .pricing-speed strong{font-family:Company Erode,Georgia,serif;font-size:55px;font-weight:500;letter-spacing:-.04em}
+.company-profile-page .pricing-speed span{font-family:Company Erode,Georgia,serif;font-size:23px;font-weight:500}
+.company-profile-page .pricing-speed .custom-speed{font-size:38px}
+.company-profile-page .pricing-speed-track{height:4px;border-radius:4px;background:#0c1b2c1c;overflow:hidden}
+.company-profile-page .pricing-speed-track span{display:block;height:100%;background:var(--profile-navy);border-radius:inherit;min-width:8px}
+.company-profile-page .featured .pricing-speed-track{background:#ffffff30}
+.company-profile-page .featured .pricing-speed-track span{background:#fff}
+.company-profile-page .pricing-amount{margin-block:25px 26px;gap:4px}
+.company-profile-page .pricing-amount strong{font-size:25px;font-weight:600;letter-spacing:-.035em}
+.company-profile-page .pricing-amount span{font-size:11px}
+.company-profile-page .pricing-card ul{gap:13px;margin-bottom:30px}
+.company-profile-page .pricing-card li{font-size:12px;line-height:1.6}
+.company-profile-page .pricing-card li svg{display:none}
+.company-profile-page .pricing-card>.btn{width:max-content;max-width:100%;border-radius:30px;background:var(--profile-navy);border:0;color:#fff;padding:12px 17px;font-size:11px;min-height:44px}
+.company-profile-page .pricing-card.featured>.btn{background:#ff7117;color:#111b28}
+.company-profile-page .pricing-card.featured>.btn:hover{background:#ff8b42}
+.company-profile-page .pricing-card.featured .pricing-description,.company-profile-page .pricing-card.featured .pricing-speed>small,.company-profile-page .pricing-card.featured .pricing-speed span,.company-profile-page .pricing-card.featured .pricing-amount span,.company-profile-page .pricing-card.featured li{color:#e1e5eb}
+.company-profile-page .pricing-card:not(.featured) .pricing-description,.company-profile-page .pricing-card:not(.featured) .pricing-speed>small,.company-profile-page .pricing-card:not(.featured) .pricing-speed span,.company-profile-page .pricing-card:not(.featured) .pricing-amount span,.company-profile-page .pricing-card:not(.featured) li{color:#526071}
+.company-services{padding-block:10px 70px}
+.company-services-heading{margin-bottom:24px}.company-services-heading h2{margin:12px 0 0}
+.company-services-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.company-services-grid article{padding:30px 32px;background:var(--profile-soft);border-radius:16px;display:flex;flex-direction:column;align-items:flex-start}
+.company-service-icon{color:var(--pub-ink);margin-bottom:23px}
+.company-services-grid h3{font-family:Company Erode,Georgia,serif;font-weight:500;letter-spacing:-.02em;font-size:28px;margin:0 0 12px}
+.company-services-grid p{font-size:14px;line-height:1.8;max-width:400px;margin:0 0 26px;color:var(--pub-muted)}
+.company-services-grid a,.company-services-grid button{margin-top:auto;display:inline-flex;align-items:center;gap:12px;font-size:12px;font-weight:600;background:none;border:0;border-bottom:1px solid var(--pub-line);padding:0 0 5px;color:var(--pub-ink);min-height:38px;text-align:left}
+.company-profile-footer{background:var(--profile-navy);color:#fff;padding:45px 0 20px}
+.company-footer-main{display:flex;justify-content:space-between;gap:32px;padding-bottom:35px;align-items:center}
+.company-footer-label{font-size:10px;letter-spacing:.12em;color:#c5ced9}
+.company-footer-main p{font-family:Company Erode,Georgia,serif;font-size:clamp(30px,3.5vw,44px);font-weight:500;line-height:1.15;margin:19px 0 0;letter-spacing:-.02em}
+.company-footer-main nav{display:grid;gap:8px;min-width:190px}
+.company-footer-main nav a{display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:13px;min-height:40px;color:#e4e9f0}
+.company-footer-main nav a:hover{color:#fff;text-decoration:underline;text-underline-offset:5px}
+.company-footer-bottom{display:flex;gap:20px;justify-content:space-between;border-top:1px solid #ffffff25;padding-top:20px;color:#b7c2d0}
+.company-footer-bottom small{font-size:10px}
+.company-beta-page{height:100dvh;display:flex;flex-direction:column;background:#fff;color:#14243b}
+.company-beta-toolbar{min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:8px 24px;background:var(--surface,#fff);color:var(--text,#14243b);border-bottom:1px solid var(--border,#e0e5eb);font-size:12px}
+.company-beta-toolbar a{display:inline-flex;align-items:center;gap:8px;color:inherit;min-height:30px}
+.company-beta-toolbar>span{font-weight:600}.company-beta-toolbar small{font-weight:400;font-size:10px;margin-left:12px;opacity:.7}
+.company-beta-page iframe{width:100%;flex:1;min-height:0;border:0;background:#fff}
+[data-theme=dark] .company-profile-page{--profile-soft:#17273a;--profile-ink:#edf1f7;--profile-navy:#0c1b2c}
+[data-theme=dark] .company-profile-page .pricing-switch button:not([aria-pressed=true]){background:#23374f;color:#e0e8f2}
+[data-theme=dark] .company-profile-page .pricing-switch button[aria-pressed=true]{background:#dce7f4;color:#0c1b2c}
+[data-theme=dark] .company-profile-page .pricing-card:not(.featured) .pricing-description,[data-theme=dark] .company-profile-page .pricing-card:not(.featured) .pricing-speed>small,[data-theme=dark] .company-profile-page .pricing-card:not(.featured) .pricing-speed span,[data-theme=dark] .company-profile-page .pricing-card:not(.featured) .pricing-amount span,[data-theme=dark] .company-profile-page .pricing-card:not(.featured) li{color:#bac8d9}
+[data-theme=dark] .company-profile-page .pricing-speed-track{background:#ffffff20}
+[data-theme=dark] .company-profile-page .pricing-speed-track span{background:#a9bfd9}
+[data-theme=dark] .company-profile-page .pricing-card.featured{background:#0c1b2c;box-shadow:inset 0 0 0 1px #45617c}
+@media(max-width:1100px) and (min-width:701px){.company-profile-page .pricing-grid.home{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.company-profile-page .company-pricing{padding-block:35px}.company-profile-page .pricing-grid.home,.company-profile-page .pricing-grid.business{grid-template-columns:1fr}.company-profile-page .pricing-card,.company-profile-page .pricing-card.featured{padding:26px}.company-profile-page .pricing-description{min-height:0}.company-profile-page .pricing-switch{gap:8px}.company-profile-page .pricing-switch button{font-size:11px;padding:10px 14px}.company-profile-page .pricing-speed{display:block}.company-services{padding-block:5px 40px}.company-services-grid{grid-template-columns:1fr;gap:14px}.company-services-grid article{padding:26px}.company-services-grid h3{font-size:26px}.company-services-grid p{font-size:13px}.company-footer-main{align-items:flex-start;flex-direction:column;gap:28px;padding-bottom:25px}.company-footer-main nav{width:100%;max-width:280px;gap:2px}.company-footer-bottom{flex-direction:column;gap:8px;padding-bottom:65px}.company-beta-toolbar{padding-inline:14px;font-size:10px;gap:10px}.company-beta-toolbar small{display:none}.company-beta-toolbar>span{max-width:140px;text-align:center}}
+@media(prefers-reduced-motion:reduce){.company-profile-page .pricing-card{transition:none}.company-profile-page .pricing-card:hover{transform:none}}
+
+/* Company header and hero use the beta's full-screen tower-video treatment. */
+@font-face{font-family:Company General;src:url('../public/company-reference/fonts/general-sans-400.woff2') format('woff2');font-weight:400;font-display:swap}
+.company-profile-header{position:fixed;inset:0 0 auto;z-index:60;color:#fff;background:transparent;transition:background .2s,color .2s;font-family:Company General,Arial,sans-serif}
+.company-header-inner{width:min(1600px,100%);padding-inline:40px;margin:auto;height:80px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.company-header-inner>a{display:flex;flex:none;align-items:center}.company-header-inner>a img{width:88px;height:56px;object-fit:contain}
+.company-profile-header nav{display:flex;align-items:center;gap:32px;margin-left:auto;margin-right:auto}
+.company-profile-header nav a{font-size:17px;color:inherit;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap}
+.company-profile-header nav a:hover{text-decoration:underline;text-underline-offset:7px}
+.company-header-controls{display:flex;align-items:center;gap:10px}
+.company-header-controls .theme-toggle{background:#ffffff12;border:1px solid #ffffff40;color:#fff;border-radius:50%;width:40px;height:40px}
+.company-header-login{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 23px;border-radius:40px;background:#fff;color:#0c1b2c;font-size:15px;font-weight:600}
+.company-header-menu{display:none}
+.company-profile-header.is-solid{background:var(--pub-bg);color:var(--pub-ink);box-shadow:0 1px 0 var(--pub-line)}
+.company-profile-header.is-solid .company-header-login{background:var(--profile-navy);color:#fff}
+.company-profile-header.is-solid .theme-toggle{color:var(--pub-ink);background:transparent;border-color:var(--pub-line)}
+.company-profile-page .company-video-hero{position:relative;isolation:isolate;display:block;width:100%;height:100svh;min-height:640px;padding:0;margin:0;color:#fff;background:#0c1b2c;font-family:Company General,Arial,sans-serif}
+.company-video-hero>video,.company-hero-shade{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.company-hero-shade{z-index:-1;background:linear-gradient(90deg,#08101c80,#08101c40),linear-gradient(0deg,#08101cb3,transparent 60%)}
+.company-hero-content{width:min(1600px,100%);margin:auto;padding:112px 40px 40px;height:100%;display:flex;flex-direction:column;justify-content:space-between}
+.company-hero-message{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding-bottom:25px}
+.company-profile-page .company-video-hero h1{font-family:Company Erode,Georgia,serif;font-size:clamp(56px,6.53vw,104px);font-weight:500;line-height:1.04;letter-spacing:-.025em;max-width:14ch;margin:0}
+.company-hero-message>p{font-size:clamp(19px,1.85vw,29px);line-height:1.5;max-width:38ch;margin:30px 0;color:#f5f6f8}
+.company-hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px 32px}
+.company-hero-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:56px;font-size:19px;color:#fff;text-decoration:underline;text-underline-offset:5px}
+.company-hero-actions a.company-hero-primary{background:#ff7117;color:#0c1b2c;padding:15px 29px;border-radius:40px;text-decoration:none;font-weight:600}
+.company-hero-actions .company-hero-primary:hover{background:#ff8c45}
+.company-hero-details{display:flex;flex-wrap:wrap;gap:16px 48px;margin:0;padding-right:65px}
+.company-hero-details dt{font-size:14px;color:#e0e5eb;margin-bottom:7px}.company-hero-details dd{font-size:18px;font-weight:500;margin:0}
+.company-hero-video-toggle{position:absolute;right:40px;bottom:88px;width:44px;height:44px;display:grid;place-items:center;border-radius:50%;border:0;background:#f3f4f6;color:#0c1b2c}
+[data-theme=dark] .company-profile-header.is-solid .company-header-inner>a img{filter:brightness(0) invert(1)}
+@media(max-width:1000px){.company-header-inner{padding-inline:24px;gap:20px}.company-profile-header nav{gap:20px}.company-profile-header nav a{font-size:14px}.company-hero-content{padding-inline:24px}.company-profile-page .company-video-hero h1{font-size:clamp(58px,8vw,80px)}}
+@media(max-width:700px){.company-header-inner{padding-inline:20px;height:76px}.company-header-inner>a img{width:78px;height:50px}.company-header-controls{gap:8px}.company-header-controls .theme-toggle{width:36px;height:36px}.company-header-login{font-size:12px;padding:10px 17px;min-height:40px}.company-header-menu{display:grid;place-items:center;width:40px;height:40px;background:#ffffff15;color:inherit;border:1px solid #ffffff40;border-radius:50%}.company-profile-header.is-solid .company-header-menu{border-color:var(--pub-line);background:var(--pub-soft)}.company-profile-header nav{display:none;position:absolute;top:76px;left:0;right:0;margin:0;background:var(--pub-bg);color:var(--pub-ink);padding:12px 20px 22px;box-shadow:0 8px 15px #0c1b2c12}.company-profile-header nav.is-open{display:flex;flex-direction:column;align-items:stretch;gap:4px}.company-profile-header nav a{font-size:16px;min-height:46px}.company-profile-page .company-video-hero{height:100svh;min-height:710px}.company-hero-content{padding:100px 20px 32px}.company-profile-page .company-video-hero h1{font-size:clamp(45px,11.9vw,72px);line-height:1.08;letter-spacing:-.025em}.company-hero-message>p{font-size:18px;line-height:1.65;margin:24px 0;max-width:30ch}.company-hero-actions{gap:10px 24px}.company-hero-actions a{font-size:15px;min-height:50px}.company-hero-actions a.company-hero-primary{padding:13px 24px}.company-hero-details{gap:20px 25px;padding-right:34px;max-width:360px}.company-hero-details dt{font-size:11px}.company-hero-details dd{font-size:14px}.company-hero-video-toggle{right:20px;bottom:125px;width:40px;height:40px}}
+@media(prefers-reduced-motion:reduce){.company-profile-header{transition:none}}
+
+/* Match the beta's desktop pin/scrub transition without a runtime dependency. */
+.company-hero-scroll{position:relative}
+.company-profile-page .company-video-hero{background:var(--pub-bg)}
+.company-hero-media{position:absolute;inset:0;overflow:hidden;background:#0c1b2c;z-index:0}
+.company-hero-media>video,.company-hero-media>.company-hero-shade{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.company-hero-media>.company-hero-shade{z-index:1;pointer-events:none}
+.company-hero-media>.company-hero-video-toggle{z-index:2}
+.company-hero-content{position:relative;z-index:1;pointer-events:none}
+.company-hero-content a{pointer-events:auto}
+.company-hero-content[inert] a{pointer-events:none}
+.company-profile-header{transition:transform .25s,background .2s,color .2s}
+.company-profile-header.is-hidden{transform:translateY(-102%)}
+.company-profile-header:has(:focus-visible){transform:translateY(0)}
+@media(min-width:1024px) and (prefers-reduced-motion:no-preference){.company-hero-scroll{height:calc(max(100svh,640px) + 70svh)}.company-profile-page .company-video-hero{position:sticky;top:0}.company-hero-media{will-change:clip-path}.company-hero-content{will-change:transform,opacity}}
+@media(prefers-reduced-motion:reduce){.company-profile-header{transition:none}.company-hero-content{transform:none!important;opacity:1!important}.company-hero-media{clip-path:none!important}}

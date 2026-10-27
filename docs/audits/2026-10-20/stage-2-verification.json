@@ -1,0 +1,68 @@
+{
+  "mutatedNodeIds": [
+    "346:291",
+    "346:292",
+    "346:294",
+    "346:296"
+  ],
+  "collectionCounts": [
+    {
+      "name": "Nirwana / Color",
+      "count": 27
+    },
+    {
+      "name": "Nirwana / Dimension",
+      "count": 18
+    },
+    {
+      "name": "Nirwana / Dark",
+      "count": 27
+    },
+    {
+      "name": "Nirwana / Primitive",
+      "count": 45
+    }
+  ],
+  "unscoped": [],
+  "missingSyntax": [],
+  "lightDarkNamesMatch": true,
+  "aliasErrors": [],
+  "typographySamplesBound": 18,
+  "textStyleCount": 19,
+  "effectStyleCount": 5,
+  "gridStyleCount": 3,
+  "overflowErrors": [],
+  "logoScaleMode": "FIT",
+  "boards": [
+    {
+      "id": "346:4",
+      "width": 952,
+      "height": 716
+    },
+    {
+      "id": "346:14",
+      "width": 1440,
+      "height": 370
+    },
+    {
+      "id": "346:25",
+      "width": 1440,
+      "height": 1355
+    },
+    {
+      "id": "346:196",
+      "width": 1440,
+      "height": 1152
+    },
+    {
+      "id": "346:254",
+      "width": 1440,
+      "height": 609
+    },
+    {
+      "id": "346:299",
+      "width": 1440,
+      "height": 674
+    }
+  ]
+}

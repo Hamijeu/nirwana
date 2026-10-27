@@ -1,0 +1,399 @@
+Browser tab: 19, Title: "Nirwana – Figma", URL: "https://www.figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=412-456&t=RA0M3zwwUykgAMtT-0".
+1 AXWebArea Nirwana – Figma, URL: figma.com/design/9US6c0r5wmKyUDaWtta59T/Nirwana?node-id=412-456&t=RA0M3zwwUykgAMtT-0
+	2 container react-page
+		8 container
+			2112 container fullscreen-root
+				2113 container Figma Design, 1 item selected
+			11 text Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+K, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+			12 container Comments on canvas
+				13 button Create new comment
+			14 container Left sidebar
+				15 toolbar Navigation Bar
+					16 pop up button (collapsed) Description: Main menu, ID: :rn:-trigger, Secondary Actions: Expand
+						17 image
+					18 button (expanded) Description: File, Secondary Actions: Collapse
+						19 image
+						20 text File
+					21 button (collapsed) Description: Agents, Secondary Actions: Expand
+						22 text Agents
+					23 button (collapsed) Description: Assets, Secondary Actions: Expand
+						24 image
+						25 text Assets
+					26 button (collapsed) Description: Tools, Secondary Actions: Expand
+						27 image
+						28 text Tools
+					29 button (collapsed) Description: Variables, Secondary Actions: Expand
+						30 image
+						31 text Variables
+				32 container left-panel-container
+					33 container
+						34 button Nirwana, file name
+						35 text File name
+						36 pop up button (collapsed) Description: Edit file menu, ID: :rs:, Secondary Actions: Expand
+						37 button Minimize UI
+						38 link Description: Team project, Value: figma.com/files/team/1112011876501429930/project/57679135
+						39 button Free
+						40 heading Pages Find Add new page, Value: 2
+							41 button (expanded) Pages, Secondary Actions: Collapse
+							42 button Description: Find, ID: canvas-search-icon-button
+							43 button Add new page
+						44 container
+							45 container
+								46 table
+									47 row (selectable) 00 — Cover & Foundations
+										48 cell
+											49 button 00 — Cover & Foundations
+									50 row (selectable) 01 — Components & Patterns
+										51 cell
+											52 button 01 — Components & Patterns
+									53 row (selectable) 02 — Screens & Flows
+										54 cell
+											55 button 02 — Screens & Flows
+							56 slider Description: Resize handle, Value: 100
+						57 heading Layers Collapse layers, Value: 2
+							58 button (expanded) Layers, Secondary Actions: Collapse
+							254 button Collapse layers
+						59 table
+							60 container
+								2015 row (selectable, collapsed) 03 — Patterns, Secondary Actions: Expand
+									2016 container
+										2017 cell
+											2018 text 03 — Patterns
+								2019 row (selectable, expanded) 02 — Components, Secondary Actions: Collapse
+									2020 container
+										2021 cell
+											2022 text 02 — Components
+								2023 row (selectable, collapsed) Stage 2 / Publication / Specimen, Secondary Actions: Expand
+									2024 container
+										2025 cell
+											2026 text Stage 2 / Publication / Specimen
+								2027 row (selectable, collapsed) Pattern / Review Form / Inactive Validation / Light, Secondary Actions: Expand
+									2028 container
+										2029 cell
+											2030 text Pattern / Review Form / Inactive Validation / Light
+								2031 row (selected, expanded) Stage 2 / Review Form / Administrative / Dark Toggle layer locking Toggle layer visibility, Secondary Actions: Collapse
+									2032 container
+										2033 cell
+											2065 text Stage 2 / Review Form / Administrative / Dark
+									2114 container
+										2115 cell
+											2116 checkbox (settable, integer) Description: Toggle layer locking, Value: 0, ID: :r14e:
+											2117 text Toggle layer locking
+										2118 cell
+											2119 checkbox (settable, integer) Description: Toggle layer visibility, Value: 0, ID: :r14f:
+											2120 text Toggle layer visibility
+								2073 row (selected) Label / Ceritakan gangguan Anda
+									2074 container
+										2075 cell
+											2076 text Label / Ceritakan gangguan Anda
+								2077 row (selected) Label / Ceritakan gangguan Anda
+									2078 container
+										2079 cell
+											2080 text Label / Ceritakan gangguan Anda
+								2081 row (selected, collapsed) Form / Select, Secondary Actions: Expand
+									2082 container
+										2083 cell
+											2084 text Form / Select
+								2085 row (selected, collapsed) Form / Select, Secondary Actions: Expand
+									2086 container
+										2087 cell
+											2088 text Form / Select
+								2089 row (selected, collapsed) Form / Textarea, Secondary Actions: Expand
+									2090 container
+										2091 cell
+											2092 text Form / Textarea
+								2093 row (selected, collapsed) Button, Secondary Actions: Expand
+									2094 container
+										2095 cell
+											2096 text Button
+								2097 row (selected, collapsed) Button, Secondary Actions: Expand
+									2098 container
+										2099 cell
+											2100 text Button
+								2101 row (selected) Label / Ceritakan gangguan Anda
+									2102 container
+										2103 cell
+											2104 text Label / Ceritakan gangguan Anda
+								2105 row (selected) Label / Ceritakan gangguan Anda Toggle layer visibility
+									2106 container
+										2107 cell
+											2108 text Label / Ceritakan gangguan Anda
+									2109 cell
+										2110 checkbox (settable, integer) Description: Toggle layer visibility, Value: 1, ID: :r159:
+										2111 text Toggle layer visibility
+								2035 row (selectable, expanded) Stage 2 / Review Form / Administrative / Light, Secondary Actions: Collapse
+									2036 container
+										2037 cell
+											2038 text Stage 2 / Review Form / Administrative / Light
+								2039 row (selectable) Label / Ceritakan gangguan Anda
+									2040 container
+										2041 cell
+											2042 text Label / Ceritakan gangguan Anda
+								2043 row (selectable) Label / Ceritakan gangguan Anda
+									2044 container
+										2045 cell
+											2046 text Label / Ceritakan gangguan Anda
+								678 row (selectable, expanded) Form / Select, Secondary Actions: Collapse
+									679 container
+										680 cell
+											681 text Form / Select
+								848 row (selectable) Label / Wilayah
+									849 container
+										850 cell
+											851 text Label / Wilayah
+								852 row (selectable, expanded) Field / Select, Secondary Actions: Collapse
+									853 container
+										854 cell
+											855 text Field / Select
+								932 row (selectable) Label / Pilih wilayah
+									933 container
+										934 cell
+											935 text Label / Pilih wilayah
+								936 row (selectable, collapsed) Icon / chevron-down, Secondary Actions: Expand
+									937 container
+										938 cell
+											939 text Icon / chevron-down
+								682 row (selectable, expanded) Form / Select, Secondary Actions: Collapse
+									683 container
+										684 cell
+											685 text Form / Select
+								1084 row (selectable) Label / Wilayah
+									1085 container
+										1086 cell
+											1087 text Label / Wilayah
+								1088 row (selectable, expanded) Field / Select, Secondary Actions: Collapse
+									1089 container
+										1090 cell
+											1091 text Field / Select
+								1203 row (selectable) Label / Pilih wilayah
+									1204 container
+										1205 cell
+											1206 text Label / Pilih wilayah
+								1207 row (selectable, collapsed) Icon / chevron-down, Secondary Actions: Expand
+									1208 container
+										1209 cell
+											1210 text Icon / chevron-down
+								686 row (selectable, expanded) Form / Textarea, Secondary Actions: Collapse
+									687 container
+										688 cell
+											689 text Form / Textarea
+								1355 row (selectable) Label / Ceritakan gangguan Anda
+									1356 container
+										1357 cell
+											1358 text Label / Ceritakan gangguan Anda
+								1359 row (selectable, expanded) Field / Textarea, Secondary Actions: Collapse
+									1360 container
+										1361 cell
+											1362 text Field / Textarea
+								1439 row (selectable) Label / Jelaskan kendala yang Anda alami…
+									1440 container
+										1441 cell
+											1442 text Label / Jelaskan kendala yang Anda alami…
+								690 row (selectable, collapsed) Button, Secondary Actions: Expand
+									691 container
+										692 cell
+											693 text Button
+								694 row (selectable, collapsed) Button, Secondary Actions: Expand
+									695 container
+										696 cell
+											697 text Button
+								698 row (selectable) Label / Ceritakan gangguan Anda
+									699 container
+										700 cell
+											701 text Label / Ceritakan gangguan Anda
+								705 row (selectable) Label / Ceritakan gangguan Anda Toggle layer visibility
+									706 container
+										707 cell
+											708 text Label / Ceritakan gangguan Anda
+									1760 cell
+										1761 checkbox (settable, integer) Description: Toggle layer visibility, Value: 1, ID: :rug:
+										1762 text Toggle layer visibility
+					69 slider Description: Resize handle, Value: 280
+			70 container Right sidebar
+				71 container
+					72 container
+						73 pop up button (collapsed) Description: Multiplayer tools, ID: self-avatar-with-tools-container, Secondary Actions: Expand
+							74 image
+						75 container Prototype view
+							76 button Description: Present, ID: :r1e:
+							77 pop up button (collapsed) Description: Prototype view, ID: :r1d:, Secondary Actions: Expand
+						78 button Share
+						79 tab group
+							80 tab (selected, settable, boolean) Design, Value: 1, ID: tab:r1h:-0-trigger
+							81 tab (selectable, settable, boolean) Prototype, Value: 0, ID: tab:r1h:-1-trigger
+						82 pop up button (collapsed) Description: 83%, zoom and view options, ID: :r1k:, Secondary Actions: Expand
+							83 text 83%
+							84 image
+						2121 container
+							2122 container
+								2123 button Light
+									2124 text Light
+									2125 image
+								2126 pop up button (collapsed) Description: More actions, ID: :r1v8:, Secondary Actions: Expand
+								2127 button From this file
+									2128 text From this file
+								2129 heading Position, Value: 2
+									2130 text Position
+								2131 container Alignment
+									2132 text Alignment
+									2133 button Align left
+										2134 image
+									2135 button Align horizontal centers
+										2136 image
+									2137 button Align right
+										2138 image
+									2139 button Align top
+										2140 image
+									2141 button Align vertical centers
+										2142 image
+									2143 button Align bottom
+										2144 image
+									2145 button More actions
+								2146 container Position
+									2147 text Position
+									2148 stepper (settable, integer) Description: X-position, Value: 4584
+									2149 stepper (settable, integer) Description: Y-position, Value: 15100
+								2150 container Rotation
+									2151 text Rotation
+									2152 stepper (settable, integer) Description: Rotation, Value: 0, Details: 0Â°
+									2153 button Rotate 90˚ right
+										2154 image
+									2155 button Flip horizontal
+										2156 image
+									2157 button Flip vertical
+										2158 image
+								2159 heading Auto layout, Value: 2
+									2160 text Auto layout
+								2161 container Flow
+									2162 text Flow
+									2163 (disabled) Layout
+										2164 text Layout
+										2165 radio button (disabled, settable, integer) Description: Freeform, Value: 0, ID: :r1vb:-NONE
+										2166 radio button (disabled, settable, integer) Description: Vertical, Value: 1, ID: :r1vb:-VERTICAL
+										2167 radio button (disabled, settable, integer) Description: Horizontal, Value: 0, ID: :r1vb:-HORIZONTAL
+										2168 radio button (disabled, settable, integer) Description: Grid, Value: 0, ID: :r1vb:-GRID
+									2169 checkbox (disabled, settable, integer) Description: Wrap, Value: 0, ID: :r1vc:
+									2170 text Wrap
+								2171 container Resizing
+									2172 text Resizing
+									2173 container
+										2174 list
+										2175 container Horizontal resizing
+											2176 combo box (collapsed, settable) Description: Horizontal resizing, Value: 404, Secondary Actions: Expand
+									2177 container
+										2178 list
+										2179 container Vertical resizing
+											2180 combo box (collapsed, settable) Description: Vertical resizing, Value: 698, Secondary Actions: Expand
+											2181 text Hug
+									2182 checkbox (settable, integer) Description: Lock aspect ratio, Value: 0, ID: :r1vd:
+									2183 text Lock aspect ratio
+								2184 Alignment
+									2185 text Alignment
+									2186 container
+										2187 radio button (settable, integer) Description: Align top left, Value: 1, ID: :r1ve:-TOP_LEFT
+										2188 radio button (settable, integer) Description: Align top center, Value: 0, ID: :r1ve:-TOP_CENTER
+										2189 radio button (settable, integer) Description: Align top right, Value: 0, ID: :r1ve:-TOP_RIGHT
+										2190 radio button (settable, integer) Description: Align left, Value: 0, ID: :r1ve:-LEFT
+										2191 radio button (settable, integer) Description: Align center, Value: 0, ID: :r1ve:-CENTER
+										2192 radio button (settable, integer) Description: Align right, Value: 0, ID: :r1ve:-RIGHT
+										2193 radio button (settable, integer) Description: Align bottom left, Value: 0, ID: :r1ve:-BOTTOM_LEFT
+										2194 radio button (settable, integer) Description: Align bottom center, Value: 0, ID: :r1ve:-BOTTOM_CENTER
+										2195 radio button (settable, integer) Description: Align bottom right, Value: 0, ID: :r1ve:-BOTTOM_RIGHT
+								2196 list
+								2197 container Vertical gap between objects
+									2198 combo box (collapsed, settable) Description: Vertical gap between objects, Value: 16, Secondary Actions: Expand
+								2199 pop up button (collapsed) Description: Auto layout settings, Secondary Actions: Expand
+								2200 container Horizontal padding
+									2201 text field (settable) Description: Horizontal padding, Value: 32
+								2202 container Vertical padding
+									2203 text field (settable) Description: Vertical padding, Value: 32
+								2204 pop up button (collapsed) Description: Individual padding, Secondary Actions: Expand
+								2205 checkbox (settable, integer) Description: Clip content, Value: 0, ID: :r1vh:
+								2206 text Clip content
+								2207 heading Appearance, Value: 2
+									2208 text Appearance
+								2209 checkbox (settable, integer) Description: Hide, Value: 0, ID: :r1vi:
+								2210 text Hide
+								2211 pop up button (collapsed) Description: Apply blend mode, ID: :r1vl:, Secondary Actions: Expand
+								2212 container
+									2213 image
+									2214 text field (settable) 100%
+								2215 container
+									2216 text field (settable) 0
+								2217 pop up button (collapsed) Description: Individual corners, Secondary Actions: Expand
+								2218 heading Fill, Value: 2
+									2219 text Fill
+								2220 pop up button (collapsed) Description: Fill, Apply styles and variables, Secondary Actions: Expand
+								2221 button Add fill
+								2222 table
+									2223 row (selectable) Color Variable Color/Surface/Default with value #141F32 · 100% Toggle visibility Remove
+										2224 cell
+											2225 button Color Variable Color/Surface/Default with value #141F32 · 100%
+												2226 container Color/Surface/Default
+													2227 text Color/Surface/Default
+										2228 cell
+											2229 checkbox (settable, integer) Description: Toggle visibility, Value: 1, ID: :r204:
+											2230 text Toggle visibility
+										2231 cell
+											2232 button Remove
+								2233 button Stroke
+									2234 heading Stroke, Value: 2
+										2235 text Stroke
+								2236 pop up button (collapsed) Description: Stroke, Apply styles and variables, Secondary Actions: Expand
+								2237 button Add stroke
+								2238 container
+									2239 button Effects
+										2240 heading Effects, Value: 2
+											2241 text Effects
+									2242 pop up button (collapsed) Description: Effects, Apply styles, Secondary Actions: Expand
+									2243 button Add effect
+								2244 button Selection colors +6
+									2245 heading Selection colors, Value: 2
+										2246 text Selection colors
+									2247 text +6
+								2248 button Layout guide
+									2249 heading Layout guide, Value: 2
+										2250 text Layout guide
+								2251 pop up button (collapsed) Description: Layout guide, Apply styles, Secondary Actions: Expand
+								2252 button Add layout guide
+								2253 button Export
+								2254 button Add export settings
+					221 slider Description: Resize handle, Value: 241
+		222 container Application toolbar
+			223 toolbar Editor
+				224 container Move
+					225 checkbox Description: Move, Value: 1
+						226 image
+					227 checkbox (collapsed) Description: Move tools, Value: 0, ID: :r4f:, Secondary Actions: Expand
+				228 container Frame
+					229 checkbox Description: Frame, Value: 0
+						230 image
+					231 checkbox (collapsed) Description: Region tools, Value: 0, ID: :r4k:, Secondary Actions: Expand
+				232 container Rectangle
+					233 checkbox Description: Rectangle, Value: 0
+						234 image
+					235 checkbox (collapsed) Description: Shape tools, Value: 0, ID: :r4p:, Secondary Actions: Expand
+				236 container Pen
+					237 checkbox Description: Pen, Value: 0
+						238 image
+					239 checkbox (collapsed) Description: Creation tools, Value: 0, ID: :r4u:, Secondary Actions: Expand
+				240 container Text
+					241 checkbox Description: Text, Value: 0
+						242 image
+					243 checkbox (collapsed) Description: Type tools, Value: 0, ID: :r53:, Secondary Actions: Expand
+				244 checkbox Description: Comment (1 unread), Value: 0
+					245 image
+				246 checkbox Description: Actions, Value: 0
+					247 image
+				248 Toolbelt Mode
+					249 text Toolbelt Mode
+					250 radio button (settable, integer) Description: Draw, Value: 0, ID: :r4c:-illustration
+					251 radio button (settable, integer) Description: Design, Value: 1, ID: :r4c:-design
+					252 radio button (settable, integer) Description: Motion, Value: 0, ID: :r4c:-metronome
+					253 radio button (settable, integer) Description: Dev Mode, Value: 0, ID: :r4c:-handoff
+		4 container Help/zoom toolbar
+			5 toolbar Help/zoom toolbar
+				6 pop up button (collapsed) Description: Help, ID: :r2:, Secondary Actions: Expand
+					7 image
+
+The focused UI element is 2113 container Figma Design, 1 item selected

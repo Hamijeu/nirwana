@@ -1,8 +1,8 @@
 export const customers = [
-  {id:1,name:'Budi Santoso',phone:'0812 •••• 1234',region:'Bandung Utara',status:'Aktif',joined:'12 Jan 2024',services:2},
-  {id:2,name:'Siti Rahma',phone:'0813 •••• 4402',region:'Bandung Timur',status:'Aktif',joined:'03 Mar 2024',services:1},
-  {id:3,name:'Dewi Lestari',phone:'0821 •••• 8721',region:'Bandung Selatan',status:'Aktif',joined:'22 Jun 2025',services:2},
-  {id:4,name:'Rizky Pratama',phone:'0857 •••• 9916',region:'Bandung Utara',status:'Nonaktif',joined:'07 Sep 2025',services:1},
+  {id:1,name:'Budi Santoso',phone:'081234561234',region:'Bandung Utara',status:'Aktif',joined:'12 Jan 2024',services:2},
+  {id:2,name:'Siti Rahma',phone:'081345674402',region:'Bandung Timur',status:'Aktif',joined:'03 Mar 2024',services:1},
+  {id:3,name:'Dewi Lestari',phone:'082112348721',region:'Bandung Selatan',status:'Aktif',joined:'22 Jun 2025',services:2},
+  {id:4,name:'Rizky Pratama',phone:'085712349916',region:'Bandung Utara',status:'Nonaktif',joined:'07 Sep 2025',services:1},
 ];
 export const services = [
   {id:1,number:'SRV-2026-001',name:'Internet Rumah',owner:'Budi Santoso',package:'Home Internet',status:'Aktif',region:'Bandung Utara',address:'Jl. Cikutra No. 42, Bandung',installed:'14 Jan 2024',coord:'-6.8881, 107.6472'},
