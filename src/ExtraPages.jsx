@@ -34,14 +34,13 @@ export function CustomerForm({role,go,notify,editId,staff=[]}){
   return <div className="narrow-page"><button className="back-link" onClick={()=>go(`/${role}/customers`)}><ArrowLeft size={16}/> Pelanggan</button><div className="page-heading"><div><div className="eyebrow">DATA OPERASIONAL</div><h1>{original?'Edit pelanggan':'Tambah pelanggan'}</h1><p>Isi identitas dan kontak pelanggan fiktif untuk simulasi.</p></div></div><form className="panel form-panel" onSubmit={e=>{e.preventDefault();const invalid=validateAccountPhone(form.phone,[...staff.map(u=>({...u,key:'staff-'+u.id})),...customers.map(u=>({...u,key:'client-'+u.id}))],original?'client-'+original.id:undefined);if(invalid){setError(invalid);return}setError('');const id=original?.id||Math.max(0,...customers.map(c=>c.id))+1;const data={id,name:form.name.trim(),phone:normalizePhone(form.phone),region:form.region,address:form.address.trim(),joined:form.joined,services:original?.services||0,status:original?.status||'Belum Aktif'};if(original)Object.assign(original,data);else customers.push(data);notify(original?'Pelanggan demo diperbarui':'Pelanggan demo berhasil ditambahkan');go(`/${role}/customers/${id}${original?'':'/identity'}`)}}><label className="field"><span>Nama lengkap</span><input required value={form.name} onChange={e=>set('name',e.target.value)}/></label><label className="field"><span>Nomor WhatsApp</span><input required type="tel" value={form.phone} onChange={e=>set('phone',e.target.value)}/></label><label className="field"><span>Wilayah</span><select value={form.region} onChange={e=>set('region',e.target.value)}>{regions.slice(1).map(r=><option key={r}>{r}</option>)}</select></label><label className="field"><span>Alamat</span><textarea required rows={3} value={form.address} onChange={e=>set('address',e.target.value)}/></label><label className="field"><span>Tanggal registrasi</span><input required type="date" value={form.joined} onChange={e=>set('joined',e.target.value)}/></label>{!original&&<p className="pm-note">Akun pelanggan dibuat dengan status Belum Aktif. KTP dilengkapi setelah data tersimpan.</p>}<div className="form-actions"><button type="button" className="btn soft" onClick={()=>go(`/${role}/customers`)}>Batal</button>{error&&<p role="alert" className="pm-inline-error">{error}</p>}<button type="submit" className="btn">Simpan pelanggan <ArrowRight size={16}/></button></div></form></div>
 }
 
-export function CustomerIdentity({customer,role,go,notify}){
+export function CustomerIdentity({customer,role,notify}){
   const [requirements,setRequirements]=useState({
     purpose:false, basis:false, notice:false, evidence:false,
   });
   const [failed,setFailed]=useState(false);
-  const completed=customer.identityStatus==='Dilengkapi';
+  const [completed,setCompleted]=useState(customer.identityStatus==='Dilengkapi');
   const allowed=Object.values(requirements).every(Boolean);
-  const customerPath=`/${role}/customers/${customer.id}`;
   const checks=[
     ['purpose','Tujuan pemrosesan tersedia'],
     ['basis','Dasar pemrosesan tersedia'],
@@ -58,20 +57,16 @@ export function CustomerIdentity({customer,role,go,notify}){
     }];
     if(success){
       customer.identityStatus='Dilengkapi';
+      setCompleted(true);
       notify('Simulasi unggah KTP berhasil');
     }
     setFailed(!success);
-    if(success)go(customerPath);
   }
 
-  return <div className="narrow-page">
-    <button className="back-link" onClick={()=>go(customerPath)}><ArrowLeft size={16}/> Detail pelanggan</button>
-    <div className="page-heading"><div><div className="eyebrow">DOKUMEN IDENTITAS</div>
-      <h1>Lengkapi KTP</h1><p>{customer.name} · Akun {customer.status}</p>
-    </div></div>
-    <section className="panel">
-      <h2>Data pelanggan dan akun tersimpan</h2>
-      <p className="body-copy">Status dokumen: {completed?'Dilengkapi (simulasi)':'Belum dilengkapi'}</p>
+  return <section aria-labelledby="customer-identity-heading">
+      <h2 id="customer-identity-heading">Dokumen identitas</h2>
+      <p className="body-copy">Data pelanggan dan akun sudah tersimpan.</p>
+      <p role="status" className="body-copy">Status dokumen: {completed?'Dilengkapi (simulasi)':'Belum dilengkapi'}</p>
       {!completed&&<>
         <fieldset className="pm-note revision-fieldset">
           <legend>Persyaratan unggah (simulasi)</legend>
@@ -90,8 +85,7 @@ export function CustomerIdentity({customer,role,go,notify}){
           <button type="button" className="btn" disabled={!allowed} onClick={()=>simulateUpload(true)}>{failed?'Coba lagi · simulasikan berhasil':'Simulasikan berhasil'}</button>
         </div>
       </>}
-    </section>
-  </div>;
+  </section>;
 }
 
 export function ServiceForm({role,go,notify,editId}){
