@@ -9,3 +9,53 @@
 
 .pm-actions.revision-review-actions{flex-direction:column;align-items:stretch}
 .app-shell .revision-review-actions>.btn.soft{--control-fill:var(--surface);--control-text:var(--text);--control-edge:var(--muted)}
+
+.app-shell .revision-fieldset {
+  min-inline-size: 0;
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+}
+
+.app-shell .revision-fieldset legend {
+  padding: 0 8px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.app-shell .revision-fieldset > .small-note {
+  margin: 0 0 16px;
+  color: var(--muted);
+}
+
+.app-shell .revision-fieldset > .field:last-child {
+  margin-bottom: 0;
+}
+
+.app-shell .revision-fieldset > .pm-choice {
+  min-height: 44px;
+  padding: 8px 0;
+  color: var(--text);
+}
+
+.app-shell .revision-fieldset > .pm-choice + .pm-choice {
+  border-top: 1px solid var(--border);
+}
+
+.app-shell .revision-fieldset .pm-choice input {
+  flex: 0 0 auto;
+  accent-color: var(--primary);
+}
+
+@media (max-width: 640px) {
+  .app-shell .revision-fieldset {
+    padding: 12px;
+  }
+
+  .app-shell .revision-fieldset > .pm-choice {
+    align-items: flex-start;
+  }
+}

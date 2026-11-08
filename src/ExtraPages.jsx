@@ -73,7 +73,7 @@ export function CustomerIdentity({customer,role,go,notify}){
       <h2>Data pelanggan dan akun tersimpan</h2>
       <p className="body-copy">Status dokumen: {completed?'Dilengkapi (simulasi)':'Belum dilengkapi'}</p>
       {!completed&&<>
-        <fieldset className="pm-note">
+        <fieldset className="pm-note revision-fieldset">
           <legend>Persyaratan unggah (simulasi)</legend>
           {checks.map(([key,label])=><label key={key} className="pm-choice">
             <input type="checkbox" checked={requirements[key]} onChange={e=>{

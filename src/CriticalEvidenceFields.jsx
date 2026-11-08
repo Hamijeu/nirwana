@@ -3,7 +3,7 @@ import {criticalNetworkResults} from './workflow.js';
 
 export default function CriticalEvidenceFields({value,onChange}){
  const change=(field,content)=>onChange({...value,[field]:content});
- return <fieldset className="pm-note">
+ return <fieldset className="pm-note revision-fieldset">
    <legend>Empat konfirmasi Critical</legend>
    <p className="small-note">Kriteria FS 06 masih berupa usulan. Catat fakta yang mendasari keputusan.</p>
    <label className="field"><span>Hasil pemeriksaan jaringan</span>
