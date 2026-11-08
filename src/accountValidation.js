@@ -9,3 +9,10 @@ export function validateAccountPhone(value,users,excludeKey){
 export function activeStaffTickets(user,tickets){
  return tickets.filter(ticket=>!ticket.archived&&ticket.status!=='SELESAI'&&((ticket.technicians||String(ticket.tech||'').split(',').map(x=>x.trim())).includes(user.name)||ticket.assignedOfficer===user.name));
 }
+
+export function validateAccountVersion(current, expectedVersion){
+ if(!current||(current.version??0)!==(expectedVersion??0)){
+  return 'Data akun sudah berubah. Tutup dialog dan buka kembali data terbaru.';
+ }
+ return null;
+}

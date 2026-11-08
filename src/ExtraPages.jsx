@@ -29,9 +29,63 @@ export function FirstLogin({go,notify}){
 export function CustomerForm({role,go,notify,editId,staff=[]}){
   const original=customers.find(c=>c.id===Number(editId));
   const [error,setError]=useState('');
-  const [form,setForm]=useState({name:original?.name||'',phone:original?.phone||'',region:original?.region||'Bandung Utara',address:original?.address||services.find(s=>s.owner===original?.name)?.address||'',joined:dateInputValue(original?.joined),account:original?.status!=='Nonaktif'});
+  const [form,setForm]=useState({name:original?.name||'',phone:original?.phone||'',region:original?.region||'Bandung Utara',address:original?.address||services.find(s=>s.owner===original?.name)?.address||'',joined:dateInputValue(original?.joined)});
   const set=(key,value)=>setForm(f=>({...f,[key]:value}));
-  return <div className="narrow-page"><button className="back-link" onClick={()=>go(`/${role}/customers`)}><ArrowLeft size={16}/> Pelanggan</button><div className="page-heading"><div><div className="eyebrow">DATA OPERASIONAL</div><h1>{original?'Edit pelanggan':'Tambah pelanggan'}</h1><p>Isi identitas dan kontak pelanggan fiktif untuk simulasi.</p></div></div><form className="panel form-panel" onSubmit={e=>{e.preventDefault();const invalid=validateAccountPhone(form.phone,[...staff.map(u=>({...u,key:'staff-'+u.id})),...customers.map(u=>({...u,key:'client-'+u.id}))],original?'client-'+original.id:undefined);if(invalid){setError(invalid);return}setError('');const id=original?.id||Math.max(0,...customers.map(c=>c.id))+1;const data={id,name:form.name.trim(),phone:normalizePhone(form.phone),region:form.region,address:form.address.trim(),joined:form.joined,services:original?.services||0,status:form.account?'Aktif':'Nonaktif'};if(original)Object.assign(original,data);else customers.push(data);notify(original?'Pelanggan demo diperbarui':'Pelanggan demo berhasil ditambahkan');go(`/${role}/customers/${id}`)}}><label className="field"><span>Nama lengkap</span><input required value={form.name} onChange={e=>set('name',e.target.value)}/></label><label className="field"><span>Nomor WhatsApp</span><input required type="tel" value={form.phone} onChange={e=>set('phone',e.target.value)}/></label><label className="field"><span>Wilayah</span><select value={form.region} onChange={e=>set('region',e.target.value)}>{regions.slice(1).map(r=><option key={r}>{r}</option>)}</select></label><label className="field"><span>Alamat</span><textarea required rows={3} value={form.address} onChange={e=>set('address',e.target.value)}/></label><label className="field"><span>Tanggal registrasi</span><input required type="date" value={form.joined} onChange={e=>set('joined',e.target.value)}/></label><label className="field"><span>Dokumen identitas (opsional, demo)</span><input type="file" accept="image/*,.pdf"/></label><label className="field checkbox-field"><span><input type="checkbox" checked={form.account} onChange={e=>set('account',e.target.checked)}/> Buat akun pelanggan demo</span></label><div className="form-actions"><button type="button" className="btn soft" onClick={()=>go(`/${role}/customers`)}>Batal</button>{error&&<p role="alert" className="pm-inline-error">{error}</p>}<button type="submit" className="btn">Simpan pelanggan <ArrowRight size={16}/></button></div></form></div>
+  return <div className="narrow-page"><button className="back-link" onClick={()=>go(`/${role}/customers`)}><ArrowLeft size={16}/> Pelanggan</button><div className="page-heading"><div><div className="eyebrow">DATA OPERASIONAL</div><h1>{original?'Edit pelanggan':'Tambah pelanggan'}</h1><p>Isi identitas dan kontak pelanggan fiktif untuk simulasi.</p></div></div><form className="panel form-panel" onSubmit={e=>{e.preventDefault();const invalid=validateAccountPhone(form.phone,[...staff.map(u=>({...u,key:'staff-'+u.id})),...customers.map(u=>({...u,key:'client-'+u.id}))],original?'client-'+original.id:undefined);if(invalid){setError(invalid);return}setError('');const id=original?.id||Math.max(0,...customers.map(c=>c.id))+1;const data={id,name:form.name.trim(),phone:normalizePhone(form.phone),region:form.region,address:form.address.trim(),joined:form.joined,services:original?.services||0,status:original?.status||'Belum Aktif'};if(original)Object.assign(original,data);else customers.push(data);notify(original?'Pelanggan demo diperbarui':'Pelanggan demo berhasil ditambahkan');go(`/${role}/customers/${id}${original?'':'/identity'}`)}}><label className="field"><span>Nama lengkap</span><input required value={form.name} onChange={e=>set('name',e.target.value)}/></label><label className="field"><span>Nomor WhatsApp</span><input required type="tel" value={form.phone} onChange={e=>set('phone',e.target.value)}/></label><label className="field"><span>Wilayah</span><select value={form.region} onChange={e=>set('region',e.target.value)}>{regions.slice(1).map(r=><option key={r}>{r}</option>)}</select></label><label className="field"><span>Alamat</span><textarea required rows={3} value={form.address} onChange={e=>set('address',e.target.value)}/></label><label className="field"><span>Tanggal registrasi</span><input required type="date" value={form.joined} onChange={e=>set('joined',e.target.value)}/></label>{!original&&<p className="pm-note">Akun pelanggan dibuat dengan status Belum Aktif. KTP dilengkapi setelah data tersimpan.</p>}<div className="form-actions"><button type="button" className="btn soft" onClick={()=>go(`/${role}/customers`)}>Batal</button>{error&&<p role="alert" className="pm-inline-error">{error}</p>}<button type="submit" className="btn">Simpan pelanggan <ArrowRight size={16}/></button></div></form></div>
+}
+
+export function CustomerIdentity({customer,role,notify}){
+  const [requirements,setRequirements]=useState({
+    purpose:false, basis:false, notice:false, evidence:false,
+  });
+  const [failed,setFailed]=useState(false);
+  const [completed,setCompleted]=useState(customer.identityStatus==='Dilengkapi');
+  const allowed=Object.values(requirements).every(Boolean);
+  const checks=[
+    ['purpose','Tujuan pemrosesan tersedia'],
+    ['basis','Dasar pemrosesan tersedia'],
+    ['notice','Pemberitahuan privasi versi aktif tersedia'],
+    ['evidence','Bukti pemberitahuan terpenuhi bila diwajibkan'],
+  ];
+
+  function simulateUpload(success){
+    if(!allowed||completed)return;
+    customer.identityAudit=[...(customer.identityAudit||[]),{
+      action:success?'Simulasi unggah KTP berhasil':'Simulasi unggah KTP gagal',
+      role,
+      at:new Date().toISOString(),
+    }];
+    if(success){
+      customer.identityStatus='Dilengkapi';
+      setCompleted(true);
+      notify('Simulasi unggah KTP berhasil');
+    }
+    setFailed(!success);
+  }
+
+  return <section aria-labelledby="customer-identity-heading">
+      <h2 id="customer-identity-heading">Dokumen identitas</h2>
+      <p className="body-copy">Data pelanggan dan akun sudah tersimpan.</p>
+      <p role="status" className="body-copy">Status dokumen: {completed?'Dilengkapi (simulasi)':'Belum dilengkapi'}</p>
+      {!completed&&<>
+        <fieldset className="pm-note revision-fieldset">
+          <legend>Persyaratan unggah (simulasi)</legend>
+          {checks.map(([key,label])=><label key={key} className="pm-choice">
+            <input type="checkbox" checked={requirements[key]} onChange={e=>{
+              setRequirements(previous=>({...previous,[key]:e.target.checked}));
+              setFailed(false);
+            }}/>{label}
+          </label>)}
+        </fieldset>
+        {!allowed&&<p role="status">Unggah tertahan sampai semua persyaratan terpenuhi.</p>}
+        {failed&&<p role="alert" className="pm-inline-error">Unggah gagal. Data pelanggan dan akun tetap tersimpan.</p>}
+        <p className="small-note">Gunakan simulasi hasil. Tidak ada foto yang diminta atau disimpan.</p>
+        <div className="form-actions">
+          <button type="button" className="btn soft" disabled={!allowed} onClick={()=>simulateUpload(false)}>Simulasikan gagal</button>
+          <button type="button" className="btn" disabled={!allowed} onClick={()=>simulateUpload(true)}>{failed?'Coba lagi · simulasikan berhasil':'Simulasikan berhasil'}</button>
+        </div>
+      </>}
+  </section>;
 }
 
 export function ServiceForm({role,go,notify,editId}){

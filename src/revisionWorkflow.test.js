@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import * as categories from './ticketCategories.js';
-import {approveReport,assignReport,acceptReport} from './workflow.js';
+import {approveReport,assignReport,acceptReport,canReadTicket} from './workflow.js';
 import * as revision from './revisionWorkflow.js';
 const ticket=()=>({id:1,customer:'Budi',serviceId:1,category:'Belum tahu',status:'NEW',reviewStatus:'Menunggu Review',history:[],createdAt:1000});
 test('optional category permits blank, rejects fabricated categories',()=>{
@@ -31,19 +31,21 @@ test('duration uses real timestamps, never invents zeros for legacy tickets',()=
  assert.deepEqual(revision.ticketDurations({createdAt:1000,firstAcceptedAt:3000,lastCompletedAt:6000,status:'OPEN'},9000),{response:2000,resolution:null,age:8000});
  assert.equal(revision.ticketDurations({createdAt:5000,firstAcceptedAt:1000},9000).response,null);
 });
-test('archive is admin-only for completed tickets and append-only',()=>{
- const t={...ticket(),status:'SELESAI'};const archived=revision.archiveReport(t,'admin','Nadia',8000);
+test('archive requires an Admin and a reason even while waiting for review',()=>{
+ const t=ticket();const archived=revision.archiveReport(t,'admin','Nadia','Laporan duplikat',8000);
  assert.equal(archived.archived,true);assert.equal(archived.history.at(-1).at,8000);assert.equal(t.history.length,0);
- assert.throws(()=>revision.archiveReport(t,'officer','Nadia'));
- assert.throws(()=>revision.archiveReport(ticket(),'admin','Nadia'));
- assert.throws(()=>revision.archiveReport(archived,'admin','Nadia'));
+ assert.match(archived.history.at(-1).note,/Laporan duplikat/);
+ assert.throws(()=>revision.archiveReport(t,'officer','Nadia','Duplikat'));
+ assert.throws(()=>revision.archiveReport(t,'admin','Nadia',' '));
+ assert.throws(()=>revision.archiveReport(archived,'admin','Nadia','Duplikat'));
 });
 test('priority correction requires published queue/task authority and reason',()=>{
- const t={...ticket(),published:true,reviewStatus:'Disetujui',priority:'LOW'};
+ const t={...ticket(),published:true,reviewStatus:'Disetujui',priority:'LOW',technicians:['Andi']};
  const next=revision.correctPriority(t,'HIGH','Dampak diperiksa','officer','Nadia',9000);
  assert.equal(next.priority,'HIGH');assert.match(next.history.at(-1).note,/LOW.*HIGH/);
  assert.throws(()=>revision.correctPriority(t,'HIGH',' ','admin','Nadia'));
  assert.equal(revision.correctPriority(t,'HIGH','alasan','technician','Andi').priority,'HIGH');
+ assert.throws(()=>revision.correctPriority(t,'HIGH','alasan','technician','Teknisi lain'));
  assert.throws(()=>revision.correctPriority({...t,published:false},'HIGH','alasan','technician','Andi'));
  assert.throws(()=>revision.correctPriority({...t,archived:true},'HIGH','alasan','admin','A'));
 });
@@ -62,11 +64,32 @@ test('map filters share results and validate real coordinate pairs',()=>{
  assert.equal(revision.hasCoordinates({coord:'999, 107'}),false);
 });
 
-test('staff reports publish active services without Client review and retain inactive review',()=>{
+test('inactive staff reports remain exempt from Client review until a decision',()=>{
  assert.deepEqual(revision.staffPublication('Aktif'),{reviewStatus:'Tidak Wajib',published:true});
- assert.deepEqual(revision.staffPublication('Nonaktif'),{reviewStatus:'Menunggu Review',published:false});
+ assert.deepEqual(revision.staffPublication('Nonaktif'),{reviewStatus:'Tidak Wajib',published:false});
  const input={customer:'Budi',serviceId:1,title:'Mati',description:'Fakta',category:'',reason:'Telepon',priority:''};
  assert.ok(revision.validateStaffReport(input,[{id:1,owner:'Budi'}],'admin'));
+ const pending={...ticket(),origin:'Petugas',...revision.staffPublication('Nonaktif')};
+ assert.equal(canReadTicket(pending,'technician'),false);
+ assert.throws(()=>revision.decideInactiveStaffReport(pending,'teknis','Periksa jaringan','Nonaktif','technician','Andi'));
+ assert.throws(()=>revision.decideInactiveStaffReport(pending,'teknis',' ','Nonaktif','officer','Nadia'));
+ const technical=revision.decideInactiveStaffReport(pending,'teknis','Periksa jaringan','Nonaktif','officer','Nadia',8000);
+ assert.equal(technical.reviewStatus,'Tidak Wajib');
+ assert.equal(technical.publishedAt,8000);
+ assert.equal(canReadTicket(technical,'technician'),true);
+ const administrative=revision.decideInactiveStaffReport(pending,'administratif','Layanan telah ditutup','Nonaktif','admin','Nadia');
+ assert.equal(canReadTicket(administrative,'technician'),false);
+ assert.throws(()=>revision.decideInactiveStaffReport(administrative,'teknis','Ulangi','Nonaktif','admin','Nadia'));
+});
+
+test('Critical requires all four confirmations and a staff role with approval authority',()=>{
+ const evidence={network:'Lumpuh',impact:'Tiga lokasi',coordination:'Hubungi NOC',basis:'Pemeriksaan NOC'};
+ for(const field of Object.keys(evidence)){
+  assert.throws(()=>approveReport(ticket(),'CRITICAL','Gangguan terkonfirmasi','Aktif','','Nadia',{...evidence,[field]:''}));
+ }
+ assert.equal(approveReport(ticket(),'CRITICAL','Gangguan terkonfirmasi','Aktif','','Nadia',evidence).priority,'CRITICAL');
+ const t={...ticket(),published:true,technicians:['Andi'],priority:'HIGH'};
+ assert.throws(()=>revision.correctPriority(t,'CRITICAL','Gangguan terkonfirmasi','technician','Andi',8000,evidence));
 });
 
 test('review and handover audit retain actual actor and timestamp',()=>{
