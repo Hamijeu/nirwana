@@ -10,3 +10,34 @@
 @media(max-width:850px){.app-shell .sidebar{box-shadow:12px 0 35px #10264220}.client-shell .client-top nav{background:var(--surface);top:78px;border-bottom:1px solid var(--border);padding:14px 20px}.client-shell .client-top nav a{min-height:42px}.app-shell .main-content{padding:27px 22px 85px}}
 @media(max-width:640px){.client-shell .client-top{height:68px}.client-shell .client-top nav{top:68px}.app-shell .topbar{height:66px}.client-shell .client-main{padding:27px 20px 95px}:is(.client-shell,.app-shell) .page-heading h1{font-size:27px}:is(.client-shell,.app-shell) .page-heading{margin-bottom:23px}:is(.client-shell,.app-shell) .page-heading p{font-size:12px}:is(.client-shell,.app-shell) .panel{padding:19px}:is(.client-shell,.app-shell) .metric{padding:16px;min-height:125px}:is(.client-shell,.app-shell) .metric-label{font-size:11px}.app-shell .main-content{padding-inline:19px}.tech-shell .main-content{padding-bottom:138px}:is(.client-shell,.app-shell) .theme-toggle{width:34px;height:34px}.tech-shell .bottom-nav{background:var(--surface);border-color:var(--border)}}
 :is(.client-shell,.app-shell) .searchbox input{border:0;background:transparent;box-shadow:none;padding:0;min-height:28px;border-radius:0}.app-shell .searchbox{min-height:44px}.app-shell .searchbox:focus-within{outline:2px solid #8bb4ff;outline-offset:1px}.app-shell .searchbox input:focus-visible{outline:none}
+
+@media (max-width: 640px) {
+  .ops-shell .main-content {
+    padding-bottom: 138px;
+  }
+
+  .ops-shell .ops-bottom {
+    background: var(--surface);
+    border-color: var(--border);
+  }
+
+  .ops-shell .ops-bottom :is(a, button) {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 0 4px;
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    font-size: 11px;
+    font-weight: 650;
+  }
+
+  .ops-shell .ops-bottom .active {
+    color: var(--primary);
+  }
+}
