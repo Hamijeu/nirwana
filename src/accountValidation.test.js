@@ -15,3 +15,9 @@ test('active work warning follows actual ticket participation and excludes archi
  const tickets=[{id:1,status:'OPEN',tech:'Andi Saputra'},{id:2,status:'SELESAI',tech:'Andi Saputra'},{id:3,status:'OPEN',technicians:['Andi Saputra'],archived:true},{id:4,status:'PENDING',technicians:['Andi Saputra','Reza']}];
  assert.deepEqual(rules.activeStaffTickets(staff,tickets).map(t=>t.id),[1,4]);
 });
+
+test('an account edited after the dialog opened rejects the old version',()=>{
+ assert.equal(rules.validateAccountVersion({version:1},1),null);
+ assert.match(rules.validateAccountVersion({version:2},1),/sudah berubah/);
+ assert.equal(rules.validateAccountVersion({},undefined),null);
+});

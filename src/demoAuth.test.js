@@ -29,3 +29,43 @@ test('OTP expiration is distinct and already verified code cannot be verified tw
  assert.equal(auth.checkDemoOtp('123456',2000),null);
  assert.match(auth.checkDemoOtp('123456',2000),/digunakan/);
 });
+
+test('login failures use the same response for every account status',()=>{
+ auth.resetDemoLock();
+ const activeFailure=auth.loginDemo(auth.DEMO_PHONE,'incorrect','Aktif',1000);
+ assert.deepEqual(auth.loginDemo(auth.DEMO_PHONE,'incorrect','Belum Aktif',1001),activeFailure);
+ assert.deepEqual(auth.loginDemo(auth.DEMO_PHONE,auth.DEMO_PASSWORD,'Nonaktif',1002),activeFailure);
+});
+
+test('OTP request gives the same acknowledgement for unknown numbers without allowing verification',()=>{
+ const known=auth.issueDemoOtp(auth.DEMO_PHONE,1000);
+ const unknown=auth.issueDemoOtp('081200000000',1000);
+ assert.deepEqual(unknown,known);
+ assert.match(auth.checkDemoOtp('123456',2000),/tidak cocok/);
+});
+
+test('deactivation revokes the demo client session and any verified or new OTP',async()=>{
+ const {customers}=await import('./data.js');
+ const customer=customers.find(item=>item.id===auth.DEMO_CLIENT_ID);
+ const status=customer.status;
+ try {
+  auth.resetDemoLock();
+  assert.equal(auth.loginDemo(auth.DEMO_PHONE,auth.DEMO_PASSWORD,'Aktif',1000).ok,true);
+  auth.issueDemoOtp(auth.DEMO_PHONE,1000);
+  assert.equal(auth.checkDemoOtp('123456',2000),null);
+  customer.status='Nonaktif';
+  auth.revokeDemoClientAccess();
+  auth.setDemoSession('client');
+  assert.equal(auth.getDemoSession(),null);
+  assert.equal(auth.finishDemoRecovery(2000),false);
+  auth.issueDemoOtp(auth.DEMO_PHONE,2000);
+  assert.match(auth.checkDemoOtp('123456',2100),/tidak cocok/);
+  customer.status='Aktif';
+  assert.equal(auth.getDemoSession(),null);
+  assert.match(auth.checkDemoOtp('123456',2200),/tidak cocok/);
+ } finally {
+  customer.status=status;
+  auth.revokeDemoClientAccess();
+  auth.resetDemoLock();
+ }
+});

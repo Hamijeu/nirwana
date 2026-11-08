@@ -31,3 +31,17 @@ test('progress preserves status, initial report and timing while appending an au
   assert.throws(()=>rules.recordTicketProgress(t,note,photos,role,actor));
  }
 });
+
+test('publication, handover and acceptance preserve the prior assignment in history',async()=>{
+ const {approveReport,assignReport,acceptReport,canReadTicket}=await import('./workflow.js');
+ const draft={reviewStatus:'Menunggu Review',published:false,status:'NEW',history:[]};
+ assert.equal(canReadTicket(draft,'technician'),false);
+ const published=approveReport(draft,'HIGH','Dampak terkonfirmasi','Aktif');
+ assert.equal(canReadTicket(published,'technician'),true);
+ const assigned=assignReport(published,['Reza'],'Penugasan awal','Aktif','Admin',['Reza','Andi']);
+ assert.throws(()=>assignReport(assigned,['Reza'],'Coba lagi','Aktif','Admin',['Andi']),/akun Aktif/);
+ const handedOver=assignReport(assigned,['Andi'],'Reza dinonaktifkan','Aktif','Admin',['Andi']);
+ const accepted=acceptReport(handedOver,'Andi','Aktif');
+ assert.equal(accepted.status,'OPEN');
+ assert.match(accepted.history.find(event=>event.note.includes('Reza → Andi')).note,/Reza dinonaktifkan/);
+});
